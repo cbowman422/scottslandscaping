@@ -1,0 +1,13 @@
+.headerContainer{
+  border: solid red;
+}
+
+
+
+@media all and (min-width: 600px){
+
+  .headerContainer{
+    border: dotted red;
+  }
+
+}

@@ -1,0 +1,26 @@
+
+
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.appContainer{
+  border: solid greenyellow;
+}
+
+
+
+@media all and (min-width: 600px){
+
+  .appContainer{
+    border: dotted greenyellow;
+  }
+
+}

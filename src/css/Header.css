@@ -15,9 +15,9 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: space-between;
+  display: none;
 }
+
 
 .navListUl>li{
   margin: 0 4px;
@@ -43,6 +43,10 @@
 
   .hamburgerContainerHeader{
     display: none;
+  }
+
+  .navListUl {
+    display: flex;
   }
 
 }

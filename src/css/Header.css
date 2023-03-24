@@ -1,14 +1,15 @@
 .headerContainer{
   border: solid red;
   display: flex;
-  flex-direction: column;
-  position: sticky; 
-  top: 0;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 20px 0;
 }
 
 .headerLogo{
-  width: 12vw;
+  width: 120px;
+  height: 100%;
+  margin-left: 2vw;
 }
 
 .navListUl {
@@ -29,16 +30,29 @@
 }
 
 .hamburgerContainerHeader{
-  display: fixed;
   z-index: 10;
+  margin-right: 8vw;
+}
+
+.navListUlHamburger{
+  border: solid green;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  transition: all 5s;
+}
+
+
+.headerNavContainer{
+  border: solid black;
+  position: sticky;  
+  top: 0;
 }
 
 @media all and (min-width: 600px){
 
   .headerContainer{
     border: dotted red;
-    flex-direction: row;
-    justify-content: space-around;
   }
 
   .hamburgerContainerHeader{

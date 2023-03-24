@@ -1,3 +1,8 @@
 .heroHome{
   max-width: 90vw;
 }
+
+.homeContainer{
+  border: solid pink;
+
+}

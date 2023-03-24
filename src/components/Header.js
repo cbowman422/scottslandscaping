@@ -10,7 +10,6 @@ const Header = () => {
 const[hamburgerOpen, setHamburgerOpen] = useState(false);
 
 const toggleHamburger = () => {
-  console.log("click")
   setHamburgerOpen(!hamburgerOpen);
 }
 
@@ -28,24 +27,26 @@ const hamNav = () => {
 }
 
   return (
-    <div className="headerContainer">
-      
-        <img className="headerLogo" src={logo} alt="logo" />
+    <div className="headerNavContainer" >
+      <div className="headerContainer">
+        
+          <img className="headerLogo" src={logo} alt="logo" />
 
-        <ul className="navListUl" >
-          <li><a className="navListA" href="/" >HOME</a></li>
-          <li><a className="navListA" href="/portfolio" >PORTFOLIO</a></li>
-          <li><a className="navListA" href="/about" >ABOUT US</a></li>
-          <li><a className="navListA" href="/services" >SERVICES</a></li>
-          <li><a className="navListA" href="/contact" >CONTACT</a></li>
-        </ul>
+          <ul className="navListUl" >
+            <li><a className="navListA" href="/" >HOME</a></li>
+            <li><a className="navListA" href="/portfolio" >PORTFOLIO</a></li>
+            <li><a className="navListA" href="/about" >ABOUT US</a></li>
+            <li><a className="navListA" href="/services" >SERVICES</a></li>
+            <li><a className="navListA" href="/contact" >CONTACT</a></li>
+          </ul>
 
-        <div className="hamburgerContainerHeader" onClick={toggleHamburger}>
-          <HamburgerMenu />
-        </div>
-        <div>
-        {hamburgerOpen ? hamNav() : ''}
-        </div>
+          <div className="hamburgerContainerHeader" onClick={toggleHamburger}>
+            <HamburgerMenu />
+          </div>
+
+      </div>
+
+          <div> {hamburgerOpen ? hamNav() : <></>} </div>
 
     </div>
   )

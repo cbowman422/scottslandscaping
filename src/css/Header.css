@@ -63,4 +63,9 @@
     display: flex;
   }
 
+  .navListUlHamburger{
+   display: none;
+  }
+  
+
 }

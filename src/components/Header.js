@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Header.css';
 import HamburgerMenu from './HamburgerMenu';
+import HamX from './HamX';
 import logo from '../images/TemporaryLogoTransparent.png';
 import { useState } from 'react';
 
@@ -41,7 +42,7 @@ const hamNav = () => {
           </ul>
 
           <div className="hamburgerContainerHeader" onClick={toggleHamburger}>
-            <HamburgerMenu />
+          {hamburgerOpen ? <HamX /> : <HamburgerMenu />}
           </div>
 
       </div>

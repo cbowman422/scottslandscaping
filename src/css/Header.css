@@ -1,18 +1,48 @@
 .headerContainer{
   border: solid red;
+  display: flex;
+  flex-direction: column;
+  position: sticky; 
+  top: 0;
+  padding: 20px 0;
+}
+
+.headerLogo{
+  width: 12vw;
 }
 
 .navListUl {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
+.navListUl>li{
+  margin: 0 4px;
+}
+
+.navListA{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.hamburgerContainerHeader{
+  display: fixed;
+  z-index: 10;
+}
 
 @media all and (min-width: 600px){
 
   .headerContainer{
     border: dotted red;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .hamburgerContainerHeader{
+    display: none;
   }
 
 }

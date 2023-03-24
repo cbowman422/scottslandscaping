@@ -1,20 +1,22 @@
 import React from 'react'
 import '../css/Header.css'
+import HamburgerMenu from './HamburgerMenu'
+import logo from '../images/TemporaryLogoTransparent.png'
 
 const Header = () => {
   return (
     <div className="headerContainer">
-      <div>
-        <img src={""} alt="logo" />
+        <img className="headerLogo" src={logo} alt="logo" />
         <ul className="navListUl">
-          <li><a href="/" >HOME</a></li>
-          <li><a href="/portfolio" >PORTFOLIO</a></li>
-          <li><a href="/about" >ABOUT US</a></li>
-          <li><a href="/services" >SERVICES</a></li>
-          <li><a href="/contact" >CONTACT</a></li>
+          <li><a className="navListA" href="/" >HOME</a></li>
+          <li><a className="navListA" href="/portfolio" >PORTFOLIO</a></li>
+          <li><a className="navListA" href="/about" >ABOUT US</a></li>
+          <li><a className="navListA" href="/services" >SERVICES</a></li>
+          <li><a className="navListA" href="/contact" >CONTACT</a></li>
         </ul>
-        
-      </div>
+        <div className="hamburgerContainerHeader">
+          <HamburgerMenu />
+        </div>
     </div>
   )
 }

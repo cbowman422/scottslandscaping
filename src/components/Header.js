@@ -15,8 +15,14 @@ const toggleHamburger = () => {
 }
 
 const hamNav = () => {
+
+  const navListUlHamburgerStyle = {
+    transition: 'transform 0.5s ease-in-out',
+    transform: hamburgerOpen ? 'translateY(0)' : 'translateY(-100%)',
+  };
+
   return (
-    <ul className="navListUlHamburger" >
+    <ul className="navListUlHamburger" style={navListUlHamburgerStyle} >
       <li><a className="navListA" href="/" >HOME</a></li>
       <li><a className="navListA" href="/portfolio" >PORTFOLIO</a></li>
       <li><a className="navListA" href="/about" >ABOUT US</a></li>
@@ -47,8 +53,7 @@ const hamNav = () => {
 
       </div>
 
-          <div> {hamburgerOpen ? hamNav() : <></>} </div>
-
+        {hamNav()}
     </div>
   )
 }

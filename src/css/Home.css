@@ -4,5 +4,6 @@
 
 .homeContainer{
   border: solid pink;
-
+  margin-top: -100px;
+ 
 }

@@ -4,6 +4,8 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 20px 0;
+  background-color: rgb(170, 220, 160);
+  z-index: 2;
 }
 
 .headerLogo{
@@ -26,7 +28,7 @@
 
 .navListA{
   text-decoration: none;
-  font-size: 12px;
+  font-size: 22px;
 }
 
 .hamburgerContainerHeader{
@@ -39,12 +41,15 @@
   text-align: center;
   list-style-type: none;
   padding: 0;
-  transition: all 5s;
+  margin: 0;
+  background-color: rgb(198, 197, 153);
+  position: relative;
+  z-index: -1;
 }
 
 
 .headerNavContainer{
-  border: solid black;
+  /* border: solid black; */
   position: sticky;  
   top: 0;
 }

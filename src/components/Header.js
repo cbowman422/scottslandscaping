@@ -5,57 +5,29 @@ import HamX from './HamX';
 import logo from '../images/TemporaryLogoTransparent.png';
 import { useState } from 'react';
 
-const Header = () => {
+export const Header = () => {
+    const [active, setActive] = useState(false)
 
+    return (
+        <div className="header">
+            <div className="header-content">
+                <img className="headerLogo" src={logo} alt="logo" />
+                <div className="hamburger" onClick={()=>setActive(!active)}>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                    <span>&nbsp;</span>
+                </div>
+            </div>
+            <div className={active ? 'menu active' : 'menu'}>
+                <div className="navListUlHamburger" >
+                    <div className="nav-item"><a className="navListA" href="/" >HOME</a></div>
+                    <div className="nav-item"><a className="navListA" href="/portfolio" >PORTFOLIO</a></div>
+                    <div className="nav-item"><a className="navListA" href="/about" >ABOUT US</a></div>
+                    <div className="nav-item"><a className="navListA" href="/services" >SERVICES</a></div>
+                    <div className="nav-item"><a className="navListA" href="/contact" >CONTACT</a></div>
+                </div>
+            </div>
+        </div>
 
-const[hamburgerOpen, setHamburgerOpen] = useState(false);
-
-const toggleHamburger = () => {
-  setHamburgerOpen(!hamburgerOpen);
+    )
 }
-
-const hamNav = () => {
-
-  const navListUlHamburgerStyle = {
-    transition: 'transform 0.5s ease-in-out',
-    transform: hamburgerOpen ? 'translateY(0)' : 'translateY(-100%)',
-  };
-
-  return (
-    <ul className="navListUlHamburger" style={navListUlHamburgerStyle} >
-      <li><a className="navListA" href="/" >HOME</a></li>
-      <li><a className="navListA" href="/portfolio" >PORTFOLIO</a></li>
-      <li><a className="navListA" href="/about" >ABOUT US</a></li>
-      <li><a className="navListA" href="/services" >SERVICES</a></li>
-      <li><a className="navListA" href="/contact" >CONTACT</a></li>
-    </ul>
-  )
-
-}
-
-  return (
-    <div className="headerNavContainer" >
-      <div className="headerContainer">
-        
-          <img className="headerLogo" src={logo} alt="logo" />
-
-          <ul className="navListUl" >
-            <li><a className="navListA" href="/" >HOME</a></li>
-            <li><a className="navListA" href="/portfolio" >PORTFOLIO</a></li>
-            <li><a className="navListA" href="/about" >ABOUT US</a></li>
-            <li><a className="navListA" href="/services" >SERVICES</a></li>
-            <li><a className="navListA" href="/contact" >CONTACT</a></li>
-          </ul>
-
-          <div className="hamburgerContainerHeader" onClick={toggleHamburger}>
-          {hamburgerOpen ? <HamX /> : <HamburgerMenu />}
-          </div>
-
-      </div>
-
-        {hamNav()}
-    </div>
-  )
-}
-
-export default Header;

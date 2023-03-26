@@ -15,7 +15,9 @@
   border: solid greenyellow;
 } */
 
-
+.appContainer {
+  padding-top: 150px;
+}
 
 @media all and (min-width: 600px){
 

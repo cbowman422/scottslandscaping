@@ -20,18 +20,6 @@
   height: 100px;
 }
 
-.hamburger{
-  cursor: pointer;
-}
-
-.hamburger span{
-  display: block;
-  width: 50px;
-  height: 2px;
-  background-color: #232323;
-  margin-bottom: 5px;
-}
-
 .header .menu {
   position: absolute;
   top: 150px;
@@ -56,4 +44,31 @@
 
 .header .menu.active {
   height: 100vh;
+}
+
+.hamburger{
+  cursor: pointer;
+}
+
+.hamburger span{
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #232323;
+  margin: 8px 0px;
+  transition: transform .5s;
+}
+
+.hamburger.active span:nth-of-type(1) {
+  transform: rotate(45deg) translateX(13px) translateY(-3px);
+  margin:-9px;
+}
+
+.hamburger.active span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-of-type(3) {
+  transform: rotate(-45deg) translateX(6px) translateY(10px);
+  margin:-9px;
 }

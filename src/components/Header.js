@@ -1,7 +1,5 @@
 import React from 'react';
 import '../css/Header.css';
-import HamburgerMenu from './HamburgerMenu';
-import HamX from './HamX';
 import logo from '../images/TemporaryLogoTransparent.png';
 import { useState } from 'react';
 
@@ -12,7 +10,7 @@ export const Header = () => {
         <div className="header">
             <div className="header-content">
                 <img className="headerLogo" src={logo} alt="logo" />
-                <div className="hamburger" onClick={()=>setActive(!active)}>
+                <div className={active ? 'hamburger active' : 'hamburger'} onClick={()=>setActive(!active)}>
                     <span>&nbsp;</span>
                     <span>&nbsp;</span>
                     <span>&nbsp;</span>

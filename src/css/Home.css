@@ -34,11 +34,11 @@
 
 .homeContainer{
   border: solid pink; 
-   transform: translateY(-21px); 
+     transform: translateY(-21px);  
 }
 
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 820px) {
 
   .heroContainer h1{
   

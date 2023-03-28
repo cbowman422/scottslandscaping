@@ -68,13 +68,17 @@
   cursor: pointer;
 }
 
+.hamburger span:hover{
+  background-color: var(--lightgreen-highlight)
+}
+
 .hamburger span{
   display: block;
   width: 50px;
   height: 3px;
   background-color: var(--black);
   margin: 8px 0px;
-  transition: transform .5s;
+  transition: var(--transition);
 }
 
 .hamburger.active span:nth-of-type(1) {

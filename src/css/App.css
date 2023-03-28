@@ -17,7 +17,8 @@
   --green: rgb(148, 192, 148);
   --purple: rgb(77, 64, 113);
   --lightgreen: rgb(165, 197, 153);
-  --transition: all 0.3s ease-in-out;
+  --lightgreen-highlight: rgb(206, 228, 144);
+  --transition: all 0.5s ease-in-out;
 }
 
 .appContainer {

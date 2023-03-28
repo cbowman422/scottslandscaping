@@ -1,7 +1,7 @@
 
 
 
-.heroContainer{
+.hero-container{
   background-image: linear-gradient(rgba(25, 86, 133, 1), rgba(0, 0, 0, 0)), url('../images/13-164-068-walls.jpeg') ;
   background-size: cover;
   background-position: center center;
@@ -12,69 +12,68 @@
   
 }
 
-.heroContainer h1{
+.hero-container h1{
   margin: 0 0 0 10px;
   font-size: 8vw; 
   color: var(--white);
 }
 
-.heroContainer h1 span{
+.hero-container h1 span{
   font-size: 6vw; 
   display: block;
 }
 
-.heroContainer h2{
+.hero-container h2{
   margin: 30px 10px 60px 10px;
   font-size: 3vw; 
   color: var(--white);
 }
 
 
-.heroContainer a{
-  color: var(--white);
+.hero-container a{
+  color: var(--purple);
   font-size: 3vw;
-  background-color: var(--green);
+  background-image: linear-gradient(90deg,var(--lightgreen), var(--green));
+  background-size: 300% auto;
   padding: 10px 20px;
   box-shadow: 1px 1px 4px var(--black);
+  transition: var(--transition);
 
 }
 
+.hero-container a:hover{
+  background-position: right center;
+  box-shadow: 1px 1px 6px var(--black);
+  color: var(--black); 
+  cursor: pointer;
+}
 
-.homeContainer{
-  border: solid pink; 
+
+.home-container{
      transform: translateY(-21px);  
 }
 
 
 @media all and (min-width: 820px) {
 
-  .heroContainer h1{
-  
+  .hero-container h1{
     font-size: 66px; 
     max-width: 900px;
     margin: auto;
-    
   }
 
-  .heroContainer h1 span{
+  .hero-container h1 span{
     font-size: 48px; 
-   
   }
 
-  .heroContainer h2{
-    
+  .hero-container h2{
     font-size: 24px; 
     max-width: 800px;
     margin: 30px auto 60px auto;
-   
   }
 
-  .heroContainer a{
-    
+  .hero-container a{
     font-size: 24px; 
-   
   }
-
-
 
 }

@@ -41,7 +41,7 @@
   top: 150px;
   height: 0px;
   overflow-y: hidden;
-  background-color: rgba(35,35,35,0.2);
+  background-color: rgba(44, 33, 67, 0.6);
   width: 100%;
   transition-property: height;
   transition-duration: 0.5s;
@@ -60,21 +60,20 @@
   background-color: var(--white);
   border: 1px solid var(--black);
   opacity: 1;
+  font-size: 18px;
+  text-align: center;
 }
 
 .navListA{
   text-decoration: none;
-  color: var(--purple)
+  color: var(--black);
+  
 }
 
 /* --------------------- HAMBURGER CSS --------------------- */
 
 .hamburger{
   cursor: pointer;
-}
-
-.hamburger span:hover{
-  background-color: var(--lightgreen-highlight)
 }
 
 .hamburger span{

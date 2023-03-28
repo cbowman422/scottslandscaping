@@ -16,6 +16,7 @@
   --white: #f2f2f2;
   --green: rgb(148, 192, 148);
   --purple: rgb(77, 64, 113);
+  --lightgreen: rgb(165, 197, 153);
   --transition: all 0.3s ease-in-out;
 }
 
@@ -25,8 +26,8 @@
 
 @media all and (min-width: 600px){
 
-  .appContainer{
+  /* .appContainer{
     border: dotted greenyellow;
-  }
+  } */
 
 }

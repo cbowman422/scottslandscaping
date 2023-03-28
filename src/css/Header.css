@@ -6,11 +6,12 @@
   top: 0;
   height: 150px;
   width: 100%;
-  background-color: var(--green);
+  background-image: linear-gradient( 90deg, var(--green), var(--lightgreen));
   vertical-align: middle;
   display: flex;
   /* clip-path: polygon(0 0, 100% 0, 100% 82%, 68% 82%, 58% 100%, 0 100%); */
   box-shadow: 1px 1px 4px var(--black);
+  z-index: 3;
 }
 
 .header-content {
@@ -27,6 +28,7 @@
 .header img {
   object-fit: contain;
   height: 130px;
+  margin-bottom: 2px;
 }
 
 .header .menu {
@@ -46,6 +48,7 @@
 .header .menu.active {
   height: 100vh;
 }
+
 
 .nav-item {
   padding: 10px 5px;
@@ -95,7 +98,7 @@
 
 
   .header{
-    clip-path: polygon(0 0, 100% 0, 100% 82%, 30% 82%, 27% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 30% 88%, 27% 100%, 0 100%);
   }
 
   .header .menu {

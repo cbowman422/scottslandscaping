@@ -5,9 +5,6 @@ import image1 from '../images/13-164-068-walls.jpeg'
 const Home = () => {
   return (
     <div className="homeContainer">
-       home
-       <img className="heroHome" src={image1} alt="stone wall"/>
-       <img className="heroHome" src={image1} alt="stone wall"/>
        <img className="heroHome" src={image1} alt="stone wall"/>
     </div>
 

@@ -1,7 +1,10 @@
 .heroHome{
-  max-width: 90vw;
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
 }
 
 .homeContainer{
   border: solid pink; 
+  transform: translateY(-10px);
 }

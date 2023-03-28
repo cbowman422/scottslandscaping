@@ -10,10 +10,14 @@
   }
 } */
 
-
-/* .appContainer{
-  border: solid greenyellow;
-} */
+:root
+{
+  --black: #232323;
+  --white: #f2f2f2;
+  --green: rgb(148, 192, 148);
+  --purple: rgb(77, 64, 113);
+  --transition: all 0.3s ease-in-out;
+}
 
 .appContainer {
   padding-top: 150px;

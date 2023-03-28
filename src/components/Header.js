@@ -17,13 +17,11 @@ export const Header = () => {
                 </div>
             </div>
             <div className={active ? 'menu active' : 'menu'}>
-                <div className="navListUlHamburger" >
-                    <div className="nav-item"><a className="navListA" href="/" >HOME</a></div>
-                    <div className="nav-item"><a className="navListA" href="/portfolio" >PORTFOLIO</a></div>
-                    <div className="nav-item"><a className="navListA" href="/about" >ABOUT US</a></div>
-                    <div className="nav-item"><a className="navListA" href="/services" >SERVICES</a></div>
-                    <div className="nav-item"><a className="navListA" href="/contact" >CONTACT</a></div>
-                </div>
+                <div className="nav-item"><a className="navListA" href="/" >HOME</a></div>
+                <div className="nav-item"><a className="navListA" href="/portfolio" >PORTFOLIO</a></div>
+                <div className="nav-item"><a className="navListA" href="/about" >ABOUT US</a></div>
+                <div className="nav-item"><a className="navListA" href="/services" >SERVICES</a></div>
+                <div className="nav-item"><a className="navListA" href="/contact" >CONTACT</a></div>
             </div>
         </div>
 

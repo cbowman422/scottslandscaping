@@ -3,7 +3,9 @@
   top: 0;
   height: 150px;
   width: 100%;
-  background-color: #fff;
+  background-color: #bed9a7;
+  vertical-align: middle;
+  display: flex;
 }
 
 .header-content {
@@ -13,6 +15,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px 30px;
+  width: 100%;
+ 
 }
 
 .header img {
@@ -30,7 +34,6 @@
   transition-property: height;
   transition-duration: 0.5s;
   transition-timing-function: linear;
-
   display: flex;
   flex-direction: column;
 }
@@ -45,6 +48,8 @@
 .header .menu.active {
   height: 100vh;
 }
+
+/* --------------------- HAMBURGER CSS --------------------- */
 
 .hamburger{
   cursor: pointer;
@@ -71,4 +76,27 @@
 .hamburger.active span:nth-of-type(3) {
   transform: rotate(-45deg) translateX(6px) translateY(10px);
   margin:-9px;
+}
+
+
+@media all and (min-width: 800px) {
+
+
+  .header .menu {
+    position: static;
+    height: auto;
+    overflow-y: visible;
+    background-color: transparent;
+    width: auto;
+    flex-direction: row;
+  }
+
+  .hamburger {
+    display: none;
+  }
+ 
+  .header{
+    display: flex;
+  }
+
 }

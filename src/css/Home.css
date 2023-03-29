@@ -88,7 +88,7 @@
 .home-welcome-details-container-bg{
   /* border: solid slateblue; */
   margin: 10px 0 0 0;
-  background-image: linear-gradient( var(--blue-highlight),  var(--blue) );
+  background-image: linear-gradient( var(--brown-highlight),  var(--brown) );
   padding: 10px 0 40px 0;
   
 }
@@ -105,7 +105,7 @@
 .home-welcome-details-intro{
   text-align: center;
   font-size: 18px;
-  margin: 40px auto 20px auto;
+  margin: 24px auto 20px auto;
   color: var(--black);
 }
 
@@ -116,6 +116,12 @@
   max-width: 950px;
   margin: 0 10px;
 }
+
+
+
+/* TODO ------ home-welcome-details-ALT HAS 2 OF EACH TAG BECAUSE OF ALTERNATING STYLE --------- */
+
+
 
 .home-welcome-details-alt{
   /* border: solid pink; */
@@ -180,6 +186,20 @@
   transition: var(--transition);
 }
 
+.home-welcome-details a:hover{
+  background-position: right center;
+  box-shadow: 1px 1px 6px var(--black);
+  color: var(--purple); 
+  cursor: pointer;
+}
+
+.home-welcome-details-alt a:hover{
+  background-position: right center;
+  box-shadow: 1px 1px 6px var(--black);
+  color: var(--purple); 
+  cursor: pointer;
+}
+
 
 
 /* ------------------------- FULLSCREEN CSS -------------------------- */
@@ -192,7 +212,7 @@
 
   .home-welcome-details-container-bg{
     /* clip-path: polygon(5% 0, 95% 0, 95% 4%, 100% 4%, 100% 100%, 0 100%, 0 4%, 5% 4%); */
-    clip-path: polygon(5% 3%, 95% 3%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
+    clip-path: polygon(5% 2%, 95% 2%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
     padding-top: 60px;
   }
 
@@ -222,7 +242,7 @@
   }
 
   .home-welcome-details-container-bg{
-    clip-path: polygon(5% 3%, 95% 3%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
+    clip-path: polygon(5% 2%, 95% 2%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
     padding-top: 60px;
   }
 
@@ -252,7 +272,7 @@
   }
 
   .home-welcome-details-container-bg{
-    clip-path: polygon(5% 3%, 95% 3%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
+    clip-path: polygon(5% 2%, 95% 2%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
     padding-top: 60px;
   }
 
@@ -283,7 +303,7 @@
   }
 
   .home-welcome-details-container-bg{
-    clip-path: polygon(5% 3%, 95% 3%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
+    clip-path: polygon(5% 2%, 95% 2%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
     padding-top: 60px;
   }
 

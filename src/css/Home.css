@@ -2,7 +2,7 @@
 /* ------------------------- HERO CSS -------------------------- */
 
 .hero-container{
-  background-image: linear-gradient(rgba(25, 86, 133, 1), rgba(0, 0, 0, 0)), url('../images/13-164-068-walls.jpeg') ;
+  background-image: linear-gradient(var(--blue), rgba(0, 0, 0, 0)), url('../images/13-164-068-walls.jpeg') ;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -57,6 +57,12 @@
 /* ------------------------- WELCOME CSS -------------------------- */
 
 
+.home-welcome-details-container{
+  /* border: solid green;  */
+  place-items: center;
+  transform: translateY(21px);  
+}
+
 .home-welcome-statement-container{
   display: flex;
   flex-direction: column;
@@ -81,8 +87,8 @@
 
 .home-welcome-details-container-bg{
   /* border: solid slateblue; */
-  margin: 10px;
-  background-color: var(--brown);
+  margin: 10px 0;
+  background-image: linear-gradient(45deg,  var(--blue),  var(--blue-highlight) );
   box-shadow: 1px 1px 4px var(--black);
   padding: 10px 0;
   
@@ -97,16 +103,9 @@
   color: var(--black);
 }
 
-.home-welcome-details-container{
-  /* border: solid green; */
-  padding-top: 20px;
-  place-items: center;
-}
-
 .home-welcome-details-intro{
   text-align: center;
   font-size: 5vw;
-  border-bottom: 1px solid rgba(116, 76, 23, 0.9);
   width: 36vw;
   padding-bottom: 6px;
   margin: 40px auto;
@@ -295,7 +294,7 @@
   }
 
   .home-welcome-details-container-bg{
-    margin: 0 40px;
+    margin: 0;
     padding-top: 40px;
   }
 
@@ -305,7 +304,7 @@
 
   .home-welcome-details{
     display: grid;
-    grid-template-columns: .8fr 1fr;
+    grid-template-columns: .7fr 1fr;
     grid-template-rows: .1fr 1fr .1fr;
     grid-template-areas: 
     "img title"
@@ -317,7 +316,7 @@
   
   .home-welcome-details-alt{
     display: grid;
-    grid-template-columns: 1fr .8fr;
+    grid-template-columns: 1fr .7fr;
     grid-template-rows: .1fr 1fr .1fr;
     grid-template-areas: 
     "title img"

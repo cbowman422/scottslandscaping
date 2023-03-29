@@ -16,10 +16,13 @@
   --white: #f2f2f2;
   --gray: #b7c2b2;
   --gray-highlight: #7d8e76;
+  --blue: rgba(25, 86, 133);
+  --blue-highlight: rgb(19, 58, 88);
   --green: rgb(148, 192, 148);
   --yellow: rgba(253, 249, 228, 0.895);
   --purple: rgb(77, 64, 113);
-  --brown: rgb(45, 31, 31);
+  --brown: rgb(43, 37, 37);
+  --brown-highlight: rgb(39, 35, 34) ;
   --lightgreen: rgb(165, 197, 153);
   --lightgreen-highlight: rgb(206, 228, 144);
   --transition: all 0.5s ease-in-out;

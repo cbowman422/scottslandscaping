@@ -30,6 +30,7 @@ const Home = () => {
 
 
         <div className="home-welcome-details-container">
+          <h3> What you can expect! </h3>
           <div className="home-welcome-details">
             <img src={expertise} alt="expertise"/>
             <h3>Expertise</h3>

@@ -17,6 +17,7 @@
   --gray: #b7c2b2;
   --gray-highlight: #7d8e76;
   --green: rgb(148, 192, 148);
+  --yellow: rgba(253, 249, 228, 0.895);
   --purple: rgb(77, 64, 113);
   --lightgreen: rgb(165, 197, 153);
   --lightgreen-highlight: rgb(206, 228, 144);
@@ -25,6 +26,10 @@
 
 .appContainer {
   padding-top: 150px;
+}
+
+body{
+  background-color: var(--white);
 }
 
 @media all and (min-width: 600px){

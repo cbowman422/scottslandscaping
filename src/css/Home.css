@@ -62,13 +62,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 100px;
-  background-color: var(--white);
+  padding-bottom: 130px;
+  background-color: var(--yellow);
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
 .home-welcome-statement-container-shadow{
-  filter: drop-shadow(1px 3px 3px rgba(116, 76, 23, 0.509))
+  filter: drop-shadow(1px 3px 3px rgba(116, 76, 23, 0.509));
 }
 
 .home-welcome-statement-container h3{
@@ -88,6 +88,57 @@
   color: var(--black);
 }
 
+
+.home-welcome-details-container{
+  border: solid green;
+  padding-top: 50px;
+  
+}
+
+.home-welcome-details-intro{
+  text-align: center;
+}
+
+.home-welcome-details{
+  border: solid yellow;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.home-welcome-details-alt{
+  border: solid pink;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.home-welcome-details p{
+  margin: 20px 20px 30px 20px;
+}
+
+.home-welcome-details-alt p{
+  margin: 20px 20px 30px 20px;
+}
+
+.home-welcome-details a{
+  color: var(--black);
+  font-size: 2vw;
+  background-image: linear-gradient(90deg,var(--lightgreen), var(--green));
+  background-size: 300% auto;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 4px var(--black);
+  transition: var(--transition);
+  
+}
+
+.home-welcome-details-alt a{
+  color: var(--black);
+  font-size: 2vw;
+  background-image: linear-gradient(90deg,var(--lightgreen), var(--green));
+  background-size: 300% auto;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 4px var(--black);
+  transition: var(--transition);
+}
 
 
 /* ------------------------- FULLSCREEN CSS -------------------------- */

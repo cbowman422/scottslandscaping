@@ -1,10 +1,10 @@
 
-
+/* ------------------------- HERO CSS -------------------------- */
 
 .hero-container{
   background-image: linear-gradient(rgba(25, 86, 133, 1), rgba(0, 0, 0, 0)), url('../images/13-164-068-walls.jpeg') ;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   width: 100%;
   height: 65vh;
   padding: 100px 0;
@@ -31,7 +31,7 @@
 
 
 .hero-container a{
-  color: var(--purple);
+  color: var(--black);
   font-size: 3vw;
   background-image: linear-gradient(90deg,var(--lightgreen), var(--green));
   background-size: 300% auto;
@@ -44,7 +44,7 @@
 .hero-container a:hover{
   background-position: right center;
   box-shadow: 1px 1px 6px var(--black);
-  color: var(--black); 
+  color: var(--purple); 
   cursor: pointer;
 }
 
@@ -54,7 +54,16 @@
 }
 
 
+/* ------------------------- WELCOME CSS -------------------------- */
+
+
+.home-welcome-statement-container{
+  border: solid red;
+}
+
+
 @media all and (min-width: 820px) {
+
 
   .hero-container h1{
     font-size: 66px; 

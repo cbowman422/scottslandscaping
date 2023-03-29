@@ -1,5 +1,7 @@
 .footerContainer{
   border: solid blue;
+  background-image: linear-gradient( 90deg, rgb(89, 67, 30, 0.98), rgba(139, 109, 67, 0.98)), url('../images/mulch.jpg');
+  height: 150px;
 }
 
 

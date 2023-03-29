@@ -25,7 +25,7 @@
 
 .hero-container h2{
   margin: 30px 10px 60px 10px;
-  font-size: 3vw; 
+  font-size: 4vw; 
   color: var(--white);
 }
 
@@ -58,9 +58,66 @@
 
 
 .home-welcome-statement-container{
-  border: solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  background-color: var(--white);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
+.home-welcome-statement-container-shadow{
+  filter: drop-shadow(1px 3px 3px rgba(116, 76, 23, 0.509))
+}
+
+.home-welcome-statement-container h3{
+  margin: 80px 10px 30px 10px;
+  text-align: center;
+  font-size: 5vw;
+  border-bottom: 1px solid rgba(116, 76, 23, 0.9);
+  padding: 0 10px;
+  color: var(--black);
+}
+
+.home-bio{
+  margin: 10px;
+  text-align: center;
+  max-width: 600px;
+  font-size: 4vw;
+  color: var(--black);
+}
+
+
+
+/* ------------------------- FULLSCREEN CSS -------------------------- */
+
+
+
+@media all and (min-width: 500px) and (max-width: 649px){
+  .home-bio{
+    font-size: 20px;
+  }
+}
+
+
+@media all and (min-width: 650px) and (max-width: 819px){
+
+  .hero-container h2{
+    font-size: 3vw; ;
+  }
+
+
+  .home-welcome-statement-container h3{
+    font-size: 36px;
+  }
+
+  .home-bio{
+    font-size: 20px;
+  }
+  
+
+}
 
 @media all and (min-width: 820px) {
 
@@ -84,5 +141,14 @@
   .hero-container a{
     font-size: 24px; 
   }
+
+  .home-welcome-statement-container h3{
+    font-size: 36px;
+  }
+
+  .home-bio{
+    font-size: 20px;
+  }
+  
 
 }

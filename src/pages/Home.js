@@ -19,20 +19,21 @@ const Home = () => {
          <a href="/" > Schedule a consultation </a>
       </div>
        
-      <div className="home-welcome-statement-container">
+       <div className="home-welcome-statement-container-shadow">
+          <div className="home-welcome-statement-container">
 
-        <h3> Welcome ! </h3>
+            <h3> Experts in Landscape Architecture </h3>
 
-        <p>
-          At Scott's Landscaping, Inc. We offer service in New England to residential customers, contractors, commercial and industrial facilities. 
+            <p className="home-bio">
+              At Scott's Landscaping, Inc. We offer service in New England to residential customers, contractors, commercial and industrial facilities. 
+              Scott's team of experienced professionals is well-versed in landscape design, landscape architecture, custom stone work, stone walls, architectural pool landscapes, walkways, driveways, backyard elements, landscape lighting, and garden design.
+              </p>
+              <p className="home-bio">
+              Whether you're looking to enhance your home's curb appeal or create a peaceful sancutary in your backyard, Scott's will transform your outdoor space into a beautiful and inviting extension of your home.
+            </p>
 
-          We provide our customers the advantage of having one company to handle all of their landscaping needs.
-          
-          Scott's team of experienced professionals is well-versed in landscape design, landscape architecture, custom stone work, stone walls, architectural pool landscapes, walkways, driveways, backyard elements, landscape lighting, and garden design.
-
-          Whether you're looking to enhance your home's curb appeal or create a peaceful sancutary in your backyard, Scott's will transform your outdoor space into a beautiful and inviting extension of your home.
-        </p>
-
+          </div>
+       </div>
 
         <div className="home-welcome-details-container">
           <h3> What you can expect! </h3>
@@ -70,7 +71,7 @@ const Home = () => {
           </div>
 
         </div>
-      </div>
+      
 
     </div>
 

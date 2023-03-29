@@ -25,14 +25,14 @@
 
 .hero-container h2{
   margin: 30px 10px 60px 10px;
-  font-size: 4vw; 
+  font-size: 16px; 
   color: var(--white);
 }
 
 
 .hero-container a{
   color: var(--black);
-  font-size: 3vw;
+  font-size: 18px;
   background-image: linear-gradient(90deg,var(--lightgreen), var(--green));
   background-size: 300% auto;
   padding: 10px 20px;
@@ -71,68 +71,112 @@
   filter: drop-shadow(1px 3px 3px rgba(116, 76, 23, 0.509));
 }
 
+.home-bio{
+  margin: 10px;
+  text-align: center;
+  max-width: 600px;
+  font-size: 18px;
+  color: var(--black);
+}
+
+.home-welcome-details-container-bg{
+  /* border: solid slateblue; */
+  margin: 10px;
+  background-color: var(--brown);
+  box-shadow: 1px 1px 4px var(--black);
+  padding: 10px 0;
+  
+}
+
 .home-welcome-statement-container h3{
   margin: 80px 10px 30px 10px;
   text-align: center;
   font-size: 5vw;
   border-bottom: 1px solid rgba(116, 76, 23, 0.9);
-  padding: 0 10px;
+  padding: 0 10px 6px 10px;
   color: var(--black);
 }
-
-.home-bio{
-  margin: 10px;
-  text-align: center;
-  max-width: 600px;
-  font-size: 4vw;
-  color: var(--black);
-}
-
 
 .home-welcome-details-container{
-  border: solid green;
-  padding-top: 50px;
-  
+  /* border: solid green; */
+  padding-top: 20px;
+  place-items: center;
 }
 
 .home-welcome-details-intro{
   text-align: center;
+  font-size: 5vw;
+  border-bottom: 1px solid rgba(116, 76, 23, 0.9);
+  width: 36vw;
+  padding-bottom: 6px;
+  margin: 40px auto;
+  color: var(--black);
 }
 
 .home-welcome-details{
-  border: solid yellow;
+  /* border: solid yellow; */
   text-align: center;
   padding-bottom: 40px;
+  max-width: 950px;
+  margin: 0 10px;
 }
 
 .home-welcome-details-alt{
-  border: solid pink;
+  /* border: solid pink; */
   text-align: center;
   padding-bottom: 40px;
+  max-width: 950px;
+  margin: 0 10px;
+
+}
+
+.home-welcome-details img{
+  border-radius: 2px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 4px var(--black);
+}
+
+.home-welcome-details-alt img{
+  border-radius: 2px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 4px var(--black);
+}
+
+.home-welcome-details h3{
+  font-size: 20px;
+  color: var(--yellow);
+}
+
+.home-welcome-details-alt h3{
+  font-size: 20px;
+  color: var(--yellow);
 }
 
 .home-welcome-details p{
   margin: 20px 20px 30px 20px;
+  font-size: 18px;
+  color: var(--yellow);
 }
 
 .home-welcome-details-alt p{
   margin: 20px 20px 30px 20px;
+  font-size: 18px;
+  color: var(--yellow);
 }
 
 .home-welcome-details a{
   color: var(--black);
-  font-size: 2vw;
+  font-size: 18px;
   background-image: linear-gradient(90deg,var(--lightgreen), var(--green));
   background-size: 300% auto;
   padding: 10px 20px;
   box-shadow: 1px 1px 4px var(--black);
   transition: var(--transition);
-  
 }
 
 .home-welcome-details-alt a{
   color: var(--black);
-  font-size: 2vw;
+  font-size: 18px;
   background-image: linear-gradient(90deg,var(--lightgreen), var(--green));
   background-size: 300% auto;
   padding: 10px 20px;
@@ -141,13 +185,46 @@
 }
 
 
+
 /* ------------------------- FULLSCREEN CSS -------------------------- */
 
+@media all and (min-width: 400px) and (max-width: 480px){
+
+  .hero-container h2{
+    font-size: 4vw; 
+  }
+
+}
+
+
+@media all and (min-width: 480px) and (max-width: 499px){
+  
+  .home-bio{
+    font-size: 4vw;
+  }
+
+  .hero-container h2{
+    font-size: 4vw; 
+  }
+
+  .hero-container a{
+    font-size: 4vw;
+  }
+}
 
 
 @media all and (min-width: 500px) and (max-width: 649px){
+ 
   .home-bio{
     font-size: 20px;
+  }
+
+  .hero-container h2{
+    font-size: 4vw; 
+  }
+
+  .hero-container a{
+    font-size: 24px;
   }
 }
 
@@ -158,20 +235,35 @@
     font-size: 3vw; ;
   }
 
-
   .home-welcome-statement-container h3{
     font-size: 36px;
+  }
+
+  .home-welcome-details-intro{
+    font-size: 36px;
+    width: 260px;
   }
 
   .home-bio{
     font-size: 20px;
   }
   
+  .home-welcome-details p{
+    margin: 20px 60px 30px 60px;
+  }
+
+  .home-welcome-details-alt p{
+    margin: 20px 60px 30px 60px;
+  }
+
+  .hero-container a{
+    font-size: 24px;
+  }
 
 }
 
-@media all and (min-width: 820px) {
 
+@media all and (min-width: 820px) {
 
   .hero-container h1{
     font-size: 66px; 
@@ -197,9 +289,80 @@
     font-size: 36px;
   }
 
+  .home-welcome-details-intro{
+    font-size: 36px;
+    width: 260px;
+  }
+
+  .home-welcome-details-container-bg{
+    margin: 0 40px;
+    padding-top: 40px;
+  }
+
   .home-bio{
     font-size: 20px;
   }
-  
 
+  .home-welcome-details{
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    grid-template-rows: .1fr 1fr .1fr;
+    grid-template-areas: 
+    "img title"
+    "img bio"
+    "btn btn";
+    place-items: center;
+    margin: 0 auto;
+  }
+  
+  .home-welcome-details-alt{
+    display: grid;
+    grid-template-columns: 1fr .8fr;
+    grid-template-rows: .1fr 1fr .1fr;
+    grid-template-areas: 
+    "title img"
+    "bio img"
+    "btn btn";
+    place-items: center;
+    margin: 0 auto;
+  }
+
+  .home-welcome-details img{
+    grid-area: img;
+    
+  }
+
+  .home-welcome-details-alt img{
+    grid-area: img;
+    
+  }
+
+  .home-welcome-details h3{
+    grid-area: title;
+  }
+
+  .home-welcome-details-alt h3{
+    grid-area: title;
+  }
+
+  .home-welcome-details p{
+    grid-area: bio;
+    margin: 0 20px 0 0;
+  }
+
+  .home-welcome-details-alt p{
+    grid-area: bio;
+    margin: 0 0 0 20px;
+  }
+
+  .home-welcome-details a{
+    grid-area: btn;
+    margin: 30px 0 0 0;
+    
+  }
+
+  .home-welcome-details-alt a{
+    grid-area: btn;
+    margin: 30px 0 0 0;
+  }
 }

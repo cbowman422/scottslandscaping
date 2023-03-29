@@ -36,40 +36,41 @@ const Home = () => {
        </div>
 
         <div className="home-welcome-details-container">
-          <h3 className="home-welcome-details-intro"> What to expect! </h3>
-          <div className="home-welcome-details">
-            <img src={expertise} alt="expertise"/>
-            <h3>
-              Expertise
-            </h3>
-            <p>
-              With over 25 years of experience Scott's team of professionals can transform any outdoor area into a stunning oasis. From custom stonework to landscape design and maintenance we have the skills and knowledge to make your landscaping dreams a reality.
-            </p>
-            <a>Learn more about the team</a>
-          </div>
+            <h3 className="home-welcome-details-intro"> What to Expect </h3>
+          <div className="home-welcome-details-container-bg">
+            <div className="home-welcome-details">
+              <img src={expertise} alt="expertise"/>
+              <h3>
+                Expertise
+              </h3>
+              <p>
+                With over 25 years of experience Scott's team of professionals can transform any outdoor area into a stunning oasis. From custom stonework to landscape design and maintenance we have the skills and knowledge to make your landscaping dreams a reality.
+              </p>
+              <a>Learn more about the team</a>
+            </div>
 
-          <div className="home-welcome-details-alt">
-            <img src={flexibility} alt="flexibility"/>
-            <h3>
-              Flexibility
-            </h3>
-            <p>
-              At Scott's we understand that each client and property is unique, and we take pride in our ability to adapt and customize our services to fit each individual project. 
-            </p>
-            <a>Schedule a consultation</a>
-          </div>
+            <div className="home-welcome-details-alt">
+              <img src={flexibility} alt="flexibility"/>
+              <h3>
+                Flexibility
+              </h3>
+              <p>
+                At Scott's we understand that each client and property is unique, and we take pride in our ability to adapt and customize our services to fit each individual project. 
+              </p>
+              <a>Schedule a consultation</a>
+            </div>
 
-          <div className="home-welcome-details">
-            <img src={attentionDetail} alt="attention to detail"/>
-            <h3>
-              Attention to Detail
-            </h3>
-            <p> 
-              From the initial consultation to the final touches, we are dedicated to ensuring that every detail is accounted for and executed flawlessly. 
-            </p>
-            <a>Go to the Portfolio</a>
+            <div className="home-welcome-details">
+              <img src={attentionDetail} alt="attention to detail"/>
+              <h3>
+                Attention to Detail
+              </h3>
+              <p> 
+                From the initial consultation to the final touches, we are dedicated to ensuring that every detail is accounted for and executed flawlessly. 
+              </p>
+              <a>Go to the Portfolio</a>
+            </div>
           </div>
-
         </div>
       
 

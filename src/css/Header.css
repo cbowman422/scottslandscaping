@@ -12,7 +12,7 @@
 .header {
   height: 150px;
   width: 100%;
-  background-image: linear-gradient( 90deg, var(--green), var(--lightgreen));
+  background-image: linear-gradient( 90deg, var(--green), var(--lightgreen)); 
   vertical-align: middle;
   display: flex;
   /* clip-path: polygon(0 0, 100% 0, 100% 82%, 68% 82%, 58% 100%, 0 100%); */
@@ -112,7 +112,7 @@
 
  
   .header-shadow{
-    filter: drop-shadow(1px 3px 1px rgba(41, 44, 41, 0.501))
+    filter: drop-shadow(1px 3px 3px rgba(41, 44, 41, 0.501))
   }
   
   .header{

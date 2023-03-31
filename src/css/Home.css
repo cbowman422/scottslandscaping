@@ -46,6 +46,8 @@
   box-shadow: 1px 1px 6px var(--black);
   color: var(--purple); 
   cursor: pointer;
+  font-size: 20px;
+  
 }
 
 
@@ -69,12 +71,12 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 130px;
-  background-color: var(--yellow);
+  background-color: var(--white);
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
 .home-welcome-statement-container-shadow{
-  filter: drop-shadow(1px 3px 3px rgba(116, 76, 23, 0.509));
+  filter: drop-shadow(1px 1px 7px rgba(116, 76, 23, 0.25));
 }
 
 .home-bio{
@@ -109,24 +111,21 @@
   color: var(--black);
 }
 
+/* TODO ------ home-welcome-details-ALT HAS 2 OF EACH TAG BECAUSE OF ALTERNATING STYLE --------- */
+
+
 .home-welcome-details{
   /* border: solid yellow; */
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   max-width: 950px;
   margin: 0 10px;
 }
 
-
-
-/* TODO ------ home-welcome-details-ALT HAS 2 OF EACH TAG BECAUSE OF ALTERNATING STYLE --------- */
-
-
-
 .home-welcome-details-alt{
   /* border: solid pink; */
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   max-width: 950px;
   margin: 0 10px;
 
@@ -241,6 +240,10 @@
     font-size: 4vw;
   }
 
+  .hero-container a:hover{
+    font-size: 5vw;
+  }
+
   .home-welcome-details-container-bg{
     clip-path: polygon(5% 2%, 95% 2%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
     padding-top: 60px;
@@ -269,6 +272,10 @@
 
   .hero-container a{
     font-size: 24px;
+  }
+
+  .hero-container a:hover{
+    font-size: 25px;
   }
 
   .home-welcome-details-container-bg{
@@ -323,6 +330,10 @@
     font-size: 24px;
   }
 
+  .hero-container a:hover{
+    font-size: 25px;
+  }
+
 }
 
 
@@ -348,6 +359,10 @@
     font-size: 24px; 
   }
 
+  .hero-container a:hover{
+    font-size: 25px;
+  }
+
   .home-welcome-statement-container h3{
     font-size: 36px;
   }
@@ -369,7 +384,7 @@
 
   .home-welcome-details{
     display: grid;
-    grid-template-columns: .7fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: .1fr 1fr .1fr;
     grid-template-areas: 
     "img title"
@@ -381,7 +396,7 @@
   
   .home-welcome-details-alt{
     display: grid;
-    grid-template-columns: 1fr .7fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: .1fr 1fr .1fr;
     grid-template-areas: 
     "title img"

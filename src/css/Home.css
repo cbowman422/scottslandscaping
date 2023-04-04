@@ -140,6 +140,7 @@
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ box-shadow: 0px 8px 8px var(--dark-brown);
 }
 .home-welcome-details-img-flexibility{
   background-image: linear-gradient(rgba(23, 23, 23, 0.75), rgba(23, 23, 23, 0.75)), url('../images/13-142-296-walls.jpeg');
@@ -152,6 +153,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 8px 8px var(--dark-brown);
   
  }
  .home-welcome-details-img-detail{
@@ -165,6 +167,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 8px 8px var(--dark-brown);
  }
 
 
@@ -175,6 +178,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+  box-shadow: 0px 8px 8px var(--dark-brown);
  }
  .home-welcome-details-div-p-flexibility{
   background-color: var(--black);
@@ -183,6 +187,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+  box-shadow: 0px 8px 8px var(--dark-brown);
  }
  .home-welcome-details-div-p-detail{
   background-color: var(--green);
@@ -191,6 +196,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+  box-shadow: 0px 8px 8px var(--dark-brown);
  }
 
 

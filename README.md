@@ -10,9 +10,9 @@ https://docs.google.com/presentation/d/14wo0wWk2YbuUaXJ7d4Azy4CBbsSR0Fv0gXXUHqI6
 
 ![hero](https://imgur.com/CW7oxI5.jpg)
 
-![home](https://imgur.com/6meBhDo.jpg)
+![home](https://imgur.com/GPFAb2G.jpg)
 
-
+![home](https://imgur.com/pAQPnDq.jpg)
 
 ![mobile](https://imgur.com/oFEqvTQ.jpg)
 

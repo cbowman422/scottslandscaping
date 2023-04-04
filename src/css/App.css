@@ -49,7 +49,7 @@
 }
 
 body{
-  background-image: linear-gradient(20deg, var(--gray), white);
+  background-image: linear-gradient(140deg, var(--gray), white);
 }
 
 @media all and (min-width: 600px){

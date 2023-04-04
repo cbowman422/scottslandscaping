@@ -107,7 +107,7 @@
 .home-welcome-details-intro{
   text-align: center;
   font-size: 18px;
-  margin: 24px auto 20px auto;
+  margin: 0 auto 20px auto;
   color: var(--black);
 }
 
@@ -256,7 +256,7 @@
 
   .home-welcome-details-intro{
     font-size: 5vw;
-    margin: 24px auto 0 auto;
+    margin: 0 auto;
   }
 
   .home-welcome-statement-container h3{
@@ -301,7 +301,7 @@
 
   .home-welcome-details-intro{
     font-size: 5vw;
-    margin: 24px auto 0 auto;
+    margin: 0 auto;
   }
 
   .home-welcome-statement-container h3{
@@ -346,7 +346,7 @@
 
   .home-welcome-details-intro{
     font-size: 5vw;
-    margin: 24px auto 0 auto;
+    margin: 0 auto;
   }
 
   .home-welcome-statement-container h3{
@@ -407,7 +407,7 @@
   .home-welcome-details-intro{
     font-size: 36px;
     width: 260px;
-    margin: 24px auto 0 auto;
+    margin: 0 auto;
   }
 
   .home-welcome-details-container-bg{
@@ -521,7 +521,7 @@
   .home-welcome-details-intro{
     font-size: 36px;
     width: 260px;
-    margin: 24px auto 0 auto;
+    margin: 0 auto;
   }
 
   .home-welcome-details-container-bg{
@@ -629,7 +629,7 @@
   .home-welcome-details-intro{
     font-size: 36px;
     width: 260px;
-    margin: 24px auto 0 auto;
+    margin: 0 auto;
   }
 
   .home-welcome-details-container-bg{

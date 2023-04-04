@@ -8,13 +8,16 @@ https://docs.google.com/presentation/d/14wo0wWk2YbuUaXJ7d4Azy4CBbsSR0Fv0gXXUHqI6
 
 ## Screenshots
 
-![hero](https://imgur.com/CW7oxI5.jpg)
+![hero](https://imgur.com/4NWNHqv.jpg)
 
-![home](https://imgur.com/GPFAb2G.jpg)
+![home](https://imgur.com/3fZ1yeQ.jpg)
 
-![home](https://imgur.com/pAQPnDq.jpg)
+![home](https://imgur.com/apw4fH7.jpg)
 
-![mobile](https://imgur.com/Lbv48uY.jpg)
+![home](https://imgur.com/v4ypWf1.jpg)
+
+![home](https://imgur.com/wx9XU1G.jpg)
+
 
 ## Technologies
 

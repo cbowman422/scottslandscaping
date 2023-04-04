@@ -2,7 +2,7 @@
 /* ------------------------- HERO CSS -------------------------- */
 
 .hero-container{
-  background-image: linear-gradient(var(--blue), rgba(0, 0, 0, 0)), url('../images/13-164-068-walls.jpeg') ;
+  background-image: linear-gradient(var(--blue), rgba(255, 255, 255, 0)), url('../images/13-164-068-walls.jpeg') ;
   background-size: cover;
   background-position: center;
   width: 100%;

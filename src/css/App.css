@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* 
 @keyframes App-logo-spin {
@@ -31,7 +31,7 @@
   --white: #e7e7e7;
   --gray: #afaca8;
   --gray-highlight: #7d8e76;
-  --blue: rgba(25, 86, 133);
+  --blue: rgb(66, 101, 123);
   --blue-highlight: rgb(17, 65, 101);
   --green: rgb(148, 192, 148);
   --yellow: rgba(253, 249, 228, 0.895);
@@ -49,7 +49,9 @@
 }
 
 body{
-  background-image: linear-gradient(140deg, var(--gray), white);
+  background-image: linear-gradient(140deg, var(--blue), white);
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 @media all and (min-width: 600px){

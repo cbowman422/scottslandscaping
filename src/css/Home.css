@@ -91,7 +91,7 @@
   /* border: solid slateblue; */
   margin: 10px 0 0 0;
   background-image: linear-gradient( var(--brown-highlight),  var(--brown) );
-  padding: 40px 0 40px 0;
+  padding: 40px 0 60px 0;
   
 }
 
@@ -118,13 +118,11 @@
 
 
 .home-welcome-details{
-  /* border: solid yellow; */
   text-align: center;
   max-width: 950px;
   margin: 0 10px;
 }
 .home-welcome-details-alt{
-  /* border: solid pink; */
   text-align: center;
   max-width: 950px;
   margin: 0 10px;
@@ -212,7 +210,6 @@
 
  .home-welcome-details-h3{
   color: var(--white);
-
  }
 
 
@@ -346,6 +343,34 @@
   .home-welcome-statement-container h3{
     font-size: 5vw;
   }
+
+
+ .home-welcome-details-img-expertise{
+  height: 375px;
+  width: 375px;
+ 
+ }
+ .home-welcome-details-img-flexibility{
+  height: 375px;
+  width: 375px;
+ }
+ .home-welcome-details-img-detail{
+  height: 375px;
+  width: 375px;
+ }
+  
+ .home-welcome-details-div-p-expertise{
+  height: 375px;
+  width: 375px;
+ }
+ .home-welcome-details-div-p-flexibility{
+  height: 375px;
+  width: 375px;
+ }
+ .home-welcome-details-div-p-detail{
+  height: 375px;
+  width: 375px;
+ }
   
   .home-welcome-details-div-p-expertise p{
     padding: 0 40px;
@@ -440,10 +465,20 @@
   margin: 0;
  }
 
+ .home-welcome-details-div-p-expertise p{
+  padding: 0 40px;
+ }
+ .home-welcome-details-div-p-flexibility p{
+  padding: 0 40px;
+ }
+ .home-welcome-details-div-p-detail p{
+  padding: 0 40px;
+ }
+
 }
 
 
-@media all and (min-width: 820px) {
+@media all and (min-width: 820px) and (max-width: 999px) {
 
   .hero-container h1{
     font-size: 66px; 
@@ -494,7 +529,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
   }
 
   .home-welcome-details-alt{
@@ -502,7 +536,6 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
   }
 
 
@@ -537,6 +570,128 @@
   height: 300px;
   width: 300px;
   margin: 0;
+ }
+
+ .home-welcome-details-div-p-expertise p{
+  padding: 0 40px;
+ }
+ .home-welcome-details-div-p-flexibility p{
+  padding: 0 40px;
+ }
+ .home-welcome-details-div-p-detail p{
+  padding: 0 40px;
+ }
+
+
+}
+
+@media all and (min-width: 1000px) {
+
+  .hero-container h1{
+    font-size: 66px; 
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .hero-container h1 span{
+    font-size: 48px; 
+  }
+
+  .hero-container h2{
+    font-size: 24px; 
+    max-width: 800px;
+    margin: 30px auto 60px auto;
+  }
+
+  .hero-container a{
+    font-size: 24px; 
+  }
+
+  .hero-container a:hover{
+    font-size: 25px;
+  }
+
+  .home-welcome-statement-container h3{
+    font-size: 36px;
+  }
+
+  .home-welcome-details-intro{
+    font-size: 36px;
+    width: 260px;
+  }
+
+  .home-welcome-details-container-bg{
+    margin: 0;
+    clip-path: polygon(5% 3%, 95% 3%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-bio{
+    font-size: 20px;
+  }
+
+ 
+  .home-welcome-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .home-welcome-details-alt{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+
+ .home-welcome-details-img-expertise{
+  height: 300px;
+  width: 300px;
+  margin: 0;
+ 
+ }
+ .home-welcome-details-img-flexibility{
+  height: 300px;
+  width: 300px;
+  margin: 0;
+ }
+ .home-welcome-details-img-detail{
+  height: 300px;
+  width: 300px;
+  margin: 0;
+ }
+  
+ .home-welcome-details-div-p-expertise{
+  height: 300px;
+  width: 300px;
+  margin: 0;
+ }
+ .home-welcome-details-div-p-flexibility{
+  height: 300px;
+  width: 300px;
+  margin: 0;
+ }
+ .home-welcome-details-div-p-detail{
+  height: 300px;
+  width: 300px;
+  margin: 0;
+ }
+
+ .home-welcome-details-div-p-expertise p{
+  padding: 0 40px;
+ }
+ .home-welcome-details-div-p-flexibility p{
+  padding: 0 40px;
+ }
+ .home-welcome-details-div-p-detail p{
+  padding: 0 40px;
  }
 
 

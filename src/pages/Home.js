@@ -39,42 +39,48 @@ const Home = () => {
             <h3 className="home-welcome-details-intro"> What to Expect </h3>
           <div className="home-welcome-details-container-bg">
             <div className="home-welcome-details">
-                 {/* <img src={expertise} alt="expertise"/> */}
+                
                   <div className="home-welcome-details-img-expertise">
                       <h3 className="home-welcome-details-h3">
                         Expertise
                       </h3>
                       <a className="home-welcome-details-a">Learn more about Scott's</a>
                   </div>
-                    <p className="home-welcome-details-p">
-                      With over 35 years of experience Scott's team of professionals can transform any outdoor area into a stunning oasis. From custom stonework to landscape design and maintenance we have the skills and knowledge to make your landscaping dreams a reality.
-                    </p>
+                    <div className="home-welcome-details-div-p-expertise">
+                      <p className="home-welcome-details-p">
+                        With over 35 years of experience Scott's can transform any outdoor area into a stunning oasis. From custom stonework to landscape design and maintenance we have the skills and knowledge to make your landscaping dreams a reality.
+                      </p>
+                    </div>
             </div>
 
             <div className="home-welcome-details-alt">
-                 {/* <img src={flexibility} alt="flexibility"/> */}
+               
                  <div className="home-welcome-details-img-flexibility">
                     <h3 className="home-welcome-details-h3">
                       Flexibility
                     </h3>
                     <a className="home-welcome-details-a">Schedule a consultation</a>
                   </div>
-                    <p className="home-welcome-details-p">
-                      At Scott's we understand that each client and property is unique, and we take pride in our ability to adapt and customize our services to fit each individual project. 
-                    </p>
+                    <div className="home-welcome-details-div-p-flexibility">
+                      <p className="home-welcome-details-p">
+                        At Scott's we understand that each client and property is unique, and take pride in our ability to adapt and customize our services to fit each individual project. 
+                      </p>
+                    </div>
             </div>
 
             <div className="home-welcome-details">
-                 {/* <img src={attentionDetail} alt="attention to detail"/> */}
+            
                   <div className="home-welcome-details-img-detail">
                     <h3 className="home-welcome-details-h3">
                       Attention to Detail
                     </h3>
                     <a className="home-welcome-details-a">Go to the Portfolio</a>
                   </div>
+                  <div className="home-welcome-details-div-p-detail">
                     <p className="home-welcome-details-p"> 
                       From the initial consultation to the final touches, we are dedicated to ensuring that every detail is accounted for and executed flawlessly. 
                     </p>
+                  </div>
             </div>
           </div>
         </div>

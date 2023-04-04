@@ -2,9 +2,9 @@ import React from 'react'
 import '../css/Home.css'
 
 // Photo Imports
-import expertise from '../images/home-expertise.jpeg';
-import flexibility from '../images/home-flexibility.jpeg';
-import attentionDetail from '../images/home-attention-detail.jpeg';
+import expertise from '../images/13-142-209-walls.jpeg';
+import flexibility from '../images/13-142-296-walls.jpeg';
+import attentionDetail from '../images/IMG_1185-600x450-walls.jpeg';
  
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
       <div className="hero-container" > 
          <h1> Scott's Landscaping, Inc. <span className=""> Hopkinton, MA </span></h1> 
          <h2> Scott's Landscaping is a full service lawn care, landscape management and design company specializing in all areas of stonework.</h2>
-         <a href="/" > Schedule a consultation </a>
+         <a > Schedule a consultation </a>
       </div>
        
        <div className="home-welcome-statement-container-shadow">
@@ -39,36 +39,42 @@ const Home = () => {
             <h3 className="home-welcome-details-intro"> What to Expect </h3>
           <div className="home-welcome-details-container-bg">
             <div className="home-welcome-details">
-              <img src={expertise} alt="expertise"/>
-              <h3>
-                Expertise
-              </h3>
-              <p>
-                With over 35 years of experience Scott's team of professionals can transform any outdoor area into a stunning oasis. From custom stonework to landscape design and maintenance we have the skills and knowledge to make your landscaping dreams a reality.
-              </p>
-              <a>Learn more about Scott's</a>
+                 {/* <img src={expertise} alt="expertise"/> */}
+                  <div className="home-welcome-details-img-expertise">
+                      <h3 className="home-welcome-details-h3">
+                        Expertise
+                      </h3>
+                      <a className="home-welcome-details-a">Learn more about Scott's</a>
+                  </div>
+                    <p className="home-welcome-details-p">
+                      With over 35 years of experience Scott's team of professionals can transform any outdoor area into a stunning oasis. From custom stonework to landscape design and maintenance we have the skills and knowledge to make your landscaping dreams a reality.
+                    </p>
             </div>
 
             <div className="home-welcome-details-alt">
-              <img src={flexibility} alt="flexibility"/>
-              <h3>
-                Flexibility
-              </h3>
-              <p>
-                At Scott's we understand that each client and property is unique, and we take pride in our ability to adapt and customize our services to fit each individual project. 
-              </p>
-              <a>Schedule a consultation</a>
+                 {/* <img src={flexibility} alt="flexibility"/> */}
+                 <div className="home-welcome-details-img-flexibility">
+                    <h3 className="home-welcome-details-h3">
+                      Flexibility
+                    </h3>
+                    <a className="home-welcome-details-a">Schedule a consultation</a>
+                  </div>
+                    <p className="home-welcome-details-p">
+                      At Scott's we understand that each client and property is unique, and we take pride in our ability to adapt and customize our services to fit each individual project. 
+                    </p>
             </div>
 
             <div className="home-welcome-details">
-              <img src={attentionDetail} alt="attention to detail"/>
-              <h3>
-                Attention to Detail
-              </h3>
-              <p> 
-                From the initial consultation to the final touches, we are dedicated to ensuring that every detail is accounted for and executed flawlessly. 
-              </p>
-              <a>Go to the Portfolio</a>
+                 {/* <img src={attentionDetail} alt="attention to detail"/> */}
+                  <div className="home-welcome-details-img-detail">
+                    <h3 className="home-welcome-details-h3">
+                      Attention to Detail
+                    </h3>
+                    <a className="home-welcome-details-a">Go to the Portfolio</a>
+                  </div>
+                    <p className="home-welcome-details-p"> 
+                      From the initial consultation to the final touches, we are dedicated to ensuring that every detail is accounted for and executed flawlessly. 
+                    </p>
             </div>
           </div>
         </div>

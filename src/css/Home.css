@@ -13,7 +13,7 @@
 }
 
 .hero-container h1{
-  margin: 0 0 0 10px;
+  margin: 40px 0 0 10px;
   font-size: 8vw; 
   color: var(--white);
 }
@@ -203,7 +203,7 @@
   padding: 0 6px;
  }
  .home-welcome-details-div-p-detail p{
-  color: var(--white);
+  color: var(--black);
   padding: 0 6px;
  }
 
@@ -250,6 +250,7 @@
 
   .home-welcome-details-intro{
     font-size: 5vw;
+    margin: 24px auto 0 auto;
   }
 
   .home-welcome-statement-container h3{
@@ -294,6 +295,7 @@
 
   .home-welcome-details-intro{
     font-size: 5vw;
+    margin: 24px auto 0 auto;
   }
 
   .home-welcome-statement-container h3{
@@ -338,6 +340,7 @@
 
   .home-welcome-details-intro{
     font-size: 5vw;
+    margin: 24px auto 0 auto;
   }
 
   .home-welcome-statement-container h3{
@@ -398,6 +401,7 @@
   .home-welcome-details-intro{
     font-size: 36px;
     width: 260px;
+    margin: 24px auto 0 auto;
   }
 
   .home-welcome-details-container-bg{
@@ -483,7 +487,7 @@
   .hero-container h1{
     font-size: 66px; 
     max-width: 900px;
-    margin: auto;
+    margin: 40px auto 0 auto;
   }
 
   .hero-container h1 span{
@@ -511,6 +515,7 @@
   .home-welcome-details-intro{
     font-size: 36px;
     width: 260px;
+    margin: 24px auto 0 auto;
   }
 
   .home-welcome-details-container-bg{
@@ -590,7 +595,7 @@
   .hero-container h1{
     font-size: 66px; 
     max-width: 900px;
-    margin: auto;
+    margin: 40px auto 0 auto;
   }
 
   .hero-container h1 span{
@@ -618,6 +623,7 @@
   .home-welcome-details-intro{
     font-size: 36px;
     width: 260px;
+    margin: 24px auto 0 auto;
   }
 
   .home-welcome-details-container-bg{

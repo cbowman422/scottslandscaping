@@ -1,10 +1,5 @@
 import React from 'react'
 import '../css/Home.css'
-
-// Photo Imports
-import expertise from '../images/13-142-209-walls.jpeg';
-import flexibility from '../images/13-142-296-walls.jpeg';
-import attentionDetail from '../images/IMG_1185-600x450-walls.jpeg';
  
 
 const Home = () => {
@@ -74,7 +69,7 @@ const Home = () => {
                     <h3 className="home-welcome-details-h3">
                       Attention to Detail
                     </h3>
-                    <a className="home-welcome-details-a">Go to the Portfolio</a>
+                    <a className="home-welcome-details-a">View Gallery</a>
                   </div>
                   <div className="home-welcome-details-div-p-detail">
                     <p className="home-welcome-details-p"> 

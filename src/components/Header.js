@@ -19,7 +19,7 @@ export const Header = () => {
                 </div>
                 <div className={active ? 'menu active' : 'menu'}>
                     <div className="nav-item"><a className="nav-item-a" href="/" >HOME</a></div>
-                    <div className="nav-item"><a className="nav-item-a" href="/portfolio" >PORTFOLIO</a></div>
+                    <div className="nav-item"><a className="nav-item-a" href="/gallery" >GALLERY</a></div>
                     <div className="nav-item"><a className="nav-item-a" href="/about" >ABOUT&nbsp;US</a></div>
                     <div className="nav-item"><a className="nav-item-a" href="/services" >SERVICES</a></div>
                     <div className="nav-item"><a className="nav-item-a" href="/contact" >CONTACT</a></div>

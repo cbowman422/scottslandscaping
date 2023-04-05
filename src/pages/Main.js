@@ -1,7 +1,7 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
 import Home from './Home'
-import Portfolio from './Portfolio'
+import Gallery from './Gallery'
 import BeforeAfter from './BeforeAfter'
 import StoneWalls from './StoneWalls'
 import WalkwaysDriveways from './WalkwaysDriveways'
@@ -17,7 +17,7 @@ const Main = () => {
     <div>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/portfolio" element={<Portfolio/>}/>
+        <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/before-after" element={<BeforeAfter/>}/>
           <Route path="/stone-walls" element={<StoneWalls/>}/>
           <Route path="/walks-drives" element={<WalkwaysDriveways/>}/>

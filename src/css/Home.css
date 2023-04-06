@@ -108,7 +108,7 @@
 
 .home-welcome-details-intro{
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
   margin: 0 auto 20px auto;
   color: var(--black);
 }
@@ -132,7 +132,7 @@
 
 
 .home-welcome-details-img-expertise{
- background-image: linear-gradient(rgba(23, 23, 23, 0.7), rgba(23, 23, 23, 0.7)), url('../images/13-142-209-walls.jpeg');
+ background-image: linear-gradient(rgba(23, 23, 23, 0.6), rgba(23, 23, 23, 0.6)), url('../images/13-142-209-walls.jpeg');
  height: 80vw;
  width: 80vw;
  background-size: cover;
@@ -145,7 +145,7 @@
  box-shadow: 0px 8px 8px var(--dark-brown);
 }
 .home-welcome-details-img-flexibility{
-  background-image: linear-gradient(rgba(23, 23, 23, 0.7), rgba(23, 23, 23, 0.7)), url('../images/13-142-296-walls.jpeg');
+  background-image: linear-gradient(rgba(23, 23, 23, 0.6), rgba(23, 23, 23, 0.6)), url('../images/13-142-296-walls.jpeg');
   height: 80vw;
   width: 80vw;
   background-size: cover;
@@ -159,7 +159,7 @@
   
  }
  .home-welcome-details-img-detail{
-  background-image: linear-gradient(rgba(23, 23, 23, 0.7), rgba(23, 23, 23, 0.7)), url('../images/IMG_1185-600x450-walls.jpeg');
+  background-image: linear-gradient(rgba(23, 23, 23, 0.6), rgba(23, 23, 23, 0.6)), url('../images/IMG_1185-600x450-walls.jpeg');
   height: 80vw;
   width: 80vw;
   background-size: cover;
@@ -218,6 +218,7 @@
 
  .home-welcome-details-h3{
   color: var(--white);
+  font-size: 24px
  }
 
 
@@ -260,7 +261,7 @@
   }
 
   .home-welcome-details-intro{
-    font-size: 5vw;
+    font-size: 24px;
     margin: 0 auto;
   }
 
@@ -305,7 +306,7 @@
   }
 
   .home-welcome-details-intro{
-    font-size: 5vw;
+    font-size: 24px;
     margin: 0 auto;
   }
 

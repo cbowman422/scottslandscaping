@@ -1,9 +1,5 @@
 
 
-.gallery-image{
-  width: 30vw;
-}
-
 .before-container{
   background-image: url('../images/13-142-209-walls.jpeg');
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
@@ -123,4 +119,12 @@
 .backyard-container:hover{
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.25);
   cursor: pointer;
+}
+
+
+@media all and (min-width: 800px) {
+
+  .gallery-container{
+    border: solid red;
+  }
 }

@@ -9,7 +9,7 @@ const Gallery = () => {
       
       
         <a href='./before-after' className= "before-container"> 
-          <h3 > Before & After </h3>
+          <h3> Before & After </h3>
         </a>
    
         <a href='./stone-work' className= "stone-container"> 

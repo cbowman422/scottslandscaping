@@ -1,0 +1,116 @@
+
+
+.gallery-image{
+  width: 30vw;
+}
+
+.before-container{
+  background-image: url('../images/13-142-209-walls.jpeg');
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  width: 99.6%;
+  height: 16.5vh;
+  /* border: solid green; */
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  border: 1px solid var(--gray);
+  transition: var(--transition);
+}
+
+.before-container:hover{
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.stone-container{
+  background-image: url('../images/IMG_1187-600x450-walls.jpeg');
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  width: 99.6%;
+  height: 16.5vh;
+  /* border: solid green; */
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  border: 1px solid var(--gray);
+  transition: var(--transition);
+}
+
+.stone-container:hover{
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.walk-container{
+  background-image: url('../images/IMG_0355_600x450-walk.jpeg');
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  width: 99.6%;
+  height: 16.5vh;
+  /* border: solid green; */
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  border: 1px solid var(--gray);
+  transition: var(--transition);
+}
+
+
+.walk-container:hover{
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.pool-container{
+  background-image: url('../images/13-142-151-pool.jpeg');
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  width: 99.6%;
+  height: 16.5vh;
+  /* border: solid green; */
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  border: 1px solid var(--gray);
+  transition: var(--transition);
+}
+
+.pool-container:hover{
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.backyard-container{
+  background-image: url('../images/13-142-363-backyard.jpeg');
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  width: 99.6%;
+  height: 16.5vh;
+  /* border: solid green; */
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  border: 1px solid var(--gray);
+  transition: var(--transition);
+}
+
+.backyard-container:hover{
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);
+  cursor: pointer;
+}

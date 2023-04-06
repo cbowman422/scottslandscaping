@@ -47,7 +47,8 @@
   box-shadow: 1px 1px 6px var(--black);
   color: var(--purple); 
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18.5px;
+  padding: 10px 20px;
   
 }
 
@@ -238,6 +239,7 @@
   color: var(--purple); 
   cursor: pointer;
   font-size: 18.5px;
+
 }
 
 
@@ -294,7 +296,7 @@
   }
 
   .hero-container a:hover{
-    font-size: 5vw;
+    font-size: 4.2vw;
   }
 
   .home-welcome-details-container-bg{
@@ -339,7 +341,7 @@
   }
 
   .hero-container a:hover{
-    font-size: 25px;
+    font-size: 24.5px;
   }
 
   .home-welcome-details-container-bg{
@@ -394,6 +396,10 @@
     padding: 0 40px;
    }
 
+   .home-welcome-details-a:hover{
+    padding: 9.5px 20px 10px 20px;
+   }
+
 }
 
 
@@ -427,7 +433,7 @@
   }
 
   .hero-container a:hover{
-    font-size: 25px;
+    font-size: 24.5px;
   }
 
   .home-welcome-details{
@@ -488,6 +494,10 @@
   padding: 0 40px;
  }
 
+ .home-welcome-details-a:hover{
+  padding: 9.5px 20px 10px 20px;
+ }
+
 }
 
 
@@ -514,7 +524,7 @@
   }
 
   .hero-container a:hover{
-    font-size: 25px;
+    font-size: 24.5px;
   }
 
   .home-welcome-statement-container h3{
@@ -596,8 +606,16 @@
   padding: 0 40px;
  }
 
+ .home-welcome-details-a:hover{
+  padding: 9.5px 20px 10px 20px;
+ }
+
 
 }
+
+
+
+
 
 @media all and (min-width: 1000px) {
 
@@ -622,7 +640,7 @@
   }
 
   .hero-container a:hover{
-    font-size: 25px;
+    font-size: 24.5px;
   }
 
   .home-welcome-statement-container h3{
@@ -707,6 +725,10 @@
  }
  .home-welcome-details-div-p-detail p{
   padding: 0 40px;
+ }
+
+ .home-welcome-details-a:hover{
+  padding: 9.5px 20px 10px 20px;
  }
 
 

@@ -10,7 +10,9 @@ export const Header = () => {
         <div className="header-shadow">
             <div className="header">
                 <div className="header-content">
-                    <img src={logo} alt="logo" />
+                    <a href="/">
+                        <img src={logo} alt="logo" />
+                    </a>
                     <div className={active ? 'hamburger active' : 'hamburger'} onClick={()=>setActive(!active)}>
                         <span>&nbsp;</span>
                         <span>&nbsp;</span>

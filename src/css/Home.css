@@ -38,6 +38,7 @@
   padding: 10px 20px;
   box-shadow: 1px 1px 4px var(--black);
   transition: var(--transition);
+  text-decoration: none;
 
 }
 
@@ -227,6 +228,7 @@
   padding: 10px 20px;
   box-shadow: 1px 1px 4px var(--black);
   transition: var(--transition);
+  text-decoration: none;
 } 
 
 
@@ -235,6 +237,7 @@
   box-shadow: 1px 1px 6px var(--black);
   color: var(--purple); 
   cursor: pointer;
+  font-size: 18.5px;
 }
 
 

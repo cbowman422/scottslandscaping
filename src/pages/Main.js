@@ -19,7 +19,7 @@ const Main = () => {
         <Route path="/" element={<Home/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/before-after" element={<BeforeAfter/>}/>
-          <Route path="/stone-walls" element={<StoneWalls/>}/>
+          <Route path="/stone-work" element={<StoneWalls/>}/>
           <Route path="/walks-drives" element={<WalkwaysDriveways/>}/>
           <Route path="/pools" element={<Pools/>}/>
           <Route path="/backyard-elements" element={<StoneWalls/>}/>

@@ -6,7 +6,7 @@
 
 .before-container{
   background-image: url('../images/13-142-209-walls.jpeg');
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   width: 99.6%;
   height: 16.5vh;
   /* border: solid green; */
@@ -19,6 +19,7 @@
   color: var(--white);
   border: 1px solid var(--gray);
   transition: var(--transition);
+  text-decoration: none;
 }
 
 .before-container:hover{
@@ -28,7 +29,7 @@
 
 .stone-container{
   background-image: url('../images/IMG_1187-600x450-walls.jpeg');
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   width: 99.6%;
   height: 16.5vh;
   /* border: solid green; */
@@ -41,6 +42,7 @@
   color: var(--white);
   border: 1px solid var(--gray);
   transition: var(--transition);
+  text-decoration: none;
 }
 
 .stone-container:hover{
@@ -50,7 +52,7 @@
 
 .walk-container{
   background-image: url('../images/IMG_0355_600x450-walk.jpeg');
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   width: 99.6%;
   height: 16.5vh;
   /* border: solid green; */
@@ -63,6 +65,7 @@
   color: var(--white);
   border: 1px solid var(--gray);
   transition: var(--transition);
+  text-decoration: none;
 }
 
 
@@ -73,7 +76,7 @@
 
 .pool-container{
   background-image: url('../images/13-142-151-pool.jpeg');
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   width: 99.6%;
   height: 16.5vh;
   /* border: solid green; */
@@ -86,6 +89,7 @@
   color: var(--white);
   border: 1px solid var(--gray);
   transition: var(--transition);
+  text-decoration: none;
 }
 
 .pool-container:hover{
@@ -95,7 +99,7 @@
 
 .backyard-container{
   background-image: url('../images/13-142-363-backyard.jpeg');
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   width: 99.6%;
   height: 16.5vh;
   /* border: solid green; */
@@ -108,6 +112,7 @@
   color: var(--white);
   border: 1px solid var(--gray);
   transition: var(--transition);
+  text-decoration: none;
 }
 
 .backyard-container:hover{

@@ -3,7 +3,7 @@
 
 
 .home-container{
-  transform: translateY(-21px);  
+  transform: translateY(-62px);  
 }
 
 
@@ -12,14 +12,14 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 65vh;
-  padding: 100px 0;
+  height: 82vh;
+  padding: 70px 0;
   text-align: center;
   
 }
 
 .hero-container h1{
-  margin: 40px 0 0 10px;
+  margin: 20px 0 0 10px;
   font-size: 8vw; 
   color: var(--white);
 }
@@ -65,7 +65,7 @@
 .home-welcome-details-container{
   /* border: solid green;  */
   place-items: center;
-  transform: translateY(21px);  
+  transform: translateY(62px);  
 }
 
 .home-welcome-statement-container{
@@ -508,7 +508,7 @@
   .hero-container h1{
     font-size: 66px; 
     max-width: 900px;
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
   }
 
   .hero-container h1 span{

@@ -4,7 +4,7 @@
   background-image: url('../images/13-142-209-walls.jpeg');
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.475);
   width: 99.6%;
-  height: 16.5vh;
+  height: 17.6vh;
   /* border: solid green; */
   background-size: cover;
   background-position: center;
@@ -29,7 +29,7 @@
   background-image: url('../images/IMG_1187-600x450-walls.jpeg');
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.475);
   width: 99.6%;
-  height: 16.5vh;
+  height: 17.6vh;
   /* border: solid green; */
   background-size: cover;
   background-position: center;
@@ -54,7 +54,7 @@
   background-image: url('../images/IMG_0355_600x450-walk.jpeg');
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.475);
   width: 99.6%;
-  height: 16.5vh;
+  height: 17.6vh;
   /* border: solid green; */
   background-size: cover;
   background-position: center;
@@ -80,7 +80,7 @@
   background-image: url('../images/13-142-151-pool.jpeg');
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.475);
   width: 99.6%;
-  height: 16.5vh;
+  height: 17.6vh;
   /* border: solid green; */
   background-size: cover;
   background-position: center;
@@ -105,7 +105,7 @@
   background-image: url('../images/13-142-363-backyard.jpeg');
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.475);
   width: 99.6%;
-  height: 16.5vh;
+  height: 17.6vh;
   /* border: solid green; */
   background-size: cover;
   background-position: center;
@@ -131,31 +131,31 @@
 
   .gallery-container{
     display: flex;
-    transform: translateY(-8px); 
+    transform: translateY(-5px); 
   }
 
   .before-container{
-    height: 75vh;
+    height: 80vh;
     font-size: 20px;
   }
 
   .stone-container{
-    height: 75vh;
+    height: 80vh;
     font-size: 20px;
   }
 
   .walk-container{
-    height: 75vh;
+    height: 80vh;
     font-size: 20px;
   }
 
   .pool-container{
-    height: 75vh;
+    height: 80vh;
     font-size: 20px;
   }
 
   .backyard-container{
-    height: 75vh;
+    height: 80vh;
     font-size: 20px;
   }
 }

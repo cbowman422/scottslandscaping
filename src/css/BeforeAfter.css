@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0 10px 0;
   margin: 0;
 }
 
@@ -30,7 +30,7 @@
 
   .BeforeAfter-h3{
     font-size: 30px;
-    padding: 20px 0 30px 0;
+    padding: 20px 0 10px 0;
   }
 
 }
@@ -39,11 +39,12 @@
 
   .beforeAfter-container{
     transform: translateY(-8px); 
+
   }
 
   .BeforeAfter-h3{
     font-size: 30px;
-    padding: 30px 0 30px 0;
+    padding: 30px 0 20px 0;
   }
 
 }
@@ -52,7 +53,8 @@
 
 
   .beforeAfter-container{
-    transform: translateY(-8px); 
+    transform: translateY(-5px); 
+    height: 80vh;
   }
 
   .beforeAfter-container-flex{
@@ -62,7 +64,7 @@
 
 .BeforeAfter-h3{
   font-size: 30px;
-  padding: 30px 0 30px 0;
+  padding: 30px 0 20px 0;
 }
 
 

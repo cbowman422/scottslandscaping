@@ -1,8 +1,8 @@
 
 
 .beforeAfter-container{
-  background-image: linear-gradient( var(--brown-highlight),  var(--brown) );
-  padding-bottom: 20px;
+   background-image: linear-gradient( var(--white),  var(--dark-white) ); 
+  padding-bottom: 40px;
 }
 
 
@@ -16,7 +16,7 @@
 
 .BeforeAfter-h3{
   font-size: 20px;
-  color: var(--white);
+  color: var(--black);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@
 
   .BeforeAfter-h3{
     font-size: 30px;
-    padding: 20px 0 30px 0;
+    padding: 30px 0 30px 0;
   }
 
 }
@@ -62,7 +62,7 @@
 
 .BeforeAfter-h3{
   font-size: 30px;
-  padding: 20px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
 
 

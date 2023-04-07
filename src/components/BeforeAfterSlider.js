@@ -1,16 +1,24 @@
 import React from 'react';
 import { useState } from 'react';
-import '../css/BeforeAfterSlider.css'
+import '../css/BeforeAfterSlider.css';
+import myPhoto from '../images/13-142-151-pool.jpeg';
 
 const BeforeAfterSlider = () => {
 
   const [divisor, setDivisor] = useState(50);
+
   const handleSliderChange = (event) => {
     setDivisor(event.target.value);
   }
+    
+
+  const photoStyle = {
+    width: `${divisor}%`
+  };
 
   return (
     <div>
+      <img src={myPhoto} style={photoStyle} />
     <div id="divisor">
       Divisor: {divisor}
     </div>

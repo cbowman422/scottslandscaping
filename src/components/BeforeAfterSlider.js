@@ -18,10 +18,16 @@ const BeforeAfterSlider = () => {
 
   return (
     <div>
-      <img src={myPhoto} style={photoStyle} />
-    <div id="divisor">
+
+      <div className="sliderImage"  style={photoStyle}></div>
+      <div className="sliderImageAfter"></div>
+
+      {/* <img src={myPhoto} style={photoStyle} /> */}
+
+    {/* <div id="divisor">
       Divisor: {divisor}
-    </div>
+    </div> */}
+
     <input
       id="slider"
       type="range"

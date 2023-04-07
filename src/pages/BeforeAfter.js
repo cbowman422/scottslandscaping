@@ -8,6 +8,8 @@ const BeforeAfter = () => {
   return (
     <div>BeforeAfter
       <BeforeAfterSlider before={image1} after={image2}/>
+
+      <BeforeAfterSlider before={image1} after={image2}/>
     </div>
   )
 }

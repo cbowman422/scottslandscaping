@@ -10,7 +10,6 @@ const BeforeAfterSlider = ({before, after}) => {
   const handleSliderChange = (event) => {
     setDivisor(event.target.value);
   }
-    
 
   const photoStyle = {
     width: `${divisor}%`

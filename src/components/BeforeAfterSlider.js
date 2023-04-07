@@ -3,7 +3,7 @@ import { useState } from 'react';
 import '../css/BeforeAfterSlider.css';
 import myPhoto from '../images/13-142-151-pool.jpeg';
 
-const BeforeAfterSlider = () => {
+const BeforeAfterSlider = ({before, after}) => {
 
   const [divisor, setDivisor] = useState(50);
 
@@ -16,27 +16,31 @@ const BeforeAfterSlider = () => {
     width: `${divisor}%`
   };
 
+  const beforeImage = {
+    backgroundImage: `url(${before})`
+  };
+
+  const afterImage = {
+    backgroundImage: `url(${after})`
+  };
+
   return (
-    <div>
+    <div className="slider-container">
 
-      <div className="sliderImage"  style={photoStyle}></div>
-      <div className="sliderImageAfter"></div>
-
-      {/* <img src={myPhoto} style={photoStyle} /> */}
-
-    {/* <div id="divisor">
-      Divisor: {divisor}
-    </div> */}
+      <div className="sliderImageAfter" style={afterImage}> 
+       <div className="sliderImage" style={{...photoStyle, ...beforeImage}}></div>
+      </div>
 
     <input
       id="slider"
       type="range"
-      min="1"
+      min="0"
       max="100"
       value={divisor}
       onChange={handleSliderChange}
     />
-  </div>
+
+    </div>
   )
 }
 

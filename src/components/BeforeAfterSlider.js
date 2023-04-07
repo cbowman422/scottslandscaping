@@ -26,8 +26,9 @@ const BeforeAfterSlider = ({before, after}) => {
   return (
     <div className="slider-container">
 
-      <div className="sliderImageAfter" style={afterImage}> 
+      <div className="sliderImageAfter" style={afterImage}> 	
        <div className="sliderImage" style={{...photoStyle, ...beforeImage}}></div>
+       <p className="slider-p"> &#8592; Slide for transformation &#8594; </p>
       </div>
 
     <input

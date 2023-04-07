@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import BeforeAfterSlider from '../components/BeforeAfterSlider';
 
 const BeforeAfter = () => {
   return (
-    <div>BeforeAfter</div>
+    <div>BeforeAfter
+      <BeforeAfterSlider />
+    </div>
   )
 }
 

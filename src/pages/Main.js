@@ -1,15 +1,15 @@
-import React from 'react'
-import {Routes, Route} from 'react-router-dom'
-import Home from './Home'
-import Gallery from './Gallery'
-import BeforeAfter from './BeforeAfter'
-import StoneWalls from './StoneWalls'
-import WalkwaysDriveways from './WalkwaysDriveways'
-import Pools from './Pools'
-import About from './About'
-import Testimonials from './Testimonials'
-import Services from './Services'
-import Contact from './Contact'
+import React from 'react';
+import {Routes, Route} from 'react-router-dom';
+import Home from './Home';
+import Gallery from './Gallery';
+import BeforeAfter from './BeforeAfter';
+import StoneWalls from './StoneWalls';
+import WalkwaysDriveways from './WalkwaysDriveways';
+import Pools from './Pools';
+import About from './About';
+import Testimonials from './Testimonials';
+import Services from './Services';
+import Contact from './Contact';
 
 
 const Main = () => {

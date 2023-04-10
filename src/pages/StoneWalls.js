@@ -9,12 +9,12 @@ const StoneWalls = () => {
     <div className="stone-gallery-container">
       <h3> Stone walls </h3>
       <div className="stone-gallery-item-container" >
-        <img src={image1} alt="stone-gallery-image" />
-        <img src={image1} alt="stone-gallery-image" />
-        <img src={image1} alt="stone-gallery-image" />
-        <img src={image1} alt="stone-gallery-image" />
-        <img src={image1} alt="stone-gallery-image" />
-        <img src={image1} alt="stone-gallery-image" />
+        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
+        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
+        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
+        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
+        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
+        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
       </div>
     </div>
   )

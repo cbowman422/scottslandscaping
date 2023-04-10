@@ -1,0 +1,20 @@
+
+
+.stone-gallery-container{
+  background-color: var(--white);
+}
+
+
+.stone-gallery-container h3{
+  margin-top: 0;
+}
+
+
+.stone-gallery-item-container{
+  border: solid red;
+}
+
+
+.stone-gallery-item{
+  width: 200px;
+}

@@ -9,7 +9,7 @@ const BeforeAfter = () => {
   return (
     <div className="beforeAfter-container" >
 
-      
+      <a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
 
       <h3 className="BeforeAfter-h3" > Before & After </h3>
 

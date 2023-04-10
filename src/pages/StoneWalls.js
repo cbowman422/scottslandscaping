@@ -6,15 +6,15 @@ import image1 from '../images/13-142-151-pool.jpeg';
 const StoneWalls = () => {
 
   return (
-    <div className="gallery-container">
+    <div className="stone-gallery-container">
       <h3> Stone walls </h3>
-      <div className="gallery-item-container" >
-        <img src={image1} alt="gallery-image" />
-        <img src={image1} alt="gallery-image" />
-        <img src={image1} alt="gallery-image" />
-        <img src={image1} alt="gallery-image" />
-        <img src={image1} alt="gallery-image" />
-        <img src={image1} alt="gallery-image" />
+      <div className="stone-gallery-item-container" >
+        <img src={image1} alt="stone-gallery-image" />
+        <img src={image1} alt="stone-gallery-image" />
+        <img src={image1} alt="stone-gallery-image" />
+        <img src={image1} alt="stone-gallery-image" />
+        <img src={image1} alt="stone-gallery-image" />
+        <img src={image1} alt="stone-gallery-image" />
       </div>
     </div>
   )

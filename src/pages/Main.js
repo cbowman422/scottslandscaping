@@ -6,6 +6,7 @@ import BeforeAfter from './BeforeAfter';
 import StoneWalls from './StoneWalls';
 import WalkwaysDriveways from './WalkwaysDriveways';
 import Pools from './Pools';
+import BackyardElements from './BackyardElements';
 import About from './About';
 import Testimonials from './Testimonials';
 import Services from './Services';
@@ -22,7 +23,7 @@ const Main = () => {
           <Route path="/stone-work" element={<StoneWalls/>}/>
           <Route path="/walks-drives" element={<WalkwaysDriveways/>}/>
           <Route path="/pools" element={<Pools/>}/>
-          <Route path="/backyard-elements" element={<StoneWalls/>}/>
+          <Route path="/backyard-elements" element={<BackyardElements/>}/>
         <Route path="/about" element={<About/>}/>
           <Route path="/testimonials" element={<Testimonials/>}/>
         <Route path="/services" element={<Services/>}/>

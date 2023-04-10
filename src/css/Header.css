@@ -106,6 +106,18 @@
 
 
 
+/* --------------------- DROP DOWN MENU CSS --------------------- */
+
+
+/* .drop-container{
+  display: none;
+}
+
+#gallery-drop-hover{
+  transition: var(--transition);
+} */
+
+
 /* --------------------- FULL SCREEN CSS --------------------- */
 
 @media all and (min-width: 800px) {
@@ -149,5 +161,15 @@
     
   }
 
+
+
+
+  /* #gallery-drop-hover:hover  .drop-container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+  } */
+
+  
 }
 

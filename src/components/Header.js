@@ -21,7 +21,17 @@ export const Header = () => {
                 </div>
                 <div className={active ? 'menu active' : 'menu'}>
                     <div className="nav-item"><a className="nav-item-a" href="/" >HOME</a></div>
-                    <div className="nav-item"><a className="nav-item-a" href="/gallery" >GALLERY</a></div>
+                    <div className="nav-item" id="gallery-drop-hover" ><a className="nav-item-a" href="/gallery" >GALLERY</a>
+                    
+                                {/* <div  className="drop-container" >
+                                    <a className="nav-item-drop" href="/" > Before & After </a>
+                                    <a className="nav-item-drop" href="/" > Stone Work </a>
+                                    <a className="nav-item-drop" href="/" > Walkways </a>
+                                    <a className="nav-item-drop" href="/" > Pools </a>
+                                    <a className="nav-item-drop" href="/" > Backyard </a>
+                                </div> */}
+
+                    </div>
                     <div className="nav-item"><a className="nav-item-a" href="/about" >ABOUT&nbsp;US</a></div>
                     <div className="nav-item"><a className="nav-item-a" href="/services" >SERVICES</a></div>
                     <div className="nav-item"><a className="nav-item-a" href="/contact" >CONTACT</a></div>

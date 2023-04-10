@@ -12,6 +12,7 @@ const Home = () => {
          <h1> Scott's Landscaping, Inc. <span className=""> Hopkinton, MA </span></h1> 
          <h2> Scott's Landscaping is a full service lawn care, landscape management and design company specializing in all areas of stonework.</h2>
          <a href='./contact' > Schedule a consultation </a>
+
       </div>
        
        <div className="home-welcome-statement-container-shadow">

@@ -8,7 +8,6 @@ import WalkwaysDriveways from './WalkwaysDriveways';
 import Pools from './Pools';
 import BackyardElements from './BackyardElements';
 import About from './About';
-import Testimonials from './Testimonials';
 import Services from './Services';
 import Contact from './Contact';
 
@@ -25,7 +24,6 @@ const Main = () => {
           <Route path="/pools" element={<Pools/>}/>
           <Route path="/backyard-elements" element={<BackyardElements/>}/>
         <Route path="/about" element={<About/>}/>
-          <Route path="/testimonials" element={<Testimonials/>}/>
         <Route path="/services" element={<Services/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>

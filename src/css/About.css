@@ -5,8 +5,23 @@
 
 }
 
+.about-hero-container{
+  border: solid blue;
+  background-image: url('../images/landscape-team-photo.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 96vw;
+  height: 30vh;
+}
+
+.about-section-container-shadow{
+  filter: drop-shadow(1px 1px 7px rgba(116, 76, 23, 0.25));
+}
+
 .about-section-container{
   border: solid orange;
+  background-color: var(--white);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 
 
 }

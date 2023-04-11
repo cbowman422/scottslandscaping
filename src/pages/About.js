@@ -1,4 +1,7 @@
 import React from 'react';
+import '../css/About.css';
+
+
 import scott from '../images/scott-250x180.jpeg';
 import charlene from '../images/Charlene_office_pic.jpeg';
 

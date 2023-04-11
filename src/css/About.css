@@ -1,0 +1,64 @@
+
+
+.about-container{
+  border: solid red;
+
+}
+
+.about-section-container{
+  border: solid orange;
+
+
+}
+
+.about-section-h3{
+
+}
+
+.about-section-p{
+
+}
+
+
+/* ------------------- TEAM CSS ---------------- */
+
+
+
+.about-team-container{
+  border: solid purple;
+
+}
+
+.about-team-h3{
+  
+}
+
+.about-team-image{
+
+}
+
+.about-team-name{
+
+}
+
+.about-team-p{
+
+}
+
+
+/* ------------------- TESTIMONIALS CSS ---------------- */
+
+
+.about-testimonials-container{
+  border: solid yellow;
+
+
+}
+
+.about-testimonials-h3{
+
+}
+
+.about-testimonials-content-container{
+
+}

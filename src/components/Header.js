@@ -4,7 +4,7 @@ import logo from '../images/TemporaryLogoTransparent.png';
 import { useState } from 'react';
 
 export const Header = () => {
-    const [active, setActive] = useState(false)
+    const [active, setActive] = useState(false);
 
     return (
         <div className="header-shadow">
@@ -43,4 +43,4 @@ export const Header = () => {
         </div>
 
     )
-}
+};

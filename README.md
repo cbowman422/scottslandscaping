@@ -18,6 +18,8 @@ https://docs.google.com/presentation/d/14wo0wWk2YbuUaXJ7d4Azy4CBbsSR0Fv0gXXUHqI6
 
 ![home](https://imgur.com/wx9XU1G.jpg)
 
+![home](https://imgur.com/EHTSaUa.jpg)
+
 
 ## Technologies
 

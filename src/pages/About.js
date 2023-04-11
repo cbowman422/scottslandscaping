@@ -15,9 +15,10 @@ const About = () => {
         <div className="about-section-container" >
           <h3 className="about-section-h3" > About Us </h3>
             <p className="about-section-p"> Scott's Landscaping, Inc., established in 1985, is owned and operated by Scott Dryden, a lifelong resident of Hopkinton, MA. What started as a simple desire to work in the outdoors has grown into a thriving business that's dedicated to serving clients throughout New England. </p>
-            <p className="about-section-p"> As a full-service lawn care and landscape management company, we're proud to offer comprehensive services that meet the needs of residential customers, commercial properties, contractors, and industrial facilities. From design to installation, maintenance to upkeep, we'll take care of every aspect of your landscaping needs. </p>
-            <p className="about-section-p"> At Scott's Landscaping, Inc., we're committed to staying ahead of the curve when it comes to lawn maintenance, landscaping trends, and design techniques. Let us create a custom landscape that perfectly fits your style, needs, and budget. Join the growing list of satisfied customers who have trusted us to transform their outdoor spaces.</p>
+            <p className="about-section-p"> As a full-service lawn care and landscape management company, we're proud to offer comprehensive services that meet the needs of residential customers, commercial properties, contractors, and industrial facilities. From design to installation, maintenance to upkeep, we take care of every aspect of your landscaping needs. </p>
+            {/* <p className="about-section-p"> At Scott's Landscaping, Inc., we're committed to staying ahead of the curve when it comes to lawn maintenance, landscaping trends, and design techniques. Let us create a custom landscape that perfectly fits your style, needs, and budget. Join the growing list of satisfied customers who have trusted us to transform their outdoor spaces.</p> */}
             <p className="about-section-p"> Contact us today for your free, no-obligation estimate and proposal. We'll visit your home or business to discuss your vision and create the plan that works for you.</p>
+            <a href='./contact' > Schedule a consultation </a>
         </div>
       </div>
 

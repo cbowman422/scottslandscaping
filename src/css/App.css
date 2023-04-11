@@ -22,6 +22,7 @@
 --purple: rgb(77, 64, 113);
 --brown: rgb(43, 37, 37);
 --brown-highlight: rgb(39, 35, 34) ;
+  --brown-highlight: rgb(83, 66, 61) ;
 --lightgreen: rgb(165, 197, 153);
 --lightgreen-highlight: rgb(206, 228, 144); 
 --transition: all 0.5s ease-in-out; */
@@ -42,7 +43,7 @@
   --lightpurple: rgb(93, 64, 113);
   --brown: rgb(43, 37, 37);
   --dark-brown: rgb(20, 18, 18);
-  --brown-highlight: rgb(39, 35, 34) ;
+  --brown-highlight: rgb(87, 71, 65) ;
   --lightgreen: rgb(165, 197, 153);
   --lightgreen-highlight: rgb(206, 228, 144); 
   --transition: all 0.5s ease-in-out;

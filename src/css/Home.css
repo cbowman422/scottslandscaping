@@ -101,7 +101,7 @@
 .home-welcome-statement-container h3{
   margin: 80px 10px 30px 10px;
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
   border-bottom: 1px solid rgba(116, 76, 23, 0.9);
   padding: 0 10px 6px 10px;
   color: var(--black);
@@ -267,7 +267,7 @@
   }
 
   .home-welcome-statement-container h3{
-    font-size: 5vw;
+    font-size: 24px;
   }
 
   .home-welcome-details-div-p-expertise p{

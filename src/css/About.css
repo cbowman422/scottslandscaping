@@ -126,16 +126,22 @@
 .about-testimonials-content-container{
   background-color: var(--white);
   margin: 0 20px;
+  text-align: center;
+  padding-top: 20px;
 }
 
+.about-testimonials-content-p-containers img{
+  width: 24px;
+  margin: 10px 0 0 0;
+}
 
-.about-testimonials-content-container p{
+.about-testimonials-content-p-containers p{
   color: var(--black);
   margin: 0 20px;
   padding: 20px 0;
   text-align: center;
 }
 
-.about-testimonials-content-container span{
+.about-testimonials-content-p-containers span{
   font-weight: bold;
 }

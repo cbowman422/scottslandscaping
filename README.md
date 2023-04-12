@@ -20,6 +20,11 @@ https://docs.google.com/presentation/d/14wo0wWk2YbuUaXJ7d4Azy4CBbsSR0Fv0gXXUHqI6
 
 ![home](https://imgur.com/EHTSaUa.jpg)
 
+![about](https://imgur.com/Jdc76D8.jpg)
+
+![about](https://imgur.com/fHJ2M0i.jpg)
+
+![about](https://imgur.com/P5q03kO.jpg)
 
 ## Technologies
 

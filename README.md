@@ -6,6 +6,21 @@ http://scottslandscaping.org/index.html
 ## Link to audit
 https://docs.google.com/presentation/d/14wo0wWk2YbuUaXJ7d4Azy4CBbsSR0Fv0gXXUHqI6lrU/edit?usp=sharing
 
+
+## Technologies
+
+- JavaScript
+- React.JS
+- HTML
+- CSS
+
+## Installation
+
+```bash
+$ npm install
+```
+
+
 ## Screenshots Home page
 
 ![hero](https://imgur.com/4NWNHqv.jpg)
@@ -33,11 +48,3 @@ https://docs.google.com/presentation/d/14wo0wWk2YbuUaXJ7d4Azy4CBbsSR0Fv0gXXUHqI6
 ![about](https://imgur.com/P5q03kO.jpg)
 
 ![about](https://imgur.com/IH8syfK.jpg)
-
-
-## Technologies
-
-- JavaScript
-- React.JS
-- HTML
-- CSS

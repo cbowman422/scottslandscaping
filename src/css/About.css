@@ -124,21 +124,28 @@
 }
 
 .about-testimonials-content-container{
-  background-color: var(--white);
   margin: 0 20px;
   text-align: center;
-  padding-top: 20px;
 }
+
+.about-testimonials-content-p-containers{
+ background-color: var(--white);
+ margin: 0 0 20px 0;
+ border-radius: 2px;
+ box-shadow: 1px 1px 4px var(--black);
+}
+
 
 .about-testimonials-content-p-containers img{
   width: 24px;
-  margin: 10px 0 0 0;
+  margin: 20px 0 0 0;
+  color: var(--black);
 }
 
 .about-testimonials-content-p-containers p{
   color: var(--black);
   margin: 0 20px;
-  padding: 20px 0;
+  padding: 0 0 20px 0;
   text-align: center;
 }
 

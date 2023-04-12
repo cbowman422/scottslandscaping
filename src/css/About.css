@@ -20,7 +20,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 
 
 }
@@ -28,7 +28,7 @@
 .about-section-h3{
   border-bottom: 1px solid rgba(116, 76, 23, 0.9);
   width: 120px;
-  margin: 10px auto;
+  margin: 60px auto 10px auto;
   font-size: 24px; 
   
 }
@@ -69,7 +69,7 @@
 
 
 .about-team-container{
-  padding: 20px 20px 1px 20px;
+  padding: 40px 20px 20px 20px;
   background-color: var(--brown);
   text-align: center;
 }
@@ -86,7 +86,7 @@
   font-size: 24px; 
   color: var(--black);
   text-align: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 .about-team-image{
@@ -120,6 +120,7 @@
  color: var(--purple);
  margin: 0;
  padding: 20px 0;
+ font-size: 24px;
 }
 
 .about-testimonials-content-container{
@@ -166,6 +167,19 @@
   transform: translateY(-12px);
 }
 
+.about-section-h3{
+  width: 160px;
+  font-size: 30px;
+}
+
+.about-team-h3{
+  font-size: 30px; 
+}
+
+.about-testimonials-h3{
+  font-size: 30px;
+ }
+
 
 .about-team-container{
   display: flex;
@@ -178,6 +192,7 @@
 .about-testimonials-content-container{
   display: flex;
   justify-content: center;
+  margin: 6px 20px 20px 20px;
 }
 
 .about-testimonials-content-p-containers{
@@ -208,15 +223,42 @@
   .about-team-container{
     display: flex;
   }
+
+  .about-section-h3{
+    width: 160px;
+    font-size: 3px;
+  }
+  
+  .about-team-h3{
+    font-size: 30px; 
+  }
+  
+  .about-testimonials-h3{
+    font-size: 30px;
+   }
   
   .about-team-container-style{
     width: 350px;
   }
+
+  .about-section-h3{
+    width: 160px;
+    font-size: 30px;
+  }
+  
+  .about-team-h3{
+    font-size: 30px; 
+  }
+  
+  .about-testimonials-h3{
+    font-size: 30px;
+   }
   
   
   .about-testimonials-content-container{
     display: flex;
     justify-content: center;
+    margin: 6px 20px 20px 20px;
   }
   
   .about-testimonials-content-p-containers{
@@ -243,9 +285,22 @@
     transform: translateY(-12px);
   }
 
+  .about-section-h3{
+    width: 180px;
+    font-size: 36px;
+  }
+  
+  .about-team-h3{
+    font-size: 36px; 
+  }
+  
+  .about-testimonials-h3{
+    font-size: 36px;
+   }
+
   .about-team-container{
     display: flex;
-    padding: 20px 150px 0 150px;
+    padding: 40px 150px 20px 150px;
   }
   
   .about-team-container-style{
@@ -256,6 +311,7 @@
   .about-testimonials-content-container{
     display: flex;
     justify-content: center;
+    margin: 6px 20px 20px 20px;
   }
   
   .about-testimonials-content-p-containers{

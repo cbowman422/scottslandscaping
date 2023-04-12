@@ -11,6 +11,7 @@ https://docs.google.com/presentation/d/14wo0wWk2YbuUaXJ7d4Azy4CBbsSR0Fv0gXXUHqI6
 
 - JavaScript
 - React.JS
+- JSON
 - HTML
 - CSS
 

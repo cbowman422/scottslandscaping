@@ -27,7 +27,7 @@ const Services = () => {
           {
             return ( 
               <div className="services-content" key={serviceMapId}>
-                <img />
+                {/* <img src={servicesMap.image} alt="service-image"/> */}
                 <h3> {servicesMap.name} </h3>
                 <p> {servicesMap.description} </p>
               </div>

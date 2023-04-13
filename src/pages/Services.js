@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import '../css/Services.css';
 
+
 const Services = () => {
 
 
@@ -28,7 +29,7 @@ const Services = () => {
           {
             return ( 
               <div className="services-content" key={serviceMapId}>
-                {/* <img src={servicesMap.icon} alt="service-image"/> */}
+                <img src={servicesMap.icon} alt="service-image"/>
                 <h3> {servicesMap.name} </h3>
                 <p> {servicesMap.description} </p>
               </div>

@@ -86,7 +86,7 @@
   font-size: 24px; 
   color: var(--black);
   text-align: center;
-  margin: 20px;
+  margin: 30px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -120,7 +120,7 @@
  text-align: center;
  color: var(--purple);
  margin: 0;
- padding: 20px 0;
+ padding: 50px 0 40px 0;
  font-size: 24px;
  font-family: 'Lato', sans-serif;
 }
@@ -231,8 +231,8 @@
   }
 
     .about-section-h3{
-      width: 140px;
-      font-size: 30px;
+      width: 160px;
+      font-size: 36px;
     }
   
   .about-section-container a{
@@ -251,11 +251,11 @@
   }
   
   .about-team-h3{
-    font-size: 30px; 
+    font-size: 36px; 
   }
   
   .about-testimonials-h3{
-    font-size: 30px;
+    font-size: 36px;
    }
   
   .about-team-container-style{

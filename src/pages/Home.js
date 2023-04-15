@@ -22,7 +22,7 @@ const Home = () => {
 
             <p className="home-bio">
               At Scott's Landscaping, Incorporated we offer service in New England to residential customers, contractors, commercial and industrial facilities. 
-              Scott's team of experienced professionals is well-versed in landscape design, landscape architecture, custom stone work, stone walls, architectural pool landscapes, walkways, driveways, backyard elements, landscape lighting, and garden design.
+              Scott's team of experienced professionals is well-versed in landscape design, landscape architecture, custom stone work, stone walls, architectural pool landscapes, walkways, driveways, backyard elements, and garden design.
               </p>
               <p className="home-bio">
               Whether you're looking to enhance your home's curb appeal or create a peaceful sancutary in your backyard, Scott's will transform your outdoor space into a beautiful and inviting extension of your home.

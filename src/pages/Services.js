@@ -23,13 +23,16 @@ const Services = () => {
 
   return ( services ?
     <div className="services-container" >
+
+      <div className="about-hero-container" > </div>
+
       <h3 className="services-container-h3"> Services </h3>
       <div className="services-content-flex">
         {services.map((servicesMap,serviceMapId) => 
           {
             return ( 
               <div className="services-content" key={serviceMapId}>
-                <img src={servicesMap.icon} alt="service-image"/>
+                <img src={servicesMap.icon} alt="service-image" />
                 <h3> {servicesMap.name} </h3>
                 <p> {servicesMap.description} </p>
               </div>

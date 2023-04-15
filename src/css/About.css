@@ -41,7 +41,7 @@
 .about-section-container a{
   color: var(--black);
   font-size: 18px;
-  width: 200px;
+  width: 210px;
   margin: 10px auto;
   background-image: linear-gradient(90deg,var(--lightgreen), var(--green));
   background-size: 300% auto;
@@ -59,7 +59,7 @@
   cursor: pointer;
   font-size: 18.5px;
   padding: 10px 20px;
-  width: 210px;
+  width: 220px;
   
 }
 
@@ -154,7 +154,6 @@
 .about-testimonials-content-p-containers span{
   font-weight: bold;
 }
-
 
 
 

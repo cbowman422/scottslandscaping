@@ -113,7 +113,7 @@
 .home-welcome-details-intro{
   text-align: center;
   font-size: 24px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 10px auto;
   color: var(--black);
   font-family: 'Lato', sans-serif;
 }
@@ -417,7 +417,6 @@
   .home-welcome-details-intro{
     font-size: 36px;
     width: 260px;
-    margin: 0 auto;
   }
 
   .home-welcome-details-container-bg{
@@ -535,7 +534,6 @@
   .home-welcome-details-intro{
     font-size: 36px;
     width: 260px;
-    margin: 0 auto;
   }
 
   .home-welcome-details-container-bg{
@@ -651,7 +649,6 @@
   .home-welcome-details-intro{
     font-size: 36px;
     width: 260px;
-    margin: 0 auto;
   }
 
   .home-welcome-details-container-bg{

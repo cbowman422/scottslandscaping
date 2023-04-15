@@ -2,18 +2,22 @@
 
 
 .services-container{
-background-image: linear-gradient( var(--brown-highlight),  var(--brown) );
+background-color: var(--white);
 padding-bottom: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
 } 
 
 .services-container-h3{
- color: var(--white);
+ color: var(--black);
  text-align: center;
  margin: 0 0 40px 0;
  padding-top: 40px;
  font-size: 26px;
  font-family: 'Lato', sans-serif;
- 
+ border-bottom: 1px solid rgba(116, 76, 23, 0.9);
+ width: 110px;
  }
 
 .services-content h3{
@@ -27,15 +31,13 @@ padding-bottom: 20px;
  }
 
 .services-content{
-  background-color: var(--white);
   text-align: center;
-  margin: 20px auto;
-  padding: 20px 10px 30px 10px;
+  margin: 0 auto;
+  padding: 20px 20px 30px 20px;
   width: 280px;
-  border-radius: 2px;
-  box-shadow: 6px 6px 6px var(--brown);
   
 }
+
 
 
 @media all and (min-width: 640px) and (max-width: 799px){
@@ -43,6 +45,7 @@ padding-bottom: 20px;
   .services-container-h3{
     margin: 0 0 20px 0;
     font-size: 30px;
+    width: 120px;
   }
 
   .services-content-flex{
@@ -52,63 +55,35 @@ padding-bottom: 20px;
 
 }
 
-
-@media all and (min-width: 800px) and (max-width: 929px){
+@media all and (min-width: 800px) and (max-width: 999px){
 
   .services-container-h3{
-    margin: 0 0 30px 0;
-    padding-top: 50px;
-    font-size: 36px;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    width: 120px;
   }
 
   .services-content-flex{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
   }
-
-  .services-container{
-    transform: translateY(-5px); 
-    } 
 
 }
 
 
-
-@media all and (min-width: 930px) and (max-width: 1299px){
+@media all and (min-width: 1000px){
 
   .services-container-h3{
-    margin: 0 0 30px 0;
-    padding-top: 50px;
-    font-size: 36px;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    width: 120px;
   }
 
   .services-content-flex{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
   }
-
-  .services-container{
-    transform: translateY(-5px); 
-    } 
 
 }
 
-@media all and (min-width: 1300px) {
-
-  .services-container-h3{
-    margin: 0 0 30px 0;
-    padding-top: 50px;
-    font-size: 36px;
-  }
-
-  .services-content-flex{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  .services-container{
-    transform: translateY(-5px); 
-    } 
-
-}
 

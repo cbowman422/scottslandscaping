@@ -3,7 +3,7 @@
   {
     "icon": "../iconsPublic/paving.png",
     "name": "Stonework Install and Repair",
-    "description" : "Our Specialty! All types of stone, pavers, patios, walkway, sitting walls, retainers (finished stone or boulders), fire pits, fireplaces, front and rear landings and steps."
+    "description" : "We offer a wide range of options, including various types of stone, pavers, patios, walkways, sitting walls, retainers (available in both finished stone or boulder options), fire pits, fireplaces, and front and rear landings and steps."
   },
   {
     "icon": "../iconsPublic/growth.png",
@@ -23,27 +23,27 @@
   {
     "icon": "../iconsPublic/rake.png",
     "name": "Spring/Fall Cleanup",
-    "description" : "Removal of all leaves and debris from lawn and turf areas. Spring cleanup includes a partial dethatching of the lawn (tining)."
+    "description" : "Removal of all leaves and debris from lawn and turf areas. Spring cleanups include a partial dethatching of the lawn (tining)."
   },
   {
     "icon": "../iconsPublic/lawn-mower.png",
     "name": "Weekly Maintenance",
-    "description" : "Includes mowing, trimming, spring and fall cleanups."
+    "description" : "Includes mowing, trimming, spring cleanups and fall cleanups."
   },
   {
     "icon": "../iconsPublic/mosquito.png",
     "name": "Mosquito/Tick Ranger",
-    "description" : "Mosquito Ranger is sprayed every 2-3 weeks May thru October on the property concentrating on high traffic areas"
+    "description" : "To control mosquitoes on your property, we use Mosquito Ranger, which is sprayed every 2-3 weeks from May through October. Our team focuses on high traffic areas to ensure maximum effectiveness."
   },
   {
     "icon": "../iconsPublic/harvest.png",
     "name": "Gardens",
-    "description" : "Vegetable garden and perennial garden preparation and installation. Blueberries, raspberries, fruit trees."
+    "description" : "We offer services for the preparation and installation of vegetable gardens and perennial gardens, as well as the installation of blueberries, raspberries, and fruit trees."
   },
   {
     "icon": "../iconsPublic/spray.png",
     "name": "Taylor Turf Lawn Fertilization",
-    "description" : "is seven applications over five visits including balanced fertilizer, pre-emergent crabgrass control (Dimension) and broadleaf weed control. Weed control is done as needed (spot sprayed) to avoid over use of pesticides. Grub control (Merit) is applied in June and July for control of Japanese Beetle Grubs and is one of the most effective and environmentally friendly products available today. A 5% discount can be taken if you pay for your fertilization program at the start of the season"
+    "description" : "Our fertilization program involves seven applications over five visits, with balanced fertilizer, pre-emergent crabgrass control, and broadleaf weed control. Weed control is applied only as needed to avoid overusing pesticides. For Japanese Beetle Grubs, we use the environmentally friendly Merit. Receive a 5% discount at the start of the season."
   },
   {
     "icon": "../iconsPublic/fertilizer.png",

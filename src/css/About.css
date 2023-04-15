@@ -395,7 +395,8 @@
   
     .about-team-container{
       display: flex;
-      padding: 40px 150px 20px 150px;
+      justify-content: center;
+      padding: 40px 250px 20px 250px;
     }
     
     .about-team-container-style{

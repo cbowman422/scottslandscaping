@@ -40,6 +40,8 @@ const Services = () => {
           }       )
         }
       </div>
+      <h3 className="services-a-header"> Please contact us for more information and to schedule services</h3>
+      <a href='./contact' className="services-a">Schedule a Consultation</a>
     </div> 
     :
     <p> Loading ... </p>

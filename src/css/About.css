@@ -158,7 +158,7 @@
 
 
 
-@media all and (min-width: 810px) and (max-width: 899px) {
+@media all and (min-width: 800px) and (max-width: 899px) {
 
 
 .about-hero-container{
@@ -202,10 +202,10 @@
 }
 
 .about-testimonials-content-p-containers{
-  max-width: 250px;
+  max-width: 240px;
   height: 510px;
   overflow-y: scroll ;
-  margin: 0 .4vw;
+  margin: 0px 8px;
 }
 
 .about-testimonials-content-p-containers p{
@@ -262,15 +262,7 @@
     width: 350px;
   }
   
-  .about-team-h3{
-    font-size: 30px; 
-  }
-  
-  .about-testimonials-h3{
-    font-size: 30px;
-   }
-  
-  
+
   .about-testimonials-content-container{
     display: flex;
     justify-content: center;
@@ -281,14 +273,14 @@
     max-width: 250px;
     height: 510px;
     overflow-y: scroll ;
-    margin: 0 1vw;
+    margin: 0 10px;
   }
 
   .about-testimonials-content-p-containers p{
     text-align: left;
   }
   
-  }
+}
 
 @media all and (min-width: 1050px) {
 
@@ -351,7 +343,7 @@
     max-width: 310px;
     height: 510px;
     overflow-y: scroll ;
-    margin: 0 1vw;
+    margin: 0 10px;
   }
 
   .about-testimonials-content-p-containers p{

@@ -31,6 +31,11 @@
   color: var(--black);
   padding-top: 10px;
   padding-left: 10px;
+  transition: var(--transition);
+}
+
+.return-before:hover{
+  color: var(--purple);
 }
 
 

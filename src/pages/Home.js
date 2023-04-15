@@ -11,7 +11,7 @@ const Home = () => {
       <div className="hero-container" > 
          <h1> Scott's Landscaping, Inc. <span className=""> Hopkinton, MA </span></h1> 
          <h2> Scott's Landscaping is a full service lawn care, landscape management and design company specializing in all areas of stonework.</h2>
-         <a href='./contact' > Schedule a consultation </a>
+         <a href='./contact' > Schedule a Consultation </a>
 
       </div>
        
@@ -40,7 +40,7 @@ const Home = () => {
                       <h3 className="home-welcome-details-h3">
                         Expertise
                       </h3>
-                      <a href='./about' className="home-welcome-details-a">Learn more about Scott's</a>
+                      <a href='./about' className="home-welcome-details-a">Learn More About Scott's</a>
                   </div>
                     <div className="home-welcome-details-div-p-expertise">
                       <p className="home-welcome-details-p">
@@ -55,7 +55,7 @@ const Home = () => {
                     <h3 className="home-welcome-details-h3">
                       Flexibility
                     </h3>
-                    <a href='./contact' className="home-welcome-details-a">Schedule a consultation</a>
+                    <a href='./contact' className="home-welcome-details-a">Schedule a Consultation</a>
                   </div>
                     <div className="home-welcome-details-div-p-flexibility">
                       <p className="home-welcome-details-p">

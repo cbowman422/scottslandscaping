@@ -23,7 +23,7 @@ const Services = () => {
 
   return ( services ?
     <div className="services-container" >
-      <h3> Services </h3>
+      <h3 className="services-container-h3"> Services </h3>
       <div className="services-content-flex">
         {services.map((servicesMap,serviceMapId) => 
           {

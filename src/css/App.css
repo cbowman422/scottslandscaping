@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 /* 
@@ -41,7 +43,7 @@
   --blue-highlight: rgb(17, 65, 101);
   --green: rgb(120, 182, 120);
   --yellow: rgba(253, 249, 228, 0.895);
-  --purple: rgb(77, 64, 113);
+  --purple: rgb(55, 45, 81);
   --lightpurple: rgb(93, 64, 113);
   --brown: rgb(43, 37, 37);
   --dark-brown: rgb(20, 18, 18);

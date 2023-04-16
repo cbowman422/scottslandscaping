@@ -32,7 +32,7 @@ const Services = () => {
           {
             return ( 
               <div className="services-content" key={serviceMapId}>
-                <img src={servicesMap.icon} alt="service-image" />
+                <img src={servicesMap.icon} alt={servicesMap.icon} />
                 <h3> {servicesMap.name} </h3>
                 <p> {servicesMap.description} </p>
               </div>

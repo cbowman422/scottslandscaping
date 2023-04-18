@@ -2,7 +2,6 @@ import React from 'react';
 import '../css/Gallery.css';
 
 
-
 const Gallery = () => {
   return (
     <div className= "gallery-container">

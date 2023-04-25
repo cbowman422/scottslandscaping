@@ -22,13 +22,6 @@ $ npm install
 ```
 
 
-## Screenshots Home page
-
-![hero](https://imgur.com/4NWNHqv.jpg)
-
-![home](https://imgur.com/3fZ1yeQ.jpg)
-
-![home](https://imgur.com/apw4fH7.jpg)
 
 ## Screenshots Hamburger Menu Home
 

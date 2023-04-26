@@ -165,7 +165,9 @@
     color: var(--white);
   }
 
-
+  .nav-item-a:hover{
+    color: white;
+  }
 
 
   /* #gallery-drop-hover:hover  .drop-container{

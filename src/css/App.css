@@ -45,11 +45,11 @@
   --yellow: rgba(253, 249, 228, 0.895);
   --purple: rgb(55, 45, 81);
   --lightpurple: rgb(93, 64, 113);
-  --brown: rgb(43, 37, 37);
-  --dark-brown: rgb(20, 18, 18);
-  --brown-highlight: rgb(87, 71, 65) ;
+  --brown: rgb(191, 200, 174);
+  --brown-highlight: rgb(191, 200, 174); ;
   --lightgreen: rgb(165, 197, 153);
   --lightgreen-highlight: rgb(206, 228, 144); 
+  --dark-brown: rgb(19, 18, 20);
   --transition: all 0.5s ease-in-out;
 }
 

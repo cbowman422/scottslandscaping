@@ -157,16 +157,8 @@
 
 
 
-@media all and (min-width: 800px) and (max-width: 899px) {
+@media all and (min-width: 800px) and (max-width: 929px) {
 
-
-.about-hero-container{
-  transform: translateY(-12px);
-}
-
-.about-section-container{
-  transform: translateY(-12px);
-}
 
 .about-section-h3{
   width: 140px;
@@ -214,7 +206,7 @@
 }
 
 
-@media all and (min-width: 900px) and (max-width: 1049px) {
+@media all and (min-width: 930px) and (max-width: 1049px) {
 
 
   .about-hero-container{

@@ -52,7 +52,6 @@
 .hero-container a:hover{
   background-position: right center;
   box-shadow: 1px 1px 6px var(--black);
-  color: var(--gray-highlight); 
   cursor: pointer;
   font-size: 18.5px;
   padding: 10px 20px;
@@ -237,7 +236,6 @@
 .home-welcome-details-a:hover{
   background-position: right center;
   box-shadow: 1px 1px 6px var(--black);
-  color: var(--gray-highlight); 
   cursor: pointer;
   font-size: 18.5px;
 

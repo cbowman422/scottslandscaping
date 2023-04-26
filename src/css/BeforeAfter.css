@@ -39,7 +39,7 @@
 }
 
 
-@media all and (min-width: 600px) and (max-width: 799px) {
+@media all and (min-width: 600px) and (max-width: 829px) {
 
 
   .BeforeAfter-h3{
@@ -55,7 +55,7 @@
 
 }
 
-@media all and (min-width: 800px) and (max-width: 999px) {
+@media all and (min-width: 930px) and (max-width: 999px) {
 
   .beforeAfter-container{
     transform: translateY(-8px); 

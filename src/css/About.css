@@ -2,7 +2,7 @@
 
 
 .about-hero-container{
-  background-image: url('../images/landscape-team-photo.jpeg');
+  background-image: url('../images/Team.jpeg');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -75,9 +75,9 @@
 }
 
 .about-team-container-style{
-  box-shadow: 2px 4px 8px var(--dark-brown);
+  /* box-shadow: 2px 4px 8px var(--dark-brown); */
   padding-top: 20px;
-  background-color: var(--black);
+  /* background-color: var(--black); */
   margin: 0 auto 20px auto;
   max-width: 400px;
 }
@@ -96,12 +96,12 @@
 }
 
 .about-team-name{
- color: var(--green);
+ color: var(--black);
  margin: 10px 0 0 0;
 }
 
 .about-team-p{
-  color: var(--green);
+  color: var(--black);
   padding: 10px;
   margin: 0;
 }
@@ -112,7 +112,7 @@
 
 .about-testimonials-container{
   /* border: solid yellow; */
-  background-image: linear-gradient( var(--lightgreen), var(--green)); 
+  background-image: linear-gradient( var(--brown), var(--brown)); 
   padding-bottom: 20px;
 }
 
@@ -120,7 +120,7 @@
  text-align: center;
  color: var(--purple);
  margin: 0;
- padding: 50px 0 40px 0;
+ padding: 10px 0 40px 0;
  font-size: 24px;
  font-family: 'Lato', sans-serif;
 }

@@ -39,9 +39,8 @@
   --bright-white: #f2f0f0;
   --gray: #afaca8;
   --gray-highlight: #7d8e76;
-  --blue: rgba(33, 94, 133,0.2);
-  --blue2: rgb(16, 130, 201);
-  --blue-highlight: rgb(17, 65, 101);
+  --blue: rgb(31, 105, 150);
+  --blue-highlight: rgb(35, 118, 160);
   --green: rgb(120, 182, 120);
   --yellow: rgba(253, 249, 228, 0.895);
   --purple: rgb(55, 45, 81);

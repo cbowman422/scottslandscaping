@@ -7,12 +7,9 @@
 
 
 .beforeAfter-container-flex{
-  /* border: solid red; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+} 
 
 .BeforeAfter-h3{
   font-size: 20px;
@@ -74,16 +71,16 @@
 
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1000px) and (max-width: 1299px) {
 
 
   .beforeAfter-container{
     transform: translateY(-5px); 
-    height: 80vh;
   }
 
   .beforeAfter-container-flex{
-   flex-direction: row;
+    flex-direction: row; 
+    margin: 10px 40px 60px 40px;
   }
 
 
@@ -96,6 +93,29 @@
   padding-top: 30px;
   padding-left: 40px;
 }
+}
 
+@media all and (min-width: 1300px) {
+
+
+  .beforeAfter-container{
+    transform: translateY(-5px); 
+  }
+
+  .beforeAfter-container-flex{
+    flex-direction: row; 
+    margin: 10px 140px 60px 140px;
+  }
+
+
+.BeforeAfter-h3{
+  font-size: 30px;
+  padding: 20px 0 20px 0;
+}
+
+.return-before{
+  padding-top: 30px;
+  padding-left: 40px;
+}
 
 }

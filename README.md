@@ -27,7 +27,7 @@ $ npm install
 
 ![home](https://imgur.com/cQhqxKz.jpg)
 
-![home](https://imgur.com/IEZReCY.jpg)
+![home](https://imgur.com/3dx5dwn.jpg)
 
 ![home](https://imgur.com/HDefyRa.jpg)
 

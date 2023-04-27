@@ -25,7 +25,7 @@ $ npm install
 
 ## Screenshots Home
 
-![home](https://imgur.com/undefined.jpg)
+![home](https://imgur.com/cQhqxKz.jpg)
 
 ![home](https://imgur.com/IEZReCY.jpg)
 

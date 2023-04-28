@@ -36,6 +36,19 @@
   background-image: url(../images/StoneWalls9.jpeg);
 }
 
+#stone-gallery-item-10{
+  background-image: url(../images/StoneWalls10.jpeg);
+}
+
+#stone-gallery-item-11{
+  background-image: url(../images/StoneWalls11.jpeg);
+}
+
+#stone-gallery-item-12{
+  background-image: url(../images/StoneWalls12.jpeg);
+}
+
+
 .stone-gallery-container{
   background-color: var(--white);
 }

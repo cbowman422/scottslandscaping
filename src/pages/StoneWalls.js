@@ -23,6 +23,9 @@ const StoneWalls = () => {
         <div className="stone-gallery-item" id="stone-gallery-item-7"></div>
         <div className="stone-gallery-item" id="stone-gallery-item-8"></div>
         <div className="stone-gallery-item" id="stone-gallery-item-9"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-10"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-11"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-12"></div>
       </div>
     </div>
   )

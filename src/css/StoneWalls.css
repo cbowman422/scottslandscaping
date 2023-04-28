@@ -40,7 +40,6 @@
   background-color: var(--white);
 }
 
-
 .stone-gallery-container h3{
   text-align: center;
   margin: 0;
@@ -50,17 +49,15 @@
   font-size: 24px; 
 }
 
-
+/* the padding of 1 is to align the background color with the container or there is a gap under images */
 .stone-gallery-item-container{
-  /* border: solid red; */
-
+  padding: 1px;
 }
-
 
 .stone-gallery-item{
   width: 280px;
   height: 200px;
-  margin: 20px;
+  margin: 20px auto;
   background-size: cover;
   background-position: center;
   box-shadow: 1px 1px 4px var(--black);

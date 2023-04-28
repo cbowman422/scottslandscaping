@@ -1,0 +1,78 @@
+
+/* --------- Stone Gallery Image Imports ------------- */
+#walks-gallery-item-1{
+  background-image: url(../images/Walks1.jpeg);
+}
+
+#walks-gallery-item-2{
+  background-image: url(../images/Walks2.jpeg);
+}
+
+#walks-gallery-item-3{
+  background-image: url(../images/Walks3.jpeg);
+}
+
+#walks-gallery-item-4{
+  background-image: url(../images/Walks4.jpeg);
+}
+
+#walks-gallery-item-5{
+  background-image: url(../images/Walks5.jpeg);
+}
+
+#walks-gallery-item-6{
+  background-image: url(../images/Walks6.jpeg);
+}
+
+#walks-gallery-item-7{
+  background-image: url(../images/Walks7.jpeg);
+}
+
+#walks-gallery-item-8{
+  background-image: url(../images/Walks8.jpeg);
+}
+
+#walks-gallery-item-9{
+  background-image: url(../images/Walks9.jpeg);
+}
+
+#walks-gallery-item-10{
+  background-image: url(../images/Walks10.jpeg);
+}
+
+#walks-gallery-item-11{
+  background-image: url(../images/Walks11.jpeg);
+}
+
+#walks-gallery-item-12{
+  background-image: url(../images/Walks12.jpeg);
+}
+
+
+
+.walks-gallery-container{
+  background-color: var(--white);
+}
+
+.walks-gallery-container h3{
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 10px 0;
+  color: var(--black);
+  font-family: 'Lato', sans-serif;
+  font-size: 24px; 
+}
+
+/* the padding of 1 is to align the background color with the container or there is a gap under images */
+.walks-gallery-item-container{
+  padding: 1px;
+}
+
+.walks-gallery-item{
+  width: 280px;
+  height: 200px;
+  margin: 20px auto;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 1px 1px 4px var(--black);
+}

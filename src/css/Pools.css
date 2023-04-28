@@ -75,7 +75,6 @@
 }
 
 
-
 @media all and (min-width: 600px) and (max-width: 699px) {
   
   .pools-gallery-container h3{
@@ -96,6 +95,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    width: 680px;
+    margin: 0 auto;
 
   }
 
@@ -105,7 +106,6 @@
 
 }
 
-
 @media all and (min-width: 930px) and (max-width: 1099px) {
 
   .pools-gallery-item{
@@ -113,24 +113,26 @@
     height: 200px;
     margin: 10px auto;
   }
-  
+
   .pools-gallery-item-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  
-  }
-  
-  .pools-gallery-container h3{
-    font-size: 36px; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 680px;
+    margin: 0 auto;
+
   }
 
+  .pools-gallery-container h3{
+    font-size: 30px; 
+  }
 
   .pools-gallery-container{
     transform: translateY(-12px);
   }
 
 }
+
 
 @media all and (min-width: 1100px){
 

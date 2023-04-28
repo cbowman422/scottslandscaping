@@ -55,7 +55,7 @@
   cursor: pointer;
   font-size: 18.5px;
   padding: 10px 20px;
-  
+  color: white;
 }
 
 
@@ -238,7 +238,7 @@
   box-shadow: 1px 1px 6px var(--black);
   cursor: pointer;
   font-size: 18.5px;
-
+  color: white;
 }
 
 

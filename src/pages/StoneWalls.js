@@ -1,23 +1,32 @@
 import React from 'react';
 import '../css/StoneWalls.css';
 
-import image1 from '../images/13-142-151-pool.jpeg';
+
 
 const StoneWalls = () => {
 
-  return (
+
+
+  return ( 
     <div className="stone-gallery-container">
-      <h3> Stone walls </h3>
+
+<a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
+
+      <h3> Stone Work </h3>
       <div className="stone-gallery-item-container" >
-        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
-        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
-        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
-        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
-        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
-        <img className="stone-gallery-item" src={image1} alt="stone-gallery-image" />
+        <div className="stone-gallery-item" id="stone-gallery-item-1"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-2"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-3"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-4"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-5"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-6"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-7"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-8"></div>
+        <div className="stone-gallery-item" id="stone-gallery-item-9"></div>
       </div>
     </div>
   )
-}
+  }
 
 export default StoneWalls;
+

@@ -1,5 +1,5 @@
 
-/* --------- Stone Gallery Image Imports ------------- */
+/* --------- walks Gallery Image Imports ------------- */
 #walks-gallery-item-1{
   background-image: url(../images/Walks1.jpeg);
 }
@@ -75,4 +75,91 @@
   background-size: cover;
   background-position: center;
   box-shadow: 1px 1px 4px var(--black);
+}
+
+
+@media all and (min-width: 600px) and (max-width: 699px) {
+  
+  .walks-gallery-container h3{
+    font-size: 30px; 
+  }
+  
+}
+
+@media all and (min-width: 700px) and (max-width: 929px) {
+
+  .walks-gallery-item{
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+  }
+
+  .walks-gallery-item-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+  }
+
+  .walks-gallery-container h3{
+    font-size: 30px; 
+  }
+
+}
+
+
+@media all and (min-width: 930px) and (max-width: 1099px) {
+
+  .walks-gallery-item{
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+  }
+  
+  .walks-gallery-item-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  
+  }
+  
+  .walks-gallery-container h3{
+    font-size: 36px; 
+  }
+
+
+  .walks-gallery-container{
+    transform: translateY(-12px);
+  }
+
+}
+
+@media all and (min-width: 1100px){
+
+  .walks-gallery-item{
+    width: 300px;
+    height: 200px;
+    margin: 10px 20px;
+  }
+  
+  .walks-gallery-item-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 1000px;
+    margin: 0 auto;
+  
+  }
+  
+  .walks-gallery-container h3{
+    font-size: 36px; 
+  }
+
+
+.walks-gallery-container{
+  transform: translateY(-5px); 
+}
+
+  
+  
 }

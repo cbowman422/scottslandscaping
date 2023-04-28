@@ -1,0 +1,75 @@
+/* --------- Stone Gallery Image Imports ------------- */
+#pools-gallery-item-1{
+  background-image: url(../images/Pools1.jpeg);
+}
+
+#pools-gallery-item-2{
+  background-image: url(../images/Pools2.jpeg);
+}
+
+#pools-gallery-item-3{
+  background-image: url(../images/Pools3.jpeg);
+}
+
+#pools-gallery-item-4{
+  background-image: url(../images/Pools4.jpeg);
+}
+
+#pools-gallery-item-5{
+  background-image: url(../images/Pools5.jpeg);
+}
+
+#pools-gallery-item-6{
+  background-image: url(../images/Pools6.jpeg);
+}
+
+#pools-gallery-item-7{
+  background-image: url(../images/Pools7.jpeg);
+}
+
+#pools-gallery-item-8{
+  background-image: url(../images/Pools8.jpeg);
+}
+
+#pools-gallery-item-9{
+  background-image: url(../images/Pools9.jpeg);
+}
+
+#pools-gallery-item-10{
+  background-image: url(../images/Pools10.jpeg);
+}
+
+#pools-gallery-item-11{
+  background-image: url(../images/Pools11.jpeg);
+}
+
+#pools-gallery-item-12{
+  background-image: url(../images/Pools12.jpeg);
+}
+
+.pools-gallery-container{
+  background-color: var(--white);
+}
+
+.pools-gallery-container h3{
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 10px 0;
+  color: var(--black);
+  font-family: 'Lato', sans-serif;
+  font-size: 24px; 
+}
+
+/* the padding of 1 is to align the background color with the container or there is a gap under images */
+.pools-gallery-item-container{
+  padding: 1px;
+}
+
+.pools-gallery-item{
+  width: 280px;
+  height: 200px;
+  margin: 20px auto;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 1px 1px 4px var(--black);
+}

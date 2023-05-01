@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../css/Contact.css'
 
 const Contact = () => {
   const URL = "http://localhost:4000/contact";
@@ -46,7 +47,7 @@ const Contact = () => {
     <div className="contact-container">
       <h3>Contact us, where do you live?</h3>
 
-      <section>
+      <section className="contact-section">
         <h2>Contact Us</h2>
         <form onSubmit={handleSubmit}>
           <input
@@ -77,7 +78,9 @@ const Contact = () => {
             placeholder="location"
             onChange={handleChange}
           />
-          <input
+          <textarea 
+            rows = "5" 
+            cols = "30"
             type="text"
             value={newForm.message}
             name="message"

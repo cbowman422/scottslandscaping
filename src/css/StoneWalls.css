@@ -64,7 +64,7 @@
 
 /* the padding of 1 is to align the background color with the container or there is a gap under images */
 .stone-gallery-item-container{
-  padding: 1px;
+  padding: 0 0 20px 0;
 }
 
 .stone-gallery-item{
@@ -156,6 +156,7 @@
   
   .stone-gallery-container h3{
     font-size: 36px; 
+    padding: 0 0 20px 0;
   }
 
 

@@ -2,7 +2,7 @@
 
 .contact-section{
   border: solid red;
-  width: 275px;
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -12,12 +12,25 @@
   height:350px;
 }
 
+.map-container{
+  border: solid green;
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-flex{
   border: solid blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.contact-h3{
+  color: var(--black);
+  font-size: 24px; 
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
 .contact-message{

@@ -42,8 +42,6 @@ $ npm install
 ## Screenshots About Us
 
 
-![about](https://imgur.com/jqMDJWf.jpg)
-
 ## Screenshots Services
 
 ## Screenshots Mobile 

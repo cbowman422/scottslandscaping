@@ -3,8 +3,6 @@
 ## Link to old page
 http://scottslandscaping.org/index.html
 
-## Link to audit
-https://docs.google.com/presentation/d/14wo0wWk2YbuUaXJ7d4Azy4CBbsSR0Fv0gXXUHqI6lrU/edit?usp=sharing
 
 ## Link to server
 https://github.com/cbowman422/scottslandscaping_server
@@ -49,3 +47,7 @@ $ npm install
 ![services](https://imgur.com/kPQpWFr.jpg)
 
 ![services](https://imgur.com/YJMKfNj.jpg)
+
+
+## Link to notes
+https://docs.google.com/presentation/d/14wo0wWk2YbuUaXJ7d4Azy4CBbsSR0Fv0gXXUHqI6lrU/edit?usp=sharing

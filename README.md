@@ -41,13 +41,10 @@ $ npm install
 
 ## Screenshots About Us
 
-![about](https://imgur.com/DFprlJH.jpg)
 
 ![about](https://imgur.com/jqMDJWf.jpg)
 
 ## Screenshots Services
-
-![services](https://imgur.com/Jic6brL.jpg)
 
 ## Screenshots Mobile 
 

@@ -88,7 +88,7 @@ const Contact = () => {
               placeholder="Message Details :       ( Please include a location for an estimate. )"
               onChange={handleChange}
             />
-            <button type="submit"> Submit </button>
+            <button className="contact-section-btn" type="submit" > Submit </button>
           </form>
         </section>
 

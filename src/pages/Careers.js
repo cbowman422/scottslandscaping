@@ -53,7 +53,7 @@ const Careers = () => {
     <div className="careers-container">
         <h3 className="careers-title"> Join Scott's Landscaping, Inc. </h3>
 
-        <p className="careers-p"> Scotts Landscaping is seeking skilled landscapers to join our team. Do you enjoy a fast-paced, dynamic environment? We're looking for candidates with a strong work ethic, and excellent communication skills. At Scott's we offers competitive pay and opportunities for career growth. Apply now! </p>
+        <p className="careers-p"> Scott's Landscaping is seeking skilled landscapers to join our team. Do you enjoy a fast-paced, dynamic environment? We're looking for candidates with a strong work ethic, and excellent communication skills. At Scott's we offers competitive pay and opportunities for career growth. Apply now! </p>
 
       <section className="careers-section">
 

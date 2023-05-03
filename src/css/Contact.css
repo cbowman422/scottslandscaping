@@ -151,6 +151,11 @@ height: 100%;
 
 @media all and (min-width: 930px) {
 
+
+  .contact-container{
+    height: 80vh;
+    }
+    
   .contact-h3{
     font-size: 36px;
   }

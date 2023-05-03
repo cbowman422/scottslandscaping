@@ -1,16 +1,19 @@
-import React from 'react';
+
+import { React, useState } from 'react';
 import '../css/StoneWalls.css';
 
 
 
 const StoneWalls = () => {
 
+  const [stoneActive, setStoneActive] = useState(false);
 
+  // className={stoneActive ? 'stone-gallery-item stoneActive' : 'stone-gallery-item'} onClick={()=>setStoneActive(!StoneActive)}
 
   return ( 
     <div className="stone-gallery-container">
 
-<a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
+      <a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
 
       <h3> Stone Work </h3>
       <div className="stone-gallery-item-container" >

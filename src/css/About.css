@@ -189,7 +189,7 @@
 .about-testimonials-content-container{
   display: flex;
   justify-content: center;
-  margin: 6px 20px 20px 20px;
+  margin: 6px 20px 60px 20px;
 }
 
 .about-testimonials-content-p-containers{
@@ -257,7 +257,7 @@
   .about-testimonials-content-container{
     display: flex;
     justify-content: center;
-    margin: 6px 20px 20px 20px;
+    margin: 6px 20px 60px 20px;
   }
   
   .about-testimonials-content-p-containers{
@@ -327,7 +327,7 @@
   .about-testimonials-content-container{
     display: flex;
     justify-content: center;
-    margin: 6px 20px 20px 20px;
+    margin: 6px 20px 60px 20px;
   }
   
   .about-testimonials-content-p-containers{
@@ -400,7 +400,7 @@
     .about-testimonials-content-container{
       display: flex;
       justify-content: center;
-      margin: 6px 20px 20px 20px;
+      margin: 6px 20px 60px 20px;
     }
     
     .about-testimonials-content-p-containers{

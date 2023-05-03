@@ -1,6 +1,7 @@
 
 .contact-container{
 margin: 0 0 50px 0;
+height: 100%;
 }
 
 .map{
@@ -166,7 +167,7 @@ margin: 0 0 50px 0;
     border:0;
     width:400px;
     height:480px;
-    margin: 48px 0px 40px 60px;
+    margin: 48px 0px 80px 60px;
   }
 
 }

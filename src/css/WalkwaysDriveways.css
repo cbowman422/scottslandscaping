@@ -65,7 +65,7 @@
 
 /* the padding of 1 is to align the background color with the container or there is a gap under images */
 .walks-gallery-item-container{
-  padding: 0 0 20px 0;
+  padding: 0 0 60px 0;
 }
 
 .walks-gallery-item{

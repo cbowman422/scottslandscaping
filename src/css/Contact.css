@@ -1,4 +1,7 @@
 
+.contact-container{
+margin: 0 0 50px 0;
+}
 
 .map{
   border:0;
@@ -58,12 +61,13 @@
 
 
 .contact-flex{
-  /* border: solid blue; */
+  /* border: solid blue;  */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 
 .contact-section{
   /* border: solid red; */
@@ -71,7 +75,7 @@
   margin: 0 auto;
 }
 
-.contact-section h2{
+.contact-section h3{
   color: var(--black);
   text-align: center;
   font-size: 24px; 
@@ -83,6 +87,7 @@
   font-size: 24px; 
   font-family: 'Lato', sans-serif;
   text-align: center;
+  margin: 30px 0;
 }
 
 .contact-message{
@@ -123,4 +128,41 @@
   cursor: pointer;
   font-size: 18.5px;
   color: white;
+}
+
+
+@media all and (min-width: 800px) and (max-width: 929px) {
+
+
+  .contact-h3{
+    font-size: 30px;
+  }
+
+  .contact-section h3{
+    font-size: 30px;
+  }
+
+}
+
+@media all and (min-width: 930px) {
+
+  .contact-h3{
+    font-size: 36px;
+  }
+
+  .contact-section h3{
+    font-size: 36px;
+  }
+
+  .contact-flex-mid{
+   display: flex ;
+  }
+
+  .map{
+    border:0;
+    width:400px;
+    height:480px;
+    margin: 40px 0px 40px 60px;
+  }
+
 }

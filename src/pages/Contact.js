@@ -61,45 +61,50 @@ const Contact = () => {
             <a className="map-container-email" href = "mailto: office@scottslandscaping.org">office@scottslandscaping.org</a>
         </div>
 
-        <section className="contact-section">
-          <h2>Send a Message</h2>
-          <form onSubmit={handleSubmit}>
-            <input
-              type="text"
-              value={newForm.name}
-              name="name"
-              placeholder="Name :"
-              onChange={handleChange}
-            />
-            <input
-              type="text"
-              value={newForm.phone}
-              name="phone"
-              placeholder="Phone # :"
-              onChange={handleChange}
-            />
-            <textarea 
-              className="contact-message"
-              rows = "7" 
-              cols = "22"
-              type="text"
-              value={newForm.message}
-              name="message"
-              placeholder="Message Details :       ( Please include a location for an estimate. )"
-              onChange={handleChange}
-            />
-            <button className="contact-section-btn" type="submit" > Submit </button>
-          </form>
-        </section>
+        <div className="contact-flex-mid">
 
-            <iframe 
-              title="mapFrame"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112334.23537620694!2d-71.60565905499556!3d42.2587478748035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e474f384ae20b1%3A0xf8e89a162281fd0c!2sHopkinton%2C%20MA!5e1!3m2!1sen!2sus!4v1682963786510!5m2!1sen!2sus"
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade"
-              className="map">
-            </iframe>
+              <section className="contact-section">
+                <h3>Send a Message</h3>
+                <form onSubmit={handleSubmit}>
+                  <input
+                    type="text"
+                    value={newForm.name}
+                    name="name"
+                    placeholder="Name :"
+                    onChange={handleChange}
+                  />
+                  <input
+                    type="text"
+                    value={newForm.phone}
+                    name="phone"
+                    placeholder="Phone # :"
+                    onChange={handleChange}
+                  />
+                  <textarea 
+                    className="contact-message"
+                    rows = "7" 
+                    cols = "22"
+                    type="text"
+                    value={newForm.message}
+                    name="message"
+                    placeholder="Message Details :       ( Please include a location for an estimate. )"
+                    onChange={handleChange}
+                  />
+                  <button className="contact-section-btn" type="submit" > Submit </button>
+                </form>
+              </section>
+
+                  <iframe 
+                    title="mapFrame"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112334.23537620694!2d-71.60565905499556!3d42.2587478748035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e474f384ae20b1%3A0xf8e89a162281fd0c!2sHopkinton%2C%20MA!5e1!3m2!1sen!2sus!4v1682963786510!5m2!1sen!2sus"
+                    allowFullScreen="" 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="map">
+                  </iframe>
+
+        </div>
+
 
 
       </div>

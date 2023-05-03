@@ -1,26 +1,84 @@
 
 .footerContainer{
   background-color: var(--black);
-  height: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footerContainer h3{
- color: var(--yellow);
+.footer-content-h3{
+ color: var(--white);
  margin: 0;
+ padding: 20px 10px 5px 10px;
+ font-size: 18px;
 }
 
+.footer-content-phone{
+  color: var(--white);
+  margin: 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: var(--transition);
+ }
+
+ .footer-content-phone:hover{
+  color: white;
+ }
+
+ .footer-content-plant{
+  color: var(--white);
+  margin: 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: var(--transition);
+ }
+
+ .footer-content-plant:hover{
+  color: white;
+ }
+
+ .footer-content-careers{
+  color: var(--white);
+  margin: 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: var(--transition);
+ }
+
+ .footer-content-careers:hover{
+  color: white;
+ }
+
+ .footer-content-facebook-img{
+  margin: 0;
+  padding: 10px 0 20px 0;
+  width: 25px;
+ }
+
+ .footer-content-facebook-a{
+  text-decoration: none;
+ }
 
 
+@media all and (min-width: 1000px){
 
+  
+.footerContainer{
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0;
+}
 
+.footer-content-h3{
+  padding:5px 10px 5px 0px;
+ }
 
-
-
-
-@media all and (min-width: 600px){
-
-  .footerContainer{
-    height: 100px;
-  }
+ .footer-content-facebook-img{
+  padding: 18px 10px 10px 16px;
+ }
 
 }

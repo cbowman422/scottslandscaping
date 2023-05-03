@@ -1,0 +1,90 @@
+.careers-section{
+  /* border: solid red; */
+  width: 300px;
+  margin: 0 auto;
+}
+
+.careers-section h3{
+  color: var(--black);
+  text-align: center;
+  font-size: 24px; 
+  font-family: 'Lato', sans-serif;
+}
+
+.careers-section input{
+  width: 85%;
+  padding: 18px 20px;
+  font-size: 18px;
+  margin: 10px auto;
+}
+
+.careers-title{
+  color: var(--black);
+  text-align: center;
+  font-size: 24px; 
+  font-family: 'Lato', sans-serif;
+}
+
+.careers-p{
+  color: var(--black);
+  text-align: center;
+  font-size: 18px; 
+  margin: 0 10px 40px 10px;
+}
+
+.careers-section-btn{
+  margin: 10px auto 50px auto;
+  color: var(--white);
+  font-size: 18px;
+  background-image: linear-gradient(90deg,var(--blue), var(--blue-highlight));
+  background-size: 300% auto;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 0px var(--black); 
+  transition: var(--transition);
+  text-decoration: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+
+.careers-section-btn:hover{
+  background-position: right center;
+  box-shadow: 1px 1px 6px var(--black);
+  cursor: pointer;
+  font-size: 18.5px;
+  color: white;
+}
+
+
+
+@media all and (min-width: 800px) and (max-width: 929px) {
+
+  .careers-section h3{
+    font-size: 30px;
+  }
+
+  .careers-title{
+    font-size: 30px; 
+  }
+
+}
+
+@media all and (min-width: 930px) {
+
+
+  .careers-section h3{
+    font-size: 36px;
+  }
+
+  .careers-title{
+    font-size: 36px; 
+  }
+
+  .careers-p{
+    width: 800px;
+    margin: 0 auto;
+  }
+
+}

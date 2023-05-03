@@ -46,6 +46,8 @@
   box-shadow: 1px 1px 4px var(--black);
   transition: var(--transition);
   text-decoration: none;
+  position: relative;
+  z-index: 1;
 
 }
 
@@ -63,12 +65,27 @@
   background-image: url('../images/PoolHighlights.png');
   background-size: cover;
   background-position: center;
-  width: 99.6%;
-  height: 100vh;
+  width: 100%;
+  height: 82vh;
+  padding: 70px 0;
   position: absolute;
-  top: -18px;
-  left: -2px;
+  top: 0px;
+  left: -7px;
+  animation: animate 2s linear infinite;
+}
 
+@keyframes animate{
+  0%{
+    
+    transform: translateX(-.2%);
+  }
+  50%{
+    transform: translateX(.2%);
+  }
+  100%{
+    transform: translateX(-.2%);
+    
+  }
 }
 
 /* ------------------------- WELCOME CSS -------------------------- */

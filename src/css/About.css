@@ -28,7 +28,7 @@
 .about-section-h3{
   border-bottom: 1px solid rgba(116, 76, 23, 0.9);
   width: 110px;
-  margin: 60px auto 10px auto;
+  margin: 50px auto 30px auto;
   font-size: 24px; 
   font-family: 'Lato', sans-serif;
 }
@@ -42,7 +42,7 @@
   color: var(--white);
   font-size: 18px;
   width: 210px;
-  margin: 10px auto;
+  margin: 30px auto 10px auto;
   background-image: linear-gradient(90deg,var(--blue), var(--blue-highlight));
   background-size: 300% auto;
   padding: 10px 20px;

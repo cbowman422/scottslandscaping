@@ -37,7 +37,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const newContact = await createContact(newForm);
+    await createContact(newForm);
     setNewForm({
       name: "",
       // email: "",
@@ -50,15 +50,15 @@ const Contact = () => {
   return (
     <div className="contact-container">
 
-      <h3 className="contact-h3">Contact Us</h3>
+      <h3 className="contact-h3">Contact</h3>
 
       <div className="contact-flex">
 
         <div className="map-container">
-            <h3> Scotts Landscaping, Inc.</h3>
-            <h3>P.O. Box 208 Hopkinton, MA 01748</h3>
-            <a href="tel:508-435-3911">508-435-3911</a>
-            <a href = "mailto: office@scottslandscaping.org">office@scottslandscaping.org</a>
+            <h3 className="map-container-title">Scotts Landscaping, Inc.</h3>
+            <h3 className="map-container-address">P.O. Box 208 Hopkinton, MA 01748</h3>
+            <a className="map-container-phone" href="tel:508-435-3911">508 435 3911</a>
+            <a className="map-container-email" href = "mailto: office@scottslandscaping.org">office@scottslandscaping.org</a>
         </div>
 
         <section className="contact-section">
@@ -78,35 +78,22 @@ const Contact = () => {
               placeholder="Phone # :"
               onChange={handleChange}
             />
-              {/* <input
-                type="text"
-                value={newForm.email}
-                name="email"
-                placeholder="Email :"
-                onChange={handleChange}
-              /> */}
-            {/* <input
-              type="text"
-              value={newForm.location}
-              name="location"
-              placeholder="Location for Estimate :"
-              onChange={handleChange}
-            /> */}
             <textarea 
               className="contact-message"
-              rows = "5" 
-              cols = "30"
+              rows = "7" 
+              cols = "22"
               type="text"
               value={newForm.message}
               name="message"
-              placeholder="Message Details : ( Please include a location for an estimate. )"
+              placeholder="Message Details :       ( Please include a location for an estimate. )"
               onChange={handleChange}
             />
-            <button type="submit">Contact Us</button>
+            <button type="submit"> Submit </button>
           </form>
         </section>
 
             <iframe 
+              title="mapFrame"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112334.23537620694!2d-71.60565905499556!3d42.2587478748035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e474f384ae20b1%3A0xf8e89a162281fd0c!2sHopkinton%2C%20MA!5e1!3m2!1sen!2sus!4v1682963786510!5m2!1sen!2sus"
               allowfullscreen="" 
               loading="lazy" 

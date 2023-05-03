@@ -262,7 +262,7 @@
   
   .about-testimonials-content-p-containers{
     max-width: 240px;
-    height: 510px;
+    height: 480px;
     overflow-y: scroll ;
     margin: 0 20px;
   }
@@ -332,7 +332,7 @@
   
   .about-testimonials-content-p-containers{
     max-width: 280px;
-    height: 510px;
+    height: 480px;
     overflow-y: scroll ;
     margin: 0 20px;
   }
@@ -404,7 +404,7 @@
     
     .about-testimonials-content-p-containers{
       max-width: 310px;
-      height: 510px;
+      height: 480px;
       overflow-y: scroll ;
       margin: 0 30px;
     }

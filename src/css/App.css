@@ -49,6 +49,7 @@
   --lightgreen-highlight: rgb(206, 228, 144); 
   --dark-brown: rgb(19, 18, 20);
   --transition: all 0.25s ease-in-out;
+  --transition-slider: all 1s;
 }
 
 .appContainer {

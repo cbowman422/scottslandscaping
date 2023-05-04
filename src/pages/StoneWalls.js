@@ -20,6 +20,7 @@ import stoneImage12 from '../images/StoneWalls12.jpeg';
 
 const StoneWalls = () => {
 
+  
   const stoneImages = [
     stoneImage1,
     stoneImage2,
@@ -35,6 +36,14 @@ const StoneWalls = () => {
     stoneImage12
   ]
 
+  const [stoneSliderState, setStoneSliderState]=useState(null)
+  
+  const handleClick = (index) => {
+    console.log(index);
+    const stoneSlider=stoneImages[index];
+    setStoneSliderState(stoneSlider);
+  }
+
 
   return ( 
     <div className="stone-gallery-container">
@@ -42,12 +51,17 @@ const StoneWalls = () => {
       <a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
 
       <h3> Stone Work </h3>
-      <div className="stone-gallery-item-container" >
+
+      <div className={stoneSliderState ? 'stone-slider-container activeStoneSlider' : 'stone-slider-container'}>
+        <img src={stoneSliderState} className="stone-slider-img" width="500" />
+      </div>
+
+      <div className="stone-gallery-item-container">
       {stoneImages.map((imagesMap,stoneMapId) => 
           {
             return ( 
               <div className="stone-gallery-item" key={stoneMapId}>
-                <img className="stone-gallery-img" src={imagesMap} alt={imagesMap} />
+                <img className="stone-gallery-img" src={imagesMap} alt={imagesMap} onClick={()=>handleClick(stoneMapId)}/>
               </div>
                   )
           }       )

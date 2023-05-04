@@ -35,6 +35,27 @@
   min-height: 100%;
 }
 
+.stone-slider-img{
+  position: fixed;
+}
+
+.stone-slider-container{
+ border: solid red;
+ opacity: 0.2;
+ width: 100vw;
+ height: 100vh;
+ position: fixed;
+ background-color: red;
+ z-index: -1;
+ transition: var(--transition-slider);
+}
+
+.stone-slider-container.activeStoneSlider{
+  border: solid blue;
+  opacity: 1;
+  z-index: 1;
+}
+
 
 @media all and (min-width: 600px) and (max-width: 699px) {
   

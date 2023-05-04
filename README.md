@@ -21,8 +21,6 @@ https://github.com/cbowman422/scottslandscaping_server
 $ npm install
 ```
 
-
-
 ## Screenshots Home
 
 ![home](https://imgur.com/cQhqxKz.jpg)
@@ -37,10 +35,6 @@ $ npm install
 
 ![home](https://imgur.com/LCnR3ma.jpg)
 
-## Screenshots About Us
-
-
-## Screenshots Services
 
 ## Screenshots Mobile 
 

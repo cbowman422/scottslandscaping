@@ -121,6 +121,7 @@
     width: 300px;
     height: 200px;
     margin: 10px auto;
+    cursor: pointer;
   }
 
   .walks-gallery-item-container{
@@ -150,6 +151,7 @@
     width: 300px;
     height: 200px;
     margin: 10px auto;
+    cursor: pointer;
   }
 
   .walks-gallery-item-container{
@@ -181,6 +183,7 @@
     width: 300px;
     height: 200px;
     margin: 10px 20px;
+    cursor: pointer;
   }
   
   .walks-gallery-item-container{

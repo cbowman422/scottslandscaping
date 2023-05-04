@@ -1,57 +1,102 @@
-import React from 'react';
+import {React, useState} from 'react';
 import '../css/Pools.css';
 
-import poolImage1 from '../images/Pools1.jpeg';
-import poolImage2 from '../images/Pools2.jpeg';
-import poolImage3 from '../images/Pools3.jpeg';
-import poolImage4 from '../images/Pools4.jpeg';
-import poolImage5 from '../images/Pools5.jpeg';
-import poolImage6 from '../images/Pools6.jpeg';
-import poolImage7 from '../images/Pools7.jpeg';
-import poolImage8 from '../images/Pools8.jpeg';
-import poolImage9 from '../images/Pools9.jpeg';
-import poolImage10 from '../images/Pools10.jpeg';
-import poolImage11 from '../images/Pools11.jpeg';
-import poolImage12 from '../images/Pools12.jpeg';
+import poolsImage1 from '../images/Pools1.jpeg';
+import poolsImage2 from '../images/Pools2.jpeg';
+import poolsImage3 from '../images/Pools3.jpeg';
+import poolsImage4 from '../images/Pools4.jpeg';
+import poolsImage5 from '../images/Pools5.jpeg';
+import poolsImage6 from '../images/Pools6.jpeg';
+import poolsImage7 from '../images/Pools7.jpeg';
+import poolsImage8 from '../images/Pools8.jpeg';
+import poolsImage9 from '../images/Pools9.jpeg';
+import poolsImage10 from '../images/Pools10.jpeg';
+import poolsImage11 from '../images/Pools11.jpeg';
+import poolsImage12 from '../images/Pools12.jpeg';
+
+import leftArrow from '../images/left-arrow.png';
+import rightArrow from '../images/right-arrow.png';
+import cross from '../images/cross.png';
 
 
 const Pools = () => {
 
 
-  const poolImages = [
-    poolImage1,
-    poolImage2,
-    poolImage3,
-    poolImage4,
-    poolImage5,
-    poolImage6,
-    poolImage7,
-    poolImage8,
-    poolImage9,
-    poolImage10,
-    poolImage11,
-    poolImage12
+  const poolsImages = [
+    poolsImage1,
+    poolsImage2,
+    poolsImage3,
+    poolsImage4,
+    poolsImage5,
+    poolsImage6,
+    poolsImage7,
+    poolsImage8,
+    poolsImage9,
+    poolsImage10,
+    poolsImage11,
+    poolsImage12
   ]
 
-  return (
+  const [poolsSliderState, setPoolsSliderState]=useState(null)
+  
+  const handleClick = (index) => {
+    console.log(index);
+    const poolsSlider=poolsImages[index];
+    setPoolsSliderState(poolsSlider);
+  }
+
+  const sliderLeft = () => {
+    const currentIndex = poolsImages.indexOf(poolsSliderState);
+    if (currentIndex === 0) {
+      setPoolsSliderState(poolsImages[poolsImages.length - 1]);
+    } else {
+      setPoolsSliderState(poolsImages[currentIndex - 1]);
+    }
+  };
+
+  const sliderRight = () => {
+    const currentIndex = poolsImages.indexOf(poolsSliderState);
+    if (currentIndex === poolsImages.length - 1) {
+      setPoolsSliderState(poolsImages[0]);
+    } else {
+      setPoolsSliderState(poolsImages[currentIndex + 1]);
+    }
+  }
+
+  const closeSlider = () => {
+    setPoolsSliderState(null);
+  }
+
+  return ( 
     <div className="pools-gallery-container">
 
-    <a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
-    
-          <h3> Pool Landscapes </h3>
-          <div className="pools-gallery-item-container" >
-          {poolImages.map((imagesMap,poolMapId) => 
+      <a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
+
+      <h3 className="pools-gallery-container-h3" > pools Work </h3>
+
+      <div className={poolsSliderState ? 'pools-slider-container activePoolsSlider' : 'pools-slider-container'}>
+        <img src={poolsSliderState} className="pools-slider-img" />
+        <div className="pools-slider-change" >
+          <div className="pools-slider-X-div" onClick={()=>closeSlider()} > <img src={cross} alt="Cross Btn" /> </div>
+          <div className="pools-slider-left" onClick={()=>sliderLeft()} > <img src={leftArrow} alt="Left Arrow" /> </div>
+          <div className="pools-slider-right" onClick={()=>sliderRight()} > <img src={rightArrow} alt="Right Arrow" /> </div>
+        </div>
+      </div>
+
+      <div className="pools-gallery-item-container">
+      {poolsImages.map((imagesMap,poolsMapId) => 
           {
             return ( 
-              <div className="pools-gallery-item" key={poolMapId}>
-                <img className="pools-gallery-img" src={imagesMap} alt={imagesMap} />
+              <div className="pools-gallery-item" key={poolsMapId}>
+                <img className="pools-gallery-img" src={imagesMap} alt={imagesMap} onClick={()=>handleClick(poolsMapId)}/>
               </div>
                   )
           }       )
         }
-          </div>
-        </div>
+      </div>
+
+    </div>
   )
-}
+  }
 
 export default Pools;

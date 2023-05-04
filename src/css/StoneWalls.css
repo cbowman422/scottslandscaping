@@ -39,7 +39,7 @@
 /* ------- SLIDER 0 - 700 --------- */
 .stone-slider-img{
   position: absolute;
-  top: 200px;
+  top: 140px;
   left: 50%;
   transform: translate(-50%, -0);
   width: 600px;
@@ -65,43 +65,40 @@
 
  .stone-slider-X-div{
   position: relative;
-  left: 142%;
+  left: 147%;
   transform: translate(-50%, -0);
-  top: 115px;
+  top: 140px;
   cursor: pointer;
  }
 
- .stone-slider-X-div h3{
-  color: var(--white);
-  font-size: 35px;
+ .stone-slider-X-div img{
+  width: 30px;
  }
 
  .stone-slider-left{
   position: relative;
-  top: 268px;
-  left: 6.5%;
+  top: 328px;
+  left: 6.1%;
   transform: translate(-50%, -0);
   width: 100px;
   cursor: pointer;
  }
 
- .stone-slider-left h3{
-  color: var(--white);
-  font-size: 50px;
+ .stone-slider-left img{
+  width: 40px;
  }
 
  .stone-slider-right{
   position: relative;
-  top: 150px;
-  left: 105%;
+  top: 283px;
+  left: 103%;
   transform: translate(-50%, -0);
   width: 100px;
   cursor: pointer;
  }
 
- .stone-slider-right h3{
-  color: var(--white);
-  font-size: 50px;
+ .stone-slider-right img{
+  width: 40px;
  }
 
  .stone-slider-change{

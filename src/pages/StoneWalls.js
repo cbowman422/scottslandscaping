@@ -15,6 +15,12 @@ import stoneImage10 from '../images/StoneWalls10.jpeg';
 import stoneImage11 from '../images/StoneWalls11.jpeg';
 import stoneImage12 from '../images/StoneWalls12.jpeg';
 
+import leftArrow from '../images/left-arrow.png';
+import rightArrow from '../images/right-arrow.png';
+import cross from '../images/cross.png';
+
+
+
 
 
 
@@ -78,9 +84,9 @@ const StoneWalls = () => {
       <div className={stoneSliderState ? 'stone-slider-container activeStoneSlider' : 'stone-slider-container'}>
         <img src={stoneSliderState} className="stone-slider-img" />
         <div className="stone-slider-change" >
-        <div className="stone-slider-X-div" onClick={()=>closeSlider()} ><h3>X</h3></div>
-          <div className="stone-slider-left" onClick={()=>sliderLeft()} > <h3> &#60; </h3> </div>
-          <div className="stone-slider-right" onClick={()=>sliderRight()} > <h3> &#62; </h3> </div>
+        <div className="stone-slider-X-div" onClick={()=>closeSlider()} > <img src={cross} alt="Cross Btn" /></div>
+          <div className="stone-slider-left" onClick={()=>sliderLeft()} > <img src={leftArrow} alt="Left Arrow" /> </div>
+          <div className="stone-slider-right" onClick={()=>sliderRight()} > <img src={rightArrow} alt="Right Arrow" /> </div>
         </div>
       </div>
 

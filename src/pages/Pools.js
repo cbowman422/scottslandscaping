@@ -72,7 +72,7 @@ const Pools = () => {
 
       <a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
 
-      <h3 className="pools-gallery-container-h3" > pools Work </h3>
+      <h3 className="pools-gallery-container-h3" > Pool Landscapes </h3>
 
       <div className={poolsSliderState ? 'pools-slider-container activePoolsSlider' : 'pools-slider-container'}>
         <img src={poolsSliderState} className="pools-slider-img" />

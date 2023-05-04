@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, useState} from 'react';
 import '../css/BackyardElements.css';
 
 import backyardImage1 from '../images/Backyard1.jpeg';
@@ -13,6 +13,10 @@ import backyardImage9 from '../images/Backyard9.jpeg';
 import backyardImage10 from '../images/Backyard10.jpeg';
 import backyardImage11 from '../images/Backyard11.jpeg';
 import backyardImage12 from '../images/Backyard12.jpeg';
+
+import leftArrow from '../images/left-arrow.png';
+import rightArrow from '../images/right-arrow.png';
+import cross from '../images/cross.png';
 
 
 
@@ -33,26 +37,66 @@ const BackyardElements = () => {
     backyardImage12
   ]
 
+  const [backyardSliderState, setBackyardSliderState]=useState(null)
+  
+  const handleClick = (index) => {
+    console.log(index);
+    const backyardSlider=backyardImages[index];
+    setBackyardSliderState(backyardSlider);
+  }
 
-  return (
+  const sliderLeft = () => {
+    const currentIndex = backyardImages.indexOf(backyardSliderState);
+    if (currentIndex === 0) {
+      setBackyardSliderState(backyardImages[backyardImages.length - 1]);
+    } else {
+      setBackyardSliderState(backyardImages[currentIndex - 1]);
+    }
+  };
+
+  const sliderRight = () => {
+    const currentIndex = backyardImages.indexOf(backyardSliderState);
+    if (currentIndex === backyardImages.length - 1) {
+      setBackyardSliderState(backyardImages[0]);
+    } else {
+      setBackyardSliderState(backyardImages[currentIndex + 1]);
+    }
+  }
+
+  const closeSlider = () => {
+    setBackyardSliderState(null);
+  }
+
+  return ( 
     <div className="backyard-gallery-container">
 
-    <a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
-    
-          <h3> Backyard Elements </h3>
-          <div className="backyard-gallery-item-container" >
-          {backyardImages.map((imagesMap,backyardMapId) => 
+      <a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
+
+      <h3 className="backyard-gallery-container-h3" > Backyard Elements </h3>
+
+      <div className={backyardSliderState ? 'backyard-slider-container activeBackyardSlider' : 'backyard-slider-container'}>
+        <img src={backyardSliderState} className="backyard-slider-img" />
+        <div className="backyard-slider-change" >
+          <div className="backyard-slider-X-div" onClick={()=>closeSlider()} > <img src={cross} alt="Cross Btn" /> </div>
+          <div className="backyard-slider-left" onClick={()=>sliderLeft()} > <img src={leftArrow} alt="Left Arrow" /> </div>
+          <div className="backyard-slider-right" onClick={()=>sliderRight()} > <img src={rightArrow} alt="Right Arrow" /> </div>
+        </div>
+      </div>
+
+      <div className="backyard-gallery-item-container">
+      {backyardImages.map((imagesMap,backyardMapId) => 
           {
             return ( 
               <div className="backyard-gallery-item" key={backyardMapId}>
-                <img className="backyard-gallery-img" src={imagesMap} alt={imagesMap} />
+                <img className="backyard-gallery-img" src={imagesMap} alt={imagesMap} onClick={()=>handleClick(backyardMapId)}/>
               </div>
                   )
           }       )
         }
-          </div>
-        </div>
+      </div>
+
+    </div>
   )
-}
+  }
 
 export default BackyardElements;

@@ -69,10 +69,19 @@
   width: 90vw;
   height: 30vh;
   margin: 20px auto;
-  background-size: cover;
-  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   box-shadow: 1px 1px 4px var(--black);
 }
+
+.pools-gallery-img{
+  flex-shrink: 1;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 
 
 @media all and (min-width: 600px) and (max-width: 699px) {

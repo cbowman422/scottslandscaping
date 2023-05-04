@@ -2,37 +2,37 @@
 import { React, useState } from 'react';
 import '../css/StoneWalls.css';
 
-import image1 from '../images/StoneWalls1.jpeg';
-import image2 from '../images/StoneWalls2.jpeg';
-import image3 from '../images/StoneWalls3.jpeg';
-import image4 from '../images/StoneWalls4.jpeg';
-import image5 from '../images/StoneWalls5.jpeg';
-import image6 from '../images/StoneWalls6.jpeg';
-import image7 from '../images/StoneWalls7.jpeg';
-import image8 from '../images/StoneWalls8.jpeg';
-import image9 from '../images/StoneWalls9.jpeg';
-import image10 from '../images/StoneWalls10.jpeg';
-import image11 from '../images/StoneWalls11.jpeg';
-import image12 from '../images/StoneWalls12.jpeg';
+import stoneImage1 from '../images/StoneWalls1.jpeg';
+import stoneImage2 from '../images/StoneWalls2.jpeg';
+import stoneImage3 from '../images/StoneWalls3.jpeg';
+import stoneImage4 from '../images/StoneWalls4.jpeg';
+import stoneImage5 from '../images/StoneWalls5.jpeg';
+import stoneImage6 from '../images/StoneWalls6.jpeg';
+import stoneImage7 from '../images/StoneWalls7.jpeg';
+import stoneImage8 from '../images/StoneWalls8.jpeg';
+import stoneImage9 from '../images/StoneWalls9.jpeg';
+import stoneImage10 from '../images/StoneWalls10.jpeg';
+import stoneImage11 from '../images/StoneWalls11.jpeg';
+import stoneImage12 from '../images/StoneWalls12.jpeg';
 
 
 
 
 const StoneWalls = () => {
 
-  const images = [
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-    image6,
-    image7,
-    image8,
-    image9,
-    image10,
-    image11,
-    image12
+  const stoneImages = [
+    stoneImage1,
+    stoneImage2,
+    stoneImage3,
+    stoneImage4,
+    stoneImage5,
+    stoneImage6,
+    stoneImage7,
+    stoneImage8,
+    stoneImage9,
+    stoneImage10,
+    stoneImage11,
+    stoneImage12
   ]
 
 
@@ -43,7 +43,7 @@ const StoneWalls = () => {
 
       <h3> Stone Work </h3>
       <div className="stone-gallery-item-container" >
-      {images.map((imagesMap,serviceMapId) => 
+      {stoneImages.map((imagesMap,serviceMapId) => 
           {
             return ( 
               <div className="stone-gallery-item" key={serviceMapId}>

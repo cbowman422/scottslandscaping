@@ -1,7 +1,38 @@
 import React from 'react';
 import '../css/Pools.css';
 
+import poolImage1 from '../images/Pools1.jpeg';
+import poolImage2 from '../images/Pools2.jpeg';
+import poolImage3 from '../images/Pools3.jpeg';
+import poolImage4 from '../images/Pools4.jpeg';
+import poolImage5 from '../images/Pools5.jpeg';
+import poolImage6 from '../images/Pools6.jpeg';
+import poolImage7 from '../images/Pools7.jpeg';
+import poolImage8 from '../images/Pools8.jpeg';
+import poolImage9 from '../images/Pools9.jpeg';
+import poolImage10 from '../images/Pools10.jpeg';
+import poolImage11 from '../images/Pools11.jpeg';
+import poolImage12 from '../images/Pools12.jpeg';
+
+
 const Pools = () => {
+
+
+  const poolImages = [
+    poolImage1,
+    poolImage2,
+    poolImage3,
+    poolImage4,
+    poolImage5,
+    poolImage6,
+    poolImage7,
+    poolImage8,
+    poolImage9,
+    poolImage10,
+    poolImage11,
+    poolImage12
+  ]
+
   return (
     <div className="pools-gallery-container">
 
@@ -9,18 +40,15 @@ const Pools = () => {
     
           <h3> Pool Landscapes </h3>
           <div className="pools-gallery-item-container" >
-            <div className="pools-gallery-item" id="pools-gallery-item-1"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-2"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-3"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-4"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-5"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-6"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-7"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-8"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-9"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-10"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-11"></div>
-            <div className="pools-gallery-item" id="pools-gallery-item-12"></div>
+          {poolImages.map((imagesMap,serviceMapId) => 
+          {
+            return ( 
+              <div className="pools-gallery-item" key={serviceMapId}>
+                <img className="pools-gallery-img" src={imagesMap} alt={imagesMap} />
+              </div>
+                  )
+          }       )
+        }
           </div>
         </div>
   )

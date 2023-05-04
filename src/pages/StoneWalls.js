@@ -44,6 +44,10 @@ const StoneWalls = () => {
     setStoneSliderState(stoneSlider);
   }
 
+  const closeSlider = () => {
+    setStoneSliderState(null);
+  }
+
 
   return ( 
     <div className="stone-gallery-container">
@@ -53,7 +57,9 @@ const StoneWalls = () => {
       <h3> Stone Work </h3>
 
       <div className={stoneSliderState ? 'stone-slider-container activeStoneSlider' : 'stone-slider-container'}>
+        <div onClick={()=>closeSlider()} ><h3>X</h3></div>
         <img src={stoneSliderState} className="stone-slider-img" width="500" />
+        
       </div>
 
       <div className="stone-gallery-item-container">

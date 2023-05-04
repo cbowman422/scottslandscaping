@@ -1,4 +1,3 @@
-
 import { React, useState } from 'react';
 import '../css/StoneWalls.css';
 
@@ -19,13 +18,7 @@ import leftArrow from '../images/left-arrow.png';
 import rightArrow from '../images/right-arrow.png';
 import cross from '../images/cross.png';
 
-
-
-
-
-
 const StoneWalls = () => {
-
   
   const stoneImages = [
     stoneImage1,
@@ -68,11 +61,9 @@ const StoneWalls = () => {
     }
   }
 
-
   const closeSlider = () => {
     setStoneSliderState(null);
   }
-
 
   return ( 
     <div className="stone-gallery-container">
@@ -84,7 +75,7 @@ const StoneWalls = () => {
       <div className={stoneSliderState ? 'stone-slider-container activeStoneSlider' : 'stone-slider-container'}>
         <img src={stoneSliderState} className="stone-slider-img" />
         <div className="stone-slider-change" >
-        <div className="stone-slider-X-div" onClick={()=>closeSlider()} > <img src={cross} alt="Cross Btn" /></div>
+          <div className="stone-slider-X-div" onClick={()=>closeSlider()} > <img src={cross} alt="Cross Btn" /> </div>
           <div className="stone-slider-left" onClick={()=>sliderLeft()} > <img src={leftArrow} alt="Left Arrow" /> </div>
           <div className="stone-slider-right" onClick={()=>sliderRight()} > <img src={rightArrow} alt="Right Arrow" /> </div>
         </div>
@@ -101,8 +92,6 @@ const StoneWalls = () => {
           }       )
         }
       </div>
-
-
 
     </div>
   )

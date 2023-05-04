@@ -1,53 +1,4 @@
 
-/* --------- Stone Gallery Image Imports ------------- */
-#stone-gallery-item-1{
-  background-image: url(../images/StoneWalls1.jpeg);
-}
-
-#stone-gallery-item-2{
-  background-image: url(../images/StoneWalls2.jpeg);
-}
-
-#stone-gallery-item-3{
-  background-image: url(../images/StoneWalls3.jpeg);
-}
-
-#stone-gallery-item-4{
-  background-image: url(../images/StoneWalls4.jpeg);
-}
-
-#stone-gallery-item-5{
-  background-image: url(../images/StoneWalls5.jpeg);
-}
-
-#stone-gallery-item-6{
-  background-image: url(../images/StoneWalls6.jpeg);
-}
-
-#stone-gallery-item-7{
-  background-image: url(../images/StoneWalls7.jpeg);
-}
-
-#stone-gallery-item-8{
-  background-image: url(../images/StoneWalls8.jpeg);
-}
-
-#stone-gallery-item-9{
-  background-image: url(../images/StoneWalls9.jpeg);
-}
-
-#stone-gallery-item-10{
-  background-image: url(../images/StoneWalls10.jpeg);
-}
-
-#stone-gallery-item-11{
-  background-image: url(../images/StoneWalls11.jpeg);
-}
-
-#stone-gallery-item-12{
-  background-image: url(../images/StoneWalls12.jpeg);
-}
-
 
 .stone-gallery-container{
   background-color: var(--white);
@@ -71,9 +22,17 @@
   width: 90vw;
   height: 30vh;
   margin: 20px auto;
-  background-size: cover;
-  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   box-shadow: 1px 1px 4px var(--black);
+}
+
+.stone-gallery-img{
+  flex-shrink: 1;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 

@@ -43,10 +43,10 @@ const StoneWalls = () => {
 
       <h3> Stone Work </h3>
       <div className="stone-gallery-item-container" >
-      {stoneImages.map((imagesMap,serviceMapId) => 
+      {stoneImages.map((imagesMap,stoneMapId) => 
           {
             return ( 
-              <div className="stone-gallery-item" key={serviceMapId}>
+              <div className="stone-gallery-item" key={stoneMapId}>
                 <img className="stone-gallery-img" src={imagesMap} alt={imagesMap} />
               </div>
                   )

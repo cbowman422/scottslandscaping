@@ -1,7 +1,39 @@
 import React from 'react';
 import '../css/WalkwaysDriveways.css';
 
+import walksImage1 from '../images/Walks1.jpeg';
+import walksImage2 from '../images/Walks2.jpeg';
+import walksImage3 from '../images/Walks3.jpeg';
+import walksImage4 from '../images/Walks4.jpeg';
+import walksImage5 from '../images/Walks5.jpeg';
+import walksImage6 from '../images/Walks6.jpeg';
+import walksImage7 from '../images/Walks7.jpeg';
+import walksImage8 from '../images/Walks8.jpeg';
+import walksImage9 from '../images/Walks9.jpeg';
+import walksImage10 from '../images/Walks10.jpeg';
+import walksImage11 from '../images/Walks11.jpeg';
+import walksImage12 from '../images/Walks12.jpeg';
+
+
+
 const WalkwaysDriveways = () => {
+
+  const walksImages = [
+    walksImage1,
+    walksImage2,
+    walksImage3,
+    walksImage4,
+    walksImage5,
+    walksImage6,
+    walksImage7,
+    walksImage8,
+    walksImage9,
+    walksImage10,
+    walksImage11,
+    walksImage12
+  ]
+
+
   return (
     <div className="walks-gallery-container">
 
@@ -9,18 +41,15 @@ const WalkwaysDriveways = () => {
     
           <h3> Walkways & Driveways </h3>
           <div className="walks-gallery-item-container" >
-            <div className="walks-gallery-item" id="walks-gallery-item-1"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-2"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-3"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-4"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-5"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-6"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-7"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-8"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-9"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-10"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-11"></div>
-            <div className="walks-gallery-item" id="walks-gallery-item-12"></div>
+          {walksImages.map((imagesMap,walksMapId) => 
+          {
+            return ( 
+              <div className="walks-gallery-item" key={walksMapId}>
+                <img className="walks-gallery-img" src={imagesMap} alt={imagesMap} />
+              </div>
+                  )
+          }       )
+        }
           </div>
         </div>
   )

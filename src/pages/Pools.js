@@ -40,10 +40,10 @@ const Pools = () => {
     
           <h3> Pool Landscapes </h3>
           <div className="pools-gallery-item-container" >
-          {poolImages.map((imagesMap,serviceMapId) => 
+          {poolImages.map((imagesMap,poolMapId) => 
           {
             return ( 
-              <div className="pools-gallery-item" key={serviceMapId}>
+              <div className="pools-gallery-item" key={poolMapId}>
                 <img className="pools-gallery-img" src={imagesMap} alt={imagesMap} />
               </div>
                   )

@@ -73,14 +73,14 @@ const StoneWalls = () => {
 
       <a className="return-before" href="/gallery" > &#60; Return to Gallery </a>
 
-      <h3> Stone Work </h3>
+      <h3 className="stone-gallery-container-h3" > Stone Work </h3>
 
       <div className={stoneSliderState ? 'stone-slider-container activeStoneSlider' : 'stone-slider-container'}>
-        <div className="stone-slider-X-div" onClick={()=>closeSlider()} ><h3>X</h3></div>
         <img src={stoneSliderState} className="stone-slider-img" />
         <div className="stone-slider-change" >
-          <h3 className="stone-slider-left" onClick={()=>sliderLeft()} > Left </h3>
-          <h3 className="stone-slider-right" onClick={()=>sliderRight()} > Right </h3>
+        <div className="stone-slider-X-div" onClick={()=>closeSlider()} ><h3>X</h3></div>
+          <div className="stone-slider-left" onClick={()=>sliderLeft()} > <h3> &#60; </h3> </div>
+          <div className="stone-slider-right" onClick={()=>sliderRight()} > <h3> &#62; </h3> </div>
         </div>
       </div>
 

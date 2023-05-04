@@ -4,7 +4,7 @@
   background-color: var(--white);
 }
 
-.stone-gallery-container h3{
+.stone-gallery-container-h3{
   text-align: center;
   margin: 0;
   padding: 20px 0 20px 0;
@@ -39,11 +39,9 @@
 /* ------- SLIDER 0 - 700 --------- */
 .stone-slider-img{
   position: absolute;
-  top: 50%;
+  top: 200px;
   left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  vertical-align: middle;
+  transform: translate(-50%, -0);
   width: 600px;
 }
 
@@ -60,32 +58,61 @@
  }
  
  .stone-slider-container.activeStoneSlider{
-   background-color: rgba(44, 33, 67, 0.6);
+   background-color: rgba(44, 33, 67, 0.7);
    opacity: 0;
    z-index: 1;
  }
 
  .stone-slider-X-div{
   position: relative;
-  left: 0;
-  top: 10vh;
+  left: 142%;
+  transform: translate(-50%, -0);
+  top: 115px;
+  cursor: pointer;
+ }
+
+ .stone-slider-X-div h3{
+  color: var(--white);
+  font-size: 35px;
  }
 
  .stone-slider-left{
   position: relative;
-  left: 0;
-  top: 65vh;
+  top: 268px;
+  left: 6.5%;
+  transform: translate(-50%, -0);
+  width: 100px;
+  cursor: pointer;
  }
+
+ .stone-slider-left h3{
+  color: var(--white);
+  font-size: 50px;
+ }
+
  .stone-slider-right{
   position: relative;
-  left: 100px;
-  top: 56vh;
+  top: 150px;
+  left: 105%;
+  transform: translate(-50%, -0);
+  width: 100px;
+  cursor: pointer;
+ }
+
+ .stone-slider-right h3{
+  color: var(--white);
+  font-size: 50px;
+ }
+
+ .stone-slider-change{
+  width: 650px;
+  margin: 0 auto;
  }
 
 
 @media all and (min-width: 600px) and (max-width: 699px) {
   
-  .stone-gallery-container h3{
+  .stone-gallery-container-h3{
     font-size: 30px; 
   }
   
@@ -108,7 +135,7 @@
 
   }
 
-  .stone-gallery-container h3{
+  .stone-gallery-container-h3{
     font-size: 30px; 
   }
 
@@ -137,20 +164,15 @@
 
   }
 
-  .stone-gallery-container h3{
+  .stone-gallery-container-h3{
     font-size: 30px; 
   }
 
-  .stone-gallery-container{
-    /* transform: translateY(-12px); */
-  }
 
   /* ------- SLIDER 930 - 1099 --------- */
   .stone-slider-container.activeStoneSlider{
   opacity: 1;
   }
-
-
 
 
 }
@@ -174,15 +196,10 @@
   
   }
   
-  .stone-gallery-container h3{
+  .stone-gallery-container-h3{
     font-size: 36px; 
     padding: 0 0 20px 0;
   }
-
-
-.stone-gallery-container{
-  /* transform: translateY(-5px);  */
-}
 
 /* ------- SLIDER 1100+ --------- */
 .stone-slider-container.activeStoneSlider{

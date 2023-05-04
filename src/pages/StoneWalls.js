@@ -44,6 +44,25 @@ const StoneWalls = () => {
     setStoneSliderState(stoneSlider);
   }
 
+  const sliderLeft = () => {
+    const currentIndex = stoneImages.indexOf(stoneSliderState);
+    if (currentIndex === 0) {
+      setStoneSliderState(stoneImages[stoneImages.length - 1]);
+    } else {
+      setStoneSliderState(stoneImages[currentIndex - 1]);
+    }
+  };
+
+  const sliderRight = () => {
+    const currentIndex = stoneImages.indexOf(stoneSliderState);
+    if (currentIndex === stoneImages.length - 1) {
+      setStoneSliderState(stoneImages[0]);
+    } else {
+      setStoneSliderState(stoneImages[currentIndex + 1]);
+    }
+  }
+
+
   const closeSlider = () => {
     setStoneSliderState(null);
   }
@@ -59,6 +78,10 @@ const StoneWalls = () => {
       <div className={stoneSliderState ? 'stone-slider-container activeStoneSlider' : 'stone-slider-container'}>
         <div className="stone-slider-X-div" onClick={()=>closeSlider()} ><h3>X</h3></div>
         <img src={stoneSliderState} className="stone-slider-img" />
+        <div className="stone-slider-change" >
+          <h3 className="stone-slider-left" onClick={()=>sliderLeft()} > Left </h3>
+          <h3 className="stone-slider-right" onClick={()=>sliderRight()} > Right </h3>
+        </div>
       </div>
 
       <div className="stone-gallery-item-container">

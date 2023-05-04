@@ -71,6 +71,17 @@
   top: 10vh;
  }
 
+ .stone-slider-left{
+  position: relative;
+  left: 0;
+  top: 65vh;
+ }
+ .stone-slider-right{
+  position: relative;
+  left: 100px;
+  top: 56vh;
+ }
+
 
 @media all and (min-width: 600px) and (max-width: 699px) {
   

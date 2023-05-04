@@ -73,7 +73,7 @@ const StoneWalls = () => {
       <h3 className="stone-gallery-container-h3" > Stone Work </h3>
 
       <div className={stoneSliderState ? 'stone-slider-container activeStoneSlider' : 'stone-slider-container'}>
-        <img src={stoneSliderState} className="stone-slider-img" />
+        <img src={stoneSliderState} className="stone-slider-img" alt="carousel" />
         <div className="stone-slider-change" >
           <div className="stone-slider-X-div" onClick={()=>closeSlider()} > <img src={cross} alt="Cross Btn" /> </div>
           <div className="stone-slider-left" onClick={()=>sliderLeft()} > <img src={leftArrow} alt="Left Arrow" /> </div>

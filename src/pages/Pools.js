@@ -75,7 +75,7 @@ const Pools = () => {
       <h3 className="pools-gallery-container-h3" > Pool Landscapes </h3>
 
       <div className={poolsSliderState ? 'pools-slider-container activePoolsSlider' : 'pools-slider-container'}>
-        <img src={poolsSliderState} className="pools-slider-img" />
+        <img src={poolsSliderState} className="pools-slider-img" alt="carousel" />
         <div className="pools-slider-change" >
           <div className="pools-slider-X-div" onClick={()=>closeSlider()} > <img src={cross} alt="Cross Btn" /> </div>
           <div className="pools-slider-left" onClick={()=>sliderLeft()} > <img src={leftArrow} alt="Left Arrow" /> </div>

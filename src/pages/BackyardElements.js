@@ -75,7 +75,7 @@ const BackyardElements = () => {
       <h3 className="backyard-gallery-container-h3" > Backyard Elements </h3>
 
       <div className={backyardSliderState ? 'backyard-slider-container activeBackyardSlider' : 'backyard-slider-container'}>
-        <img src={backyardSliderState} className="backyard-slider-img" />
+        <img src={backyardSliderState} className="backyard-slider-img" alt="carousel" />
         <div className="backyard-slider-change" >
           <div className="backyard-slider-X-div" onClick={()=>closeSlider()} > <img src={cross} alt="Cross Btn" /> </div>
           <div className="backyard-slider-left" onClick={()=>sliderLeft()} > <img src={leftArrow} alt="Left Arrow" /> </div>

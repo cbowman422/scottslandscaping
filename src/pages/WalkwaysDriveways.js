@@ -74,7 +74,7 @@ const WalkwaysDriveways = () => {
       <h3 className="walks-gallery-container-h3" > Walkways & Driveways </h3>
 
       <div className={walksSliderState ? 'walks-slider-container activeWalksSlider' : 'walks-slider-container'}>
-        <img src={walksSliderState} className="walks-slider-img" />
+        <img src={walksSliderState} className="walks-slider-img" alt="carousel"/>
         <div className="walks-slider-change" >
           <div className="walks-slider-X-div" onClick={()=>closeSlider()} > <img src={cross} alt="Cross Btn" /> </div>
           <div className="walks-slider-left" onClick={()=>sliderLeft()} > <img src={leftArrow} alt="Left Arrow" /> </div>

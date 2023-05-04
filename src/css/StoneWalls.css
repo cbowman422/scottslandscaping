@@ -27,7 +27,6 @@
   align-items: center;
   overflow: hidden;
   box-shadow: 1px 1px 4px var(--black);
-  cursor: pointer;
 }
 
 .stone-gallery-img{
@@ -122,6 +121,7 @@
     width: 300px;
     height: 200px;
     margin: 10px auto;
+    cursor: pointer;
   }
 
   .stone-gallery-item-container{

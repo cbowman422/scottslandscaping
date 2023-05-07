@@ -80,7 +80,8 @@
 
   .beforeAfter-container-flex{
     flex-direction: row; 
-    margin: 10px 40px 60px 40px;
+    margin: 10px auto 60px auto;
+    width: 950px;
   }
 
 
@@ -104,7 +105,8 @@
 
   .beforeAfter-container-flex{
     flex-direction: row; 
-    margin: 10px 140px 60px 140px;
+    margin: 10px auto 60px auto;
+    width: 1050px;
   }
 
 

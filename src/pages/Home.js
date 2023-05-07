@@ -23,7 +23,7 @@ const Home = () => {
             <h3> Experts in Landscape Architecture </h3>
 
             <p className="home-bio">
-              At Scott's Landscaping, Incorporated we offer service in New England to residential customers, contractors, commercial and industrial facilities. 
+              At Scott's Landscaping we offer service in New England to residential customers, contractors, commercial and industrial facilities. 
               Scott's team of experienced professionals is well-versed in landscape design, landscape architecture, custom stone work, stone walls, architectural pool landscapes, walkways, driveways, backyard elements, and garden design.
               </p>
               <p className="home-bio">
@@ -46,7 +46,7 @@ const Home = () => {
                   </div>
                     <div className="home-welcome-details-div-p-expertise">
                       <p className="home-welcome-details-p">
-                        With over 35 years of experience Scott's can transform any outdoor area into a stunning oasis. From custom stonework to landscape design and maintenance we have the skills and knowledge to make your landscaping dreams a reality.
+                        With over 35 years of experience Scott's Landscaping can transform any outdoor area into a stunning oasis. From custom stonework to landscape design and maintenance we have the skills and knowledge to make your landscaping dreams a reality.
                       </p>
                     </div>
             </div>
@@ -61,7 +61,7 @@ const Home = () => {
                   </div>
                     <div className="home-welcome-details-div-p-flexibility">
                       <p className="home-welcome-details-p">
-                        At Scott's we understand that each client and property is unique, and take pride in our ability to adapt and customize our services to fit each individual project. 
+                        At Scott's Landscaping we understand that each client and property is unique, and take pride in our ability to adapt and customize our services to fit each individual project. 
                       </p>
                     </div>
             </div>

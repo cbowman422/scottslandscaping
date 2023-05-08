@@ -38,7 +38,6 @@ const StoneWalls = () => {
   const [stoneSliderState, setStoneSliderState]=useState(null)
   
   const handleClick = (index) => {
-    console.log(index);
     const stoneSlider=stoneImages[index];
     setStoneSliderState(stoneSlider);
   }

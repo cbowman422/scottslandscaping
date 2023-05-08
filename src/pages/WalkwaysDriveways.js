@@ -39,7 +39,6 @@ const WalkwaysDriveways = () => {
   const [walksSliderState, setWalksSliderState]=useState(null)
   
   const handleClick = (index) => {
-    console.log(index);
     const walksSlider=walksImages[index];
     setWalksSliderState(walksSlider);
   }

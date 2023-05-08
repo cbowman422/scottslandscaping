@@ -40,7 +40,6 @@ const BackyardElements = () => {
   const [backyardSliderState, setBackyardSliderState]=useState(null)
   
   const handleClick = (index) => {
-    console.log(index);
     const backyardSlider=backyardImages[index];
     setBackyardSliderState(backyardSlider);
   }

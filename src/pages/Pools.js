@@ -40,7 +40,6 @@ const Pools = () => {
   const [poolsSliderState, setPoolsSliderState]=useState(null)
   
   const handleClick = (index) => {
-    console.log(index);
     const poolsSlider=poolsImages[index];
     setPoolsSliderState(poolsSlider);
   }

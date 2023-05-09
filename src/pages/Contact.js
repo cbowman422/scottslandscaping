@@ -8,7 +8,7 @@ const Contact = () => {
     name: "",
     // email: "",
     phone: "",
-    // location: "",
+    location: "",
     message: "",
   });
 
@@ -42,7 +42,7 @@ const Contact = () => {
       name: "",
       // email: "",
       phone: "",
-      // location: "",
+      location: "",
       message: "",
     });
   };
@@ -80,6 +80,13 @@ const Contact = () => {
                     placeholder="Phone # :"
                     onChange={handleChange}
                   />
+                    <input
+                    type="text"
+                    value={newForm.location}
+                    name="location"
+                    placeholder="Address :"
+                    onChange={handleChange}
+                  />
                   <textarea 
                     className="contact-message"
                     rows = "7" 
@@ -87,7 +94,7 @@ const Contact = () => {
                     type="text"
                     value={newForm.message}
                     name="message"
-                    placeholder="Message Details :       ( Please include a location for an estimate. )"
+                    placeholder="Message Details :"
                     onChange={handleChange}
                   />
                   <button className="contact-section-btn" type="submit" > Submit </button>

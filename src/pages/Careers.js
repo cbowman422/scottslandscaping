@@ -53,7 +53,7 @@ const Careers = () => {
     <div className="careers-container">
         <h3 className="careers-title"> Join Scott's Landscaping, Inc. </h3>
 
-        <p className="careers-p"> Scott's Landscaping, Inc. is one of the leading landscape design, build and maintenance companies in Hopkinton and surrounding towns. We are looking for full time, motivated individuals to fill openings in all departments installing high end residential landscapes. Apply now! </p>
+        <p className="careers-p"> Scott's Landscaping, Inc. is one of the leading landscape design, build and maintenance companies in Hopkinton and surrounding towns. We are looking for full time, motivated individuals to fill openings in all departments installing high end residential landscapes. We offer highly competitive wages, great benefits and pension plan. Apply now! </p>
 
       <section className="careers-section">
 

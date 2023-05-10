@@ -11,6 +11,7 @@ import About from './About';
 import Services from './Services';
 import Contact from './Contact';
 import Careers from './Careers';
+import Design from './Design';
 
 
 const Main = () => {
@@ -28,6 +29,7 @@ const Main = () => {
         <Route path="/services" element={<Services/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/careers" element={<Careers/>}/>
+        <Route path="/design" element={<Design/>}/>
       </Routes>
     </div>
   )

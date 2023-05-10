@@ -67,7 +67,7 @@ const Design = () => {
   return ( 
     <div className="design-gallery-container">
 
-      <h3 className="design-gallery-container-h3" > Design Work </h3>
+      <h3 className="design-gallery-container-h3" > Landscape Design </h3>
 
       <div className={designSliderState ? 'design-slider-container activeDesignSlider' : 'design-slider-container'}>
         <img src={designSliderState} className="design-slider-img" alt="carousel" />

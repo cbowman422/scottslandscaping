@@ -204,5 +204,27 @@
 .design-slider-container.activeDesignSlider{
   opacity: 1;
   }
+
+  .design-slider-img{
+    width: 680px;
+  }
+
+  .design-slider-change{
+    width: 740px;
+    margin: 0 auto;
+   }
+
+   .design-slider-left{
+
+    top: 328px;
+    left: 5%;
+    transform: translate(-50%, -0);
+   }
+  
+   .design-slider-right{
+    top: 283px;
+    left: 102%;
+    transform: translate(-50%, -0);
+   }
   
 }

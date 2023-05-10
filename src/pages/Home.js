@@ -28,7 +28,9 @@ const Home = () => {
               </p>
               <p className="home-bio">
               Whether you're looking to enhance your home's curb appeal or create a peaceful sancutary in your backyard, Scott's will transform your outdoor space into a beautiful and inviting extension of your home.
-            </p>
+             </p>
+
+            <a href='./design'>Landscape Design Drawings</a>
 
           </div>
        </div>

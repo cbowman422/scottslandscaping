@@ -90,6 +90,29 @@
 
 /* ------------------------- WELCOME CSS -------------------------- */
 
+.home-welcome-statement-container a{
+  color: var(--white);
+  font-size: 18px;
+  background-image: linear-gradient(90deg,var(--blue), var(--blue-highlight));
+  background-size: 300% auto;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 4px var(--black);
+  transition: var(--transition);
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
+
+}
+
+.home-welcome-statement-container a:hover{
+  background-position: right center;
+  box-shadow: 1px 1px 6px var(--black);
+  cursor: pointer;
+  font-size: 18.5px;
+  padding: 10px 20px;
+  color: white;
+}
 
 .home-welcome-details-container{
   /* border: solid green;  */
@@ -259,6 +282,7 @@
   box-shadow: 1px 1px 4px var(--black);
   transition: var(--transition);
   text-decoration: none;
+  margin: 30px 0;
 } 
 
 
@@ -327,6 +351,14 @@
     font-size: 4.2vw;
   }
 
+  .home-welcome-statement-container a{
+    font-size: 4vw;
+  }
+
+  .home-welcome-statement-container a:hover{
+    font-size: 4.2vw;
+  }
+
   .home-welcome-details-container-bg{
     clip-path: polygon(5% 2%, 95% 2%, 95% 0, 100% 0, 100% 100%, 0 100%, 0 0, 5% 0);
     padding-top: 100px;
@@ -369,6 +401,14 @@
   }
 
   .hero-container a:hover{
+    font-size: 24.5px;
+  }
+
+  .home-welcome-statement-container a{
+    font-size: 24px;
+  }
+
+  .home-welcome-statement-container a:hover{
     font-size: 24.5px;
   }
 
@@ -463,6 +503,14 @@
     font-size: 24.5px;
   }
 
+  .home-welcome-statement-container a{
+    font-size: 24px;
+  }
+
+  .home-welcome-statement-container a:hover{
+    font-size: 24.5px;
+  }
+
   .home-welcome-details{
     display: flex;
     flex-direction: row;
@@ -551,6 +599,14 @@
   }
 
   .hero-container a:hover{
+    font-size: 24.5px;
+  }
+
+  .home-welcome-statement-container a{
+    font-size: 24px;
+  }
+
+  .home-welcome-statement-container a:hover{
     font-size: 24.5px;
   }
 
@@ -666,6 +722,14 @@
   }
 
   .hero-container a:hover{
+    font-size: 24.5px;
+  }
+
+  .home-welcome-statement-container a{
+    font-size: 24px;
+  }
+
+  .home-welcome-statement-container a:hover{
     font-size: 24.5px;
   }
 

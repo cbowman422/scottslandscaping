@@ -6,7 +6,6 @@ const Contact = () => {
 
   const [newForm, setNewForm] = useState({
     name: "",
-    // email: "",
     phone: "",
     location: "",
     message: "",
@@ -40,7 +39,6 @@ const Contact = () => {
     await createContact(newForm);
     setNewForm({
       name: "",
-      // email: "",
       phone: "",
       location: "",
       message: "",

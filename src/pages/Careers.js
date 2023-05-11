@@ -3,13 +3,11 @@ import '../css/Careers.css';
 
 const Careers = () => {
 
-  const URL = "http://localhost:4000/contact";
+  const URL = "http://localhost:4000/career";
 
   const [newForm, setNewForm] = useState({
     name: "",
-    // email: "",
     phone: "",
-    // location: "",
     message: "",
   });
 
@@ -41,9 +39,7 @@ const Careers = () => {
     await createContact(newForm);
     setNewForm({
       name: "",
-      // email: "",
       phone: "",
-      // location: "",
       message: "",
     });
   };

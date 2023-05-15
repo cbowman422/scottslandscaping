@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import '../css/BeforeAfterSlider.css';
-import myPhoto from '../images/13-142-151-pool.jpeg';
+
 
 const BeforeAfterSlider = ({before, after}) => {
 

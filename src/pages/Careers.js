@@ -3,7 +3,7 @@ import '../css/Careers.css';
 
 const Careers = () => {
 
-  const URL = "http://localhost:4000/career";
+  const URL = "https://scottsserver.herokuapp.com/career";
 
   const [newForm, setNewForm] = useState({
     name: "",

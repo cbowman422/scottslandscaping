@@ -4,7 +4,9 @@ import '../css/Contact.css'
 
 
 const Contact = () => {
-  const URL = "http://localhost:4000/contact";
+  const URL = "https://scottsserver.herokuapp.com/contact";
+
+  //http://localhost:4000/contact
 
   const [newForm, setNewForm] = useState({
     name: "",
@@ -23,6 +25,7 @@ const Contact = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          'Access-Control-Allow-Origin': '*',
         },
         body: JSON.stringify(contactData),
       });

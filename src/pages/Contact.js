@@ -25,7 +25,6 @@ const Contact = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          'Access-Control-Allow-Origin': '*',
         },
         body: JSON.stringify(contactData),
       });
@@ -60,7 +59,7 @@ const Contact = () => {
       <div className="contact-flex">
 
         <div className="map-container">
-            <h3 className="map-container-title">Scotts Landscaping, Inc.</h3>
+            <h3 className="map-container-title">Scott's Landscaping, Inc.</h3>
             <h3 className="map-container-address">P.O. Box 208 Hopkinton, MA 01748</h3>
             <a className="map-container-phone" href="tel:508-435-3911">508 435 3911</a>
             <a className="map-container-email" href = "mailto: office@scottslandscaping.org">office@scottslandscaping.org</a>

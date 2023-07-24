@@ -1,11 +1,13 @@
 # Scott's Landscaping
 
 ## Link to deployment
+https://scottslandscaping.org/
+
+## Link to stage site
 https://scottslandscaping.vercel.app/
 
 ## Link to old page
 http://scottslandscaping.org/index.html
-
 
 ## Link to server
 https://github.com/cbowman422/scottslandscaping_server

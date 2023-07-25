@@ -9,7 +9,6 @@ const Careers = () => {
     from_name: "",
     from_phone: "",
     from_email: "",
-    from_address: "",
     message: "",
   });
 
@@ -34,7 +33,6 @@ const Careers = () => {
             from_name: "",
             from_phone: "",
             from_email: "",
-            from_address: "",
             message: "",
           });
       
@@ -70,13 +68,6 @@ const Careers = () => {
                     value={newForm.from_email}
                     name="from_email"
                     placeholder="Email :"
-                    onChange={handleChange}
-                  />
-                    <input
-                    type="text"
-                    value={newForm.from_address}
-                    name="from_address"
-                    placeholder="Address :"
                     onChange={handleChange}
                   />
                   <textarea 

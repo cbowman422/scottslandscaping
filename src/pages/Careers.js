@@ -1,13 +1,15 @@
-import {React, useState} from 'react';
+import {React, useState, useRef} from 'react';
 import '../css/Careers.css';
+
+import emailjs from '@emailjs/browser';
 
 const Careers = () => {
 
-  const URL = "https://scottsserver.herokuapp.com/career";
-
   const [newForm, setNewForm] = useState({
-    name: "",
-    phone: "",
+    from_name: "",
+    from_phone: "",
+    from_email: "",
+    from_address: "",
     message: "",
   });
 
@@ -15,33 +17,27 @@ const Careers = () => {
     setNewForm({ ...newForm, [e.target.name]: e.target.value });
   };
 
-  const createContact = async (contactData) => {
-    try {
-      const newContact = await fetch(URL, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(contactData),
-      });
-      const response = await newContact.json();
-      // Once posted, the user will be notified 
-      alert("Thank you, your message has been sent to Scott's Landscaping, Inc.");
-      return response;
-      
-    } catch (err) {
-      console.log(err);
-    }
-  };
+  const form = useRef();
 
-  const handleSubmit = async (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    await createContact(newForm);
-    setNewForm({
-      name: "",
-      phone: "",
-      message: "",
-    });
+
+    emailjs.sendForm('service_bqh7se3', 'contact_form', form.current, '4mhxTKYYjguD_KwoO')
+      .then((result) => {
+        alert("Thank you, your message has been sent to Scott's Landscaping, Inc.");
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+  setNewForm({
+            from_name: "",
+            from_phone: "",
+            from_email: "",
+            from_address: "",
+            message: "",
+          });
+      
   };
 
 
@@ -54,19 +50,33 @@ const Careers = () => {
       <section className="careers-section">
 
                 <h3>Application Form</h3>
-                <form onSubmit={handleSubmit}>
+                <form ref={form} onSubmit={sendEmail}>
                   <input
                     type="text"
-                    value={newForm.name}
-                    name="name"
+                    value={newForm.from_name}
+                    name="from_name"
                     placeholder="Name :"
                     onChange={handleChange}
                   />
                   <input
                     type="text"
-                    value={newForm.phone}
-                    name="phone"
+                    value={newForm.from_phone}
+                    name="from_phone"
                     placeholder="Phone # :"
+                    onChange={handleChange}
+                  />
+                  <input
+                    type="text"
+                    value={newForm.from_email}
+                    name="from_email"
+                    placeholder="Email :"
+                    onChange={handleChange}
+                  />
+                    <input
+                    type="text"
+                    value={newForm.from_address}
+                    name="from_address"
+                    placeholder="Address :"
                     onChange={handleChange}
                   />
                   <textarea 

@@ -1,15 +1,15 @@
 import React, { useState, useRef } from 'react';
 import '../css/Contact.css'
 
-import emailjs from '@emailjs/browser';
-
 const Contact = () => {
+  const URL = "https://scottsserver.herokuapp.com/contact";
+
+  //http://localhost:4000/contact
 
   const [newForm, setNewForm] = useState({
-    from_name: "",
-    from_phone: "",
-    from_email: "",
-    from_address: "",
+    name: "",
+    phone: "",
+    location: "",
     message: "",
   });
 
@@ -17,28 +17,38 @@ const Contact = () => {
     setNewForm({ ...newForm, [e.target.name]: e.target.value });
   };
 
-  const form = useRef();
+  const createContact = async (contactData) => {
+    try {
+      const newContact = await fetch(URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(contactData),
+      });
+      const response = await newContact.json();
+      // Once posted, the user will be notified 
+      alert("Thank you, your message has been sent to Scott's Landscaping, Inc.");
+      return response;
+      
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
-  const sendEmail = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_bqh7se3', 'contact_form', form.current, '4mhxTKYYjguD_KwoO')
-      .then((result) => {
-        alert("Thank you, your message has been sent to Scott's Landscaping, Inc.");
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
 
-  setNewForm({
-            from_name: "",
-            from_phone: "",
-            from_email: "",
-            from_address: "",
-            message: "",
-          });
-      
+    await createContact(newForm);
+    setNewForm({
+      name: "",
+      phone: "",
+      location: "",
+      message: "",
+    });
   };
+
 
   return (
     <div className="contact-container">
@@ -58,32 +68,25 @@ const Contact = () => {
 
               <section className="contact-section">
                 <h3>Send a Message</h3>
-                <form ref={form} onSubmit={sendEmail}>
+                <form onSubmit={handleSubmit}>
                   <input
                     type="text"
-                    value={newForm.from_name}
-                    name="from_name"
+                    value={newForm.name}
+                    name="name"
                     placeholder="Name :"
                     onChange={handleChange}
                   />
                   <input
                     type="text"
-                    value={newForm.from_phone}
-                    name="from_phone"
+                    value={newForm.phone}
+                    name="phone"
                     placeholder="Phone # :"
-                    onChange={handleChange}
-                  />
-                  <input
-                    type="text"
-                    value={newForm.from_email}
-                    name="from_email"
-                    placeholder="Email :"
                     onChange={handleChange}
                   />
                     <input
                     type="text"
-                    value={newForm.from_address}
-                    name="from_address"
+                    value={newForm.location}
+                    name="location"
                     placeholder="Address :"
                     onChange={handleChange}
                   />

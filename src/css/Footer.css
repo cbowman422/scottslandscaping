@@ -2,6 +2,15 @@
 .footerContainer{
   background-color: var(--black);
   height: 100%;
+}
+
+.footerContainer-flex1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerContainer-flex2{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,6 +30,7 @@
   text-decoration: none;
   font-size: 18px;
   transition: var(--transition);
+  cursor: pointer;
  }
 
  .footer-content-phone:hover{
@@ -34,6 +44,7 @@
   text-decoration: none;
   font-size: 18px;
   transition: var(--transition);
+  cursor: pointer;
  }
 
  .footer-content-plant:hover{
@@ -47,6 +58,7 @@
   text-decoration: none;
   font-size: 18px;
   transition: var(--transition);
+  cursor: pointer;
  }
 
  .footer-content-careers:hover{
@@ -61,6 +73,20 @@
 
  .footer-content-facebook-a{
   text-decoration: none;
+  cursor: pointer;
+ }
+
+ .footer-portfolio{
+  font-size: 9.2px;
+  color:var(--gray-highlight);
+  margin-left: auto;
+  margin-right: 20px;
+ }
+
+ .footer-portfolio-link{
+  text-decoration: none;
+  color:var(--gray-highlight);
+  cursor: pointer;
  }
 
 
@@ -71,6 +97,16 @@
   flex-direction: row;
   justify-content: center;
   padding: 10px 0;
+}
+
+.footerContainer-flex1{
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerContainer-flex2{
+  flex-direction: row;
+  justify-content: center;
 }
 
 .footer-content-h3{

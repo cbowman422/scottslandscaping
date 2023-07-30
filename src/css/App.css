@@ -1,33 +1,10 @@
+/* import fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-/* 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-/* --black: #4d4d4d;
---white: #f2f2f2;
---gray: #b7c2b2;
---gray-highlight: #7d8e76;
---blue: rgba(25, 86, 133);
-        rgb(43, 94, 133);
---blue-highlight: rgb(17, 65, 101);
---green: rgb(148, 192, 148);
---yellow: rgba(253, 249, 228, 0.895);
---purple: rgb(77, 64, 113);
---brown: rgb(43, 37, 37);
---brown-highlight: rgb(39, 35, 34) ;
-  --brown-highlight: rgb(83, 66, 61) ;
---lightgreen: rgb(165, 197, 153);
---lightgreen-highlight: rgb(206, 228, 144); 
---transition: all 0.5s ease-in-out; */
+/* Root style guide for color palette and transitions */
 
 :root
 {

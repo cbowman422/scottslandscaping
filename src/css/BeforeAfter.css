@@ -1,4 +1,4 @@
-
+/* CSS set up for mobile first and Queries the larger screens */
 
 .beforeAfter-container{
    background-image: linear-gradient( var(--white),  var(--dark-white) ); 

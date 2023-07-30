@@ -4,8 +4,7 @@ import facebook from '../images/facebook.png'
 
 const Footer = () => {
 
-  
-
+  // footer JSX
   return (
     <div className="footerContainer">
       <div className="footerContainer-flex1">

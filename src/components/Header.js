@@ -4,8 +4,12 @@ import logo from '../images/TemporaryLogoTransparent.png';
 import { useState } from 'react';
 
 export const Header = () => {
+
+
+    // useState for hamburger menu being selected or unselected
     const [active, setActive] = useState(false);
 
+    // Header JSX containg hamburger menu and nav bar
     return (
         <div className="header-shadow">
             <div className="header">

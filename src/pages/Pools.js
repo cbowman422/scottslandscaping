@@ -1,7 +1,7 @@
 import {React, useState} from 'react';
 import '../css/Pools.css';
 
-//import images for pools 
+// import images for pools 
 import poolsImage1 from '../images/Pools1.jpeg';
 import poolsImage2 from '../images/Pools2.jpeg';
 import poolsImage3 from '../images/Pools3.jpeg';

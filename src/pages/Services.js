@@ -5,9 +5,10 @@ import '../css/Services.css';
 
 const Services = () => {
 
-
+   // Set state for services
    const [services, setServices] = useState(null);
  
+   // Async fetch method for JSON file and set it to state
    const getServicesData = async () => {
      
      const response = await fetch("./services.json");
@@ -16,11 +17,12 @@ const Services = () => {
  
    };
  
+   // pull JSON on initial page render
    useEffect(() => {
       getServicesData()
    },[]);
 
-
+  // JSX
   return ( services ?
     <div className="services-container" >
 

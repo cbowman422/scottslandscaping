@@ -13,7 +13,7 @@ import Contact from './Contact';
 import Careers from './Careers';
 import Design from './Design';
 
-
+// Routes for React app
 const Main = () => {
   return (
     <div>

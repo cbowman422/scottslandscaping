@@ -1,13 +1,15 @@
 import React from 'react';
 import '../css/About.css';
 
+
+// import about images
 import quotes from '../images/double-quotes.png'
 import scott from '../images/scott-250x180.jpeg';
 import charlene from '../images/Charlene_office_pic.jpeg';
 
 const About = () => {
 
-
+// JSX
   return (
     <div className="about-container" >
 

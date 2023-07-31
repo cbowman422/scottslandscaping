@@ -3,6 +3,8 @@ import '../css/Gallery.css';
 
 
 const Gallery = () => {
+
+  // JSX
   return (
     <div className= "gallery-container">
       

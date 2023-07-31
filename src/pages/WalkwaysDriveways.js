@@ -1,6 +1,7 @@
 import {React, useState} from 'react';
 import '../css/WalkwaysDriveways.css';
 
+// import images for walkways and driveways
 import walksImage1 from '../images/Walks1.jpeg';
 import walksImage2 from '../images/Walks2.jpeg';
 import walksImage3 from '../images/Walks3.jpeg';
@@ -21,6 +22,7 @@ import cross from '../images/cross.png';
 
 const WalkwaysDriveways = () => {
 
+  // Import walkway images for gallery
   const walksImages = [
     walksImage1,
     walksImage2,
@@ -36,13 +38,20 @@ const WalkwaysDriveways = () => {
     walksImage12
   ]
 
+  // Defining state for gallery modal window and slider 
   const [walksSliderState, setWalksSliderState]=useState(null)
   
+  //The handle click function takes an index parameter, which represents the index of the backyard images array. The index is passed from the Map ID of the selected value in the JSX mapping.
   const handleClick = (index) => {
+
+    // a variable is set for the correct selected mapped image from the array using the passed parameter.
     const walksSlider=walksImages[index];
+
+    // State is set to the selected image from the variable.
     setWalksSliderState(walksSlider);
   }
 
+  // a function that uses indexOf method to change state by -1 when selected. array.indexOf(The value to search for, Optional Where to start the search)
   const sliderLeft = () => {
     const currentIndex = walksImages.indexOf(walksSliderState);
     if (currentIndex === 0) {
@@ -52,6 +61,7 @@ const WalkwaysDriveways = () => {
     }
   };
 
+  // a function that uses indexOf method to change state by +1 when selected. array.indexOf(The value to search for, Optional Where to start the search)
   const sliderRight = () => {
     const currentIndex = walksImages.indexOf(walksSliderState);
     if (currentIndex === walksImages.length - 1) {
@@ -61,6 +71,7 @@ const WalkwaysDriveways = () => {
     }
   }
 
+  // set modal window state back to null to close slider
   const closeSlider = () => {
     setWalksSliderState(null);
   }

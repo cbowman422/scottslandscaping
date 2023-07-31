@@ -22,6 +22,7 @@ import cross from '../images/cross.png';
 
 const BackyardElements = () => {
 
+  // Import backyard element images for gallery
   const backyardImages = [
     backyardImage1,
     backyardImage2,
@@ -37,13 +38,20 @@ const BackyardElements = () => {
     backyardImage12
   ]
 
+  // Defining state for gallery modal window and slider 
   const [backyardSliderState, setBackyardSliderState]=useState(null)
   
+  //The handle click function takes an index parameter, which represents the index of the backyard images array. The index is passed from the Map ID of the selected value in the JSX mapping.
   const handleClick = (index) => {
+
+    // a variable is set for the correct selected mapped image from the array using the passed parameter.
     const backyardSlider=backyardImages[index];
+
+    // State is set to the selected image from the variable.
     setBackyardSliderState(backyardSlider);
   }
 
+  // a function that uses indexOf method to change state by -1 when selected. array.indexOf(The value to search for, Optional Where to start the search)
   const sliderLeft = () => {
     const currentIndex = backyardImages.indexOf(backyardSliderState);
     if (currentIndex === 0) {
@@ -53,6 +61,7 @@ const BackyardElements = () => {
     }
   };
 
+  // a function that uses indexOf method to change state by +1 when selected. array.indexOf(The value to search for, Optional Where to start the search)
   const sliderRight = () => {
     const currentIndex = backyardImages.indexOf(backyardSliderState);
     if (currentIndex === backyardImages.length - 1) {
@@ -62,10 +71,12 @@ const BackyardElements = () => {
     }
   }
 
+  // set modal window state back to null to close slider
   const closeSlider = () => {
     setBackyardSliderState(null);
   }
 
+  // JSX for modal slider and mapped gallery items
   return ( 
     <div className="backyard-gallery-container">
 

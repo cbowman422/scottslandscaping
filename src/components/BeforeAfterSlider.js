@@ -9,7 +9,7 @@ const BeforeAfterSlider = ({before, after}) => {
   // set state for divisor at midpoint which is the slider bar being set to the middle
   const [divisor, setDivisor] = useState(50);
 
-  //The arrow function takes an event parameter, which represents the event that triggered the function. In this case that is the Divisor being moved.
+  //The handle slider change function takes an event parameter, which represents the event that triggered the function. In this case that is the Divisor being moved.
   const handleSliderChange = (event) => {
     setDivisor(event.target.value);
   }

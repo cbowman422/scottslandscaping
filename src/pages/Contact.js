@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
+  // setting form state to objects with empty strings
   const [newForm, setNewForm] = useState({
     from_name: "",
     from_phone: "",
@@ -13,12 +14,15 @@ const Contact = () => {
     message: "",
   });
 
+  // on text changes set new form state to new strings value
   const handleChange = (e) => {
     setNewForm({ ...newForm, [e.target.name]: e.target.value });
   };
 
+  // The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated.
   const form = useRef();
 
+  // EmailJS connection function to send emails, an Alert, AND reset form state
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -40,6 +44,7 @@ const Contact = () => {
       
   };
 
+  // JSX
   return (
     <div className="contact-container">
 

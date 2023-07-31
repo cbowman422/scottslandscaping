@@ -2,6 +2,8 @@ import React from 'react';
 import BeforeAfterSlider from '../components/BeforeAfterSlider';
 import '../css/BeforeAfter.css'
 
+
+// importing images for before and after sliders
 import ba1b from '../images/BA1B.jpeg';
 import ba1a from '../images/BA1A.jpeg';
 
@@ -22,7 +24,7 @@ import ba6b from '../images/BA6B.jpeg';
 import ba6a from '../images/BA6A.jpeg';
 
 
-
+// JSX for before and after page
 const BeforeAfter = () => {
   return (
     <div className="beforeAfter-container" >

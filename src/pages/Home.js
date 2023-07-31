@@ -4,7 +4,7 @@ import '../css/Home.css';
 
 const Home = () => {
 
-
+  // JSX
   return (
     <div className="home-container">
       

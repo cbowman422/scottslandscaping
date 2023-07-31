@@ -1,6 +1,7 @@
 import {React, useState} from 'react';
 import '../css/BackyardElements.css';
 
+//import images for backyard elements 
 import backyardImage1 from '../images/Backyard1.jpeg';
 import backyardImage2 from '../images/Backyard2.jpeg';
 import backyardImage3 from '../images/Backyard3.jpeg';

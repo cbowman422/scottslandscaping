@@ -20,6 +20,7 @@ import cross from '../images/cross.png';
 
 const StoneWalls = () => {
   
+  // Import stone wall images for gallery
   const stoneImages = [
     stoneImage1,
     stoneImage2,
@@ -35,13 +36,20 @@ const StoneWalls = () => {
     stoneImage12
   ]
 
+  // Defining state for gallery modal window and slider
   const [stoneSliderState, setStoneSliderState]=useState(null)
   
+  //The handle click function takes an index parameter, which represents the index of the backyard images array. The index is passed from the Map ID of the selected value in the JSX mapping.
   const handleClick = (index) => {
+
+    // a variable is set for the correct selected mapped image from the array using the passed parameter.
     const stoneSlider=stoneImages[index];
+
+    // State is set to the selected image from the variable.
     setStoneSliderState(stoneSlider);
   }
 
+  // a function that uses indexOf method to change state by -1 when selected. array.indexOf(The value to search for, Optional Where to start the search)
   const sliderLeft = () => {
     const currentIndex = stoneImages.indexOf(stoneSliderState);
     if (currentIndex === 0) {
@@ -51,6 +59,7 @@ const StoneWalls = () => {
     }
   };
 
+  // a function that uses indexOf method to change state by +1 when selected. array.indexOf(The value to search for, Optional Where to start the search)
   const sliderRight = () => {
     const currentIndex = stoneImages.indexOf(stoneSliderState);
     if (currentIndex === stoneImages.length - 1) {
@@ -60,10 +69,12 @@ const StoneWalls = () => {
     }
   }
 
+  // set modal window state back to null to close slider
   const closeSlider = () => {
     setStoneSliderState(null);
   }
 
+  // JSX
   return ( 
     <div className="stone-gallery-container">
 

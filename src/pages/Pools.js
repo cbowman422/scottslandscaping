@@ -1,6 +1,7 @@
 import {React, useState} from 'react';
 import '../css/Pools.css';
 
+// import images for pools 
 import poolsImage1 from '../images/Pools1.jpeg';
 import poolsImage2 from '../images/Pools2.jpeg';
 import poolsImage3 from '../images/Pools3.jpeg';
@@ -21,7 +22,7 @@ import cross from '../images/cross.png';
 
 const Pools = () => {
 
-
+  // Import pool images for gallery
   const poolsImages = [
     poolsImage1,
     poolsImage2,
@@ -37,13 +38,20 @@ const Pools = () => {
     poolsImage12
   ]
 
+  // Defining state for gallery modal window and slider 
   const [poolsSliderState, setPoolsSliderState]=useState(null)
   
+  //The handle click function takes an index parameter, which represents the index of the backyard images array. The index is passed from the Map ID of the selected value in the JSX mapping.
   const handleClick = (index) => {
+
+    // a variable is set for the correct selected mapped image from the array using the passed parameter.
     const poolsSlider=poolsImages[index];
+
+    // State is set to the selected image from the variable.
     setPoolsSliderState(poolsSlider);
   }
 
+  // a function that uses indexOf method to change state by -1 when selected. array.indexOf(The value to search for, Optional Where to start the search)
   const sliderLeft = () => {
     const currentIndex = poolsImages.indexOf(poolsSliderState);
     if (currentIndex === 0) {
@@ -53,6 +61,7 @@ const Pools = () => {
     }
   };
 
+  // a function that uses indexOf method to change state by +1 when selected. array.indexOf(The value to search for, Optional Where to start the search)
   const sliderRight = () => {
     const currentIndex = poolsImages.indexOf(poolsSliderState);
     if (currentIndex === poolsImages.length - 1) {
@@ -62,10 +71,12 @@ const Pools = () => {
     }
   }
 
+  // set modal window state back to null to close slider
   const closeSlider = () => {
     setPoolsSliderState(null);
   }
 
+  // JSX
   return ( 
     <div className="pools-gallery-container">
 

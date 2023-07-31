@@ -1,6 +1,7 @@
 import { React, useState } from 'react';
 import '../css/Design.css';
 
+// import images for design drawings 
 import designImage1 from '../images/Design1.jpeg';
 import designImage2 from '../images/Design2.jpeg';
 import designImage3 from '../images/Design3.jpeg';
@@ -20,6 +21,7 @@ import cross from '../images/cross.png';
 
 const Design = () => {
   
+  // Import design drawing images
   const designImages = [
     designImage1,
     designImage2,
@@ -35,13 +37,20 @@ const Design = () => {
     designImage12
   ]
 
+  // Defining state for gallery modal window and slider 
   const [designSliderState, setDesignSliderState]=useState(null)
   
+  //The handle click function takes an index parameter, which represents the index of the backyard images array. The index is passed from the Map ID of the selected value in the JSX mapping.
   const handleClick = (index) => {
+
+    // a variable is set for the correct selected mapped image from the array using the passed parameter.
     const designSlider=designImages[index];
+
+    // State is set to the selected image from the variable.
     setDesignSliderState(designSlider);
   }
 
+  // a function that uses indexOf method to change state by -1 when selected. array.indexOf(The value to search for, Optional Where to start the search)
   const sliderLeft = () => {
     const currentIndex = designImages.indexOf(designSliderState);
     if (currentIndex === 0) {
@@ -51,6 +60,7 @@ const Design = () => {
     }
   };
 
+  // a function that uses indexOf method to change state by +1 when selected. array.indexOf(The value to search for, Optional Where to start the search)
   const sliderRight = () => {
     const currentIndex = designImages.indexOf(designSliderState);
     if (currentIndex === designImages.length - 1) {
@@ -60,10 +70,12 @@ const Design = () => {
     }
   }
 
+  // set modal window state back to null to close slider
   const closeSlider = () => {
     setDesignSliderState(null);
   }
 
+  // JSX
   return ( 
     <div className="design-gallery-container">
 

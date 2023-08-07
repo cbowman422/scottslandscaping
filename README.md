@@ -1,4 +1,4 @@
-# Scott's Landscaping
+# Scott's Landscaping, Inc.
 
 ## Link to deployment
 https://scottslandscaping.org/

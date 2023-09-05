@@ -12,6 +12,7 @@ import Services from './Services';
 import Contact from './Contact';
 import Careers from './Careers';
 import Design from './Design';
+import Page404 from './Page404';
 
 // Routes for React app
 const Main = () => {
@@ -30,6 +31,7 @@ const Main = () => {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/careers" element={<Careers/>}/>
         <Route path="/design" element={<Design/>}/>
+        <Route path="*" element={<Page404/>}/>
       </Routes>
     </div>
   )

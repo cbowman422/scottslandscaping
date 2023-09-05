@@ -26,7 +26,7 @@ const Careers = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_bqh7se3', 'contact_form', form.current, '4mhxTKYYjguD_KwoO')
+    emailjs.sendForm('service_8h9qehf', 'contact_form', form.current, 'EPPUvENMMcbFODozg')
       .then((result) => {
         alert("Thank you, your message has been sent to Scott's Landscaping, Inc.");
           console.log(result.text);

@@ -23,11 +23,12 @@
 
 .pnfImageClass{
 width: 90vw;
-padding-bottom: 40px;
+padding-bottom: 20vh;
 }
 
 
 @media all and (min-width: 900px){
+  
   .pnfImageClass{
     width: 700px;
     }

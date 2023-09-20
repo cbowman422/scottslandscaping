@@ -17,11 +17,11 @@ import ba3a from '../images/BA3A.jpg';
 import ba4b from '../images/BA4B.jpg';
 import ba4a from '../images/BA4A.jpg';
 
-import ba5b from '../images/BA5B.jpeg';
-import ba5a from '../images/BA5A.jpeg';
+import ba5b from '../images/BA5B.jpg';
+import ba5a from '../images/BA5A.jpg';
 
-import ba6b from '../images/BA6B.jpeg';
-import ba6a from '../images/BA6A.jpeg';
+import ba6b from '../images/BA6B.jpg';
+import ba6a from '../images/BA6A.jpg';
 
 
 // JSX for before and after page

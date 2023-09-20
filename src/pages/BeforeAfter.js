@@ -7,8 +7,8 @@ import '../css/BeforeAfter.css'
 import ba1b from '../images/BA1B.jpg';
 import ba1a from '../images/BA1A.jpg';
 
-import ba2b from '../images/BA2B.jpeg';
-import ba2a from '../images/BA2A.jpeg';
+import ba2b from '../images/BA2B.jpg';
+import ba2a from '../images/BA2A.jpg';
 
 
 import ba3b from '../images/BA3B.jpeg';

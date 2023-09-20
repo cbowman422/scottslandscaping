@@ -14,8 +14,8 @@ import ba2a from '../images/BA2A.jpg';
 import ba3b from '../images/BA3B.jpg';
 import ba3a from '../images/BA3A.jpg';
 
-import ba4b from '../images/BA4B.jpeg';
-import ba4a from '../images/BA4A.jpeg';
+import ba4b from '../images/BA4B.jpg';
+import ba4a from '../images/BA4A.jpg';
 
 import ba5b from '../images/BA5B.jpeg';
 import ba5a from '../images/BA5A.jpeg';

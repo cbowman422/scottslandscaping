@@ -4,8 +4,8 @@ import '../css/BeforeAfter.css'
 
 
 // importing images for before and after sliders
-import ba1b from '../images/BA1B.jpeg';
-import ba1a from '../images/BA1A.jpeg';
+import ba1b from '../images/BA1B.jpg';
+import ba1a from '../images/BA1A.jpg';
 
 import ba2b from '../images/BA2B.jpeg';
 import ba2a from '../images/BA2A.jpeg';
